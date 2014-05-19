@@ -1,0 +1,54 @@
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.ContentViewModel>
+@using System.Collections.Generic
+@{
+    Layout = "default.cshtml";
+}
+@foreach (var postPaged in Model.PostsPaged)
+{
+    <div class="post">
+        <h1><a href="@postPaged.Url">@postPaged.Title</a> </h1>
+        <h2>Posted by <a href="/about-filip/">Filip Ekberg</a> on @postPaged.Date.ToString("dd MMM yyyy")</h2>
+        @Html.RenderSeries(postPaged)
+        @Html.Raw(postPaged.ContentExcerpt) [...]
+
+        <p>
+            <span st_via='fekberg' class='st_twitter_hcount' st_title='@postPaged.Title' st_url='@postPaged.Url' displaytext='twitter'></span>
+            <span class='st_facebook_hcount' st_title='@postPaged.Title' st_url='@postPaged.Url' displaytext='facebook'></span>
+            <span class='st_plusone_hcount' st_title='@postPaged.Title' st_url='@postPaged.Url' displaytext='plusone'></span>
+            <span class='st_sharethis_hcount' st_title='@postPaged.Title' st_url='@postPaged.Url' displaytext='sharethis'></span>
+            <span class='st_fblike_hcount' st_title='@postPaged.Title' st_url='@postPaged.Url' displaytext='fblike'></span>
+        </p>
+
+    </div>
+}
+<!-- Pagination links -->
+<div id="post-pagination" class="pagination">
+
+    @if (Model.HasPreviousPage)
+    {
+        if (Model.PreviousPage == 1)
+        {
+            <p class="previous">
+                <a href="/">Previous Page</a>
+            </p>
+        }
+        else
+        {
+            <p class="previous">
+                <a href="/page@(Model.PreviousPage)">Previous Page</a>
+            </p>
+        }
+    }
+    @if (!Model.HasPreviousPage)
+    {
+
+      <!--<a href="/">Previous Page</a>-->
+
+    }
+    @if (Model.HasNextPage)
+    {
+        <p class="previous">
+            <a href="/page@(Model.NextPage)">Next Page</a>
+        </p>
+    }
+</div>

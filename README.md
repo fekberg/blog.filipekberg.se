@@ -1,4 +1,6 @@
-blog.filipekberg.se
+Filip Ekberg's Blog
 ===================
 
-Finding new and exciting ways to solve programming tasks!
+This repository contains all blog posts from blog.filipekberg.se. The work is copyrighted and may not be redistributed without explicit grant.
+
+It's published using Sandra.Snow built by Phillip Haydon into Azure.

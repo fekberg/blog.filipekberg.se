@@ -1,0 +1,29 @@
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.PostViewModel>
+@using System.Collections.Generic
+@{
+    Layout = "default.cshtml";
+}
+
+<div class="post">
+    <h1><a href="@Model.Url">@Model.Title</a> </h1>
+    <h2>Posted by <a href="/about-filip/">Filip Ekberg</a> on @Model.PostDate.ToString("dd MMM yyyy")</h2>
+    @Html.RenderSeries()
+
+    @Html.Raw(Model.PostContent)
+    <p>
+        <span st_via='fekberg' class='st_twitter_hcount' st_title='@Model.Title' st_url='@Model.Url' displaytext='twitter'></span>
+        <span class='st_facebook_hcount' st_title='@Model.Title' st_url='@Model.Url' displaytext='facebook'></span>
+        <span class='st_plusone_hcount' st_title='@Model.Title' st_url='@Model.Url' displaytext='plusone'></span>
+        <span class='st_sharethis_hcount' st_title='@Model.Title' st_url='@Model.Url' displaytext='sharethis'></span>
+        <span class='st_fblike_hcount' st_title='@Model.Title' st_url='@Model.Url' displaytext='fblike'></span>
+    </p>
+    <div class="post-info-bottom">
+        <span class="post-info-category">
+            @foreach (var category in Model.Categories)
+            {
+                @:| <a href="/category/@category.Url">@category.Name</a>
+        }
+        </span>
+    </div>
+    @Html.RenderDisqusComments("fekberg")
+</div>

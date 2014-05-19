@@ -1,0 +1,21 @@
+---
+layout: post
+title: C# is the past, the present and the future
+date: 2013-01-11 09:15
+author: fekberg
+comments: true
+metadescription: C# is the past, the present and the future, don't miss out!
+categories: C#, Programming
+tags: csharp
+---
+Ever since C# first appeared back in 2000 a lot has happened every year. As we've been introduced to more and more language features, syntactic sugar and handful libraries it has become clearer to the world that C# is here to stay. You might find it weird to say something like that in 2013, but frankly it is not. As history might have taught us, even though something is very popular for a period of time that does not guarantee it to live forever.<!--excerpt-->
+
+In a certain dark area of internet, there's a set of people that see one problem with C# and that's a problem big enough for them not to touch it with a pitch-fork; Microsoft. Because Microsoft is behind C# a part of the developer community has over and over again claimed it being something that will die soon enough. However, I am sorry to tell you guys that this won't happen for a long, long time. <em>C# is here to stay</em>.
+
+It's easy to get very analytic and philosophical about why C# has been successful both in the past, the present and will be in the future. However the reason is quite simple; <strong>live free or die hard</strong>. C# is a language that lives and does so quite well. In my point of view when a language "lives" it evolves just as anything in life due to the evolution. C# has adapted to the needs of the community over these 13 years or so very well.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/visualcsharp_2.png" alt="" title="visualcsharp_2" width="435" height="81" style="float: right; padding-left: 15px; padding-top: 15px; padding-bottom: 15px;" class="alignright size-full wp-image-1602" />When the first release of C# was out, it was a beginning of a new era. Even though we had Java, we wanted something else in the Windows environment. Over the years C# evolved and got generics, lambdas, asynchronicity and soon compilation as a service is hitting the market (+ much more). Even though the last part is not a C# (read: language) feature, it's something that will be out there due to the languages existence.
+
+C# isn't the first language that lives on and evolves with the community, so does other great programming languages as well. Even C++ is adapting to this with the new <a href="http://isocpp.org/">isocpp.org</a>. In the darkest alley-ways we still have the people not wanting to touch C# with a pitch-fork because it's behind Microsoft, but it's time to step out of the comfort zone and learn to love it.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/mp-mono-logo.png" style="float: left; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;" alt="" title="mp-mono-logo" width="167" height="41" class="alignright size-full wp-image-1604" />No matter if you are a Web, iOS, Android, Linux, Unix, OSX, Windows, Micro-Processor, Tablet, Phone or Refrigerator programmer, you can develop using C# due to Mono and .NET Framework being accessible on all these different platforms.<br /><br /><strong>What is stopping you from learning and using C# today?</strong><br /><br /><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/dotnet-logo.png" alt="" title="dotnet-logo" width="200" height="200" class="alignright size-full wp-image-1603" style="float: right; padding-left: 15px; padding-bottom: 15px;" />As it's easy to port your C# code to any device and any operating system, you can give great value to your customers systems with reusable code. You no longer have to make one app for iOS, one for Android AND one for Windows Phone. Just use MonoTouch and make one powerful all-device application and be happy with it. For Mobile development, C# is the way to go and Xamarin has posted <a href="http://blog.xamarin.com/eight-reasons-c-sharp-is-the-best-language-for-mobile-development/">8 reasons why</a>, be sure to check that out.<br/><br/><em>C# was here to stay from the beginning, we love it in the present and we will use it more and more in the future.</em>

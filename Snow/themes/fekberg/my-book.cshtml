@@ -1,0 +1,69 @@
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.ContentViewModel>
+@using System.Collections.Generic
+@{
+    Layout = "default.cshtml";
+}
+
+<div class="post">
+    <h1><a href="http://blog.filipekberg.se/my-book/">My book</a></h1>
+
+    <h4>C# Smorgasbord</h4>
+    <p><img class="alignright size-medium wp-image-1640" style="float: right;padding-left: 10px;padding-bottom: 10px" alt="Filip Ekberg showing C# Smorgasbord" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/CSharpSmorgasbord-218x300.png" width="120">In August 2012 I self-published a book called C# Smorgasbord! I&#8217;ve written about <a href="http://blog.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">how I self-published C# Smorgasbord</a> on this blog, be sure to check out my story. </p>
+    <h4>Where can I get it?</h4>
+    <div>
+        <a href="http://blog.filipekberg.se/2013/12/06/download-c-smorgasbord-chapter-1-free/" target="_blank"><strong>Download Chapter 1 For Free!</strong></a></p>
+        <p>You can get the book on <a onclick="_gaq.push(['_trackEvent', 'External Link', 'C# Smorgasbord on CreateSpace', 'Buy C# Smorgasbord on CreateSpace']);" href="https://www.createspace.com/3759762" target="about:blank">CreateSpace</a> and <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/" onclick=”_gaq.push(['_trackEvent', 'External Link' , 'C# Smorgasbord on Amazon' , 'Buy C# Smorgasbord on Amazon' ]);” target="about:blank">Amazon</a>.</p>
+        <p><a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/" onclick="_gaq.push(['_trackEvent', 'External Link', 'C# Smorgasbord on Amazon', 'Buy C# Smorgasbord on Amazon']);" target="about:blank"><img src="http://books.filipekberg.se/Content/Images/buy_now.gif" alt="" /></a></p>
+        <p><em>The printed copy is available for $14.99 on Amazon and CreateSpace excluding shipping.</em></p>
+        <p><a href="http://books.filipekberg.se/" target="about:blank">Save a tree? E-book bundle including PDF, ePub and Mobi available for €4.99. Click here to read more!</a></p>
+    </div>
+    <p>If you purchase a printed copy, you&#8217;ll get the ebook bundle for free! <a href="http://books.filipekberg.se/Ebook">You just need to fill out this form after the purchase</a>.</p>
+    <p><strong>What about epub/mobi/Kindle versions?</strong></p>
+    <p>If you purchase the <a href="http://books.filipekberg.se/#ebooks">ebook-bundle</a> you will get a PDF, ePub and Mobi</p>
+    <h4>About the book</h4>
+    <p><strong>C# Smorgasbord</strong> covers a vast variety of different technologies, patterns and best practices that any C# developer should master.</p>
+    <p>Looking at everything from testing strategies to compilation as a service and how to do really advance things in runtime; you get a great sense of what you as a developer can do. By taking his personal views and his personal experience, Filip digs into each subject with a personal touch and by having real world problems at hand; we can look at how these problems could be tackled.</p>
+    <p>No matter if you are an experienced .NET developer, or a beginner, you will most certainly find a lot of interesting things in this book. The book covers important patterns and technologies that any developer would benefit from mastering.</p>
+    <p>
+        <strong>Explore</strong> your possibilities<br />
+        <strong>Improve</strong> your skills<br />
+        <strong>Be Inspired</strong> to challenge yourself
+    </p>
+    <p>
+        <strong>Is there a digital version(ebook)?</strong><br />
+        <strong>Yes there is!</strong> Everyone that purchases the printed copy will get the ebook for free. <a href="http://books.filipekberg.se/Ebook">You just need to fill out this form after the purchase</a>.
+    </p>
+    <p><strong>Table of Contents</strong></p>
+    <ol>
+        <li>Introduction to Parallel Extensions</li>
+        <li>Productivity and Quality with Unit Testing</li>
+        <li>Is upgrading your code a productive step?</li>
+        <li>Creating a challenge out of the trivial tasks</li>
+        <li>Asynchronous programming with async and await</li>
+        <li>Dynamic programming</li>
+        <li>Increase readability with anonymous types and methods</li>
+        <li>Exploring Reflection</li>
+        <li>Creating things at runtime</li>
+        <li>Introducing Roslyn</li>
+        <li>Adapting to Inversion of Control</li>
+        <li>Are you Mocking me?</li>
+    </ol>
+    <p>
+        <strong>Who this book is for</strong><br />
+        This book is for those developers that find themselves wanting to explore C# but do not know how or where to start looking. Each chapter contains hands on code examples that can be compiled and tested on your machine.
+    </p>
+    <p>Although each chapter has code samples, you do not need to use a computer to appreciate the content of this book. The code samples are divided into smaller portions of code, so that you can follow each example and the thoughts around it in an easy way.</p>
+    <p>No matter if you are an experienced .NET developer or a beginner, you will most certainly find a lot of interesting things in this book. The book covers important patterns and technologies that any developer would benefit from mastering.</p>
+    <p>It is not required that you have worked with C# before but being familiar to the fundamentals in any of the .NET programming languages will help you on the way.</p>
+    <p>If you are just now starting to learn C#, this can be a great way for you to learn about different techniques, best practices, patterns and how to think in certain scenarios. But if you have worked with C# development for many years, this book can give you a refreshing view on how to always improve and challenge yourself into becoming a better software engineer.</p>
+
+    <p>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $(".post h2:first").hide();
+            $("#respond").hide();
+            $("#start").removeClass("current"); $("#my-book").addClass("current");
+        });
+        </script>
+    </p>
+</div>

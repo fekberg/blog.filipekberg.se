@@ -1,0 +1,199 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.BaseViewModel>
+@using System.Collections.Generic
+@{
+    var keywords = String.Join(",", Model.Keywords);
+}
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
+<head>
+    <meta http-equiv="last-modified" content="@Model.GeneratedDate" />
+    <script type="text/javascript">
+        var analyticsFileTypes = "";
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Filip Ekberg's Blog</title>
+    <link rel="shortcut icon" href="http://filipekberg.se/favicon.ico" type="image/vnd.microsoft.icon" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Filip Ekberg">
+    <meta name="keywords" content="C#, C# programming, programming, C# Smorgasbord, .NET Programmering, Software Engineering, Roslyn, Filip Ekberg, Ekberg, Filip, Programming, csharp, dotnet, self-publishing, programming book" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+    <!--[if lt IE 9]>
+    <script defer src="/js/warning.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <link href="/css/style_ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/js/libs/jquery.imagefit.js"></script>
+    <script type="text/javascript" src="/js/prettify.js"></script>
+    <script type="text/javascript">var switchTo5x = true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({ publisher: "cf1125c6-b02f-405c-b0b2-53de97e4ea82", doNotHash: false, doNotCopy: false, hashAddressBar: false });</script>
+
+    <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+    
+    @Html.CanonicalUrl()
+</head>
+<body>
+    <!--[if lt IE 9]>
+       <div id="ie-message">
+          It appears you are viewing this webpage in an old version of Internet Explorer. This website is not compatible with Internet Explorer 7 or earlier and therefore by using and old version of Internet Explorer to view this website you may encounter horrible design errors and weird layout problems. It is recommended that you update your Internet Explorer Browser installation to at least Internet Explorer 9 or above.<br/><br/><br/>You can do this by <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">clicking here</a>
+       </div>
+    <![endif]-->
+
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="/">Filip Ekberg's <span>Blog</span></a></h1>
+                <h2>Finding new and exciting ways to solve programming tasks!</h2>
+            </div>
+            <div id="menubar">
+                <div id="menu">
+                    <ul>
+                        <li id="start" class="current">
+                            <a href="/">Start</a>
+                        </li>
+                        <li id="about-filip">
+                            <a href="/about-filip/">The Author</a>
+                        </li>
+                        <li id="my-book">
+                            <a href="/my-book/">My book</a>
+                        </li>
+                        <li id="archive">
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        <li id="contact">
+                            <a href="/contact-filip/">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="socialmedia">
+                    <ul>
+                        <li class="rss"><a href="http://feeds.feedburner.com/fekberg"><span>Subscribe</span></a></li>
+                        <li class="twitter"><a href="http://twitter.com/fekberg"><span>Twitter</span></a></li>
+                        <li class="linkedin"><a href="http://se.linkedin.com/pub/filip-ekberg/5/7b7/77a"><span>Profile</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main" role="main">
+            <div id="content">
+                @RenderBody()
+            </div>
+            <div id="sidebar">
+                <div class="aboutFilip" style="font-size: 80%;">
+                    <h2>About <span>Filip</span></h2>
+                    <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/08/Filip_Ekberg.png" style="width: 90px; padding-right: 5px; padding-bottom: 5px;float: left;" alt="" /><strong>Filip Ekberg</strong> is a Senior Software Engineer working in the country with all the spiders, author of a self-published C# programming book, Pluralsight author and overall in love with programming.
+                    <br /><br />
+                    <a href="https://twitter.com/fekberg" class="twitter-follow-button" data-show-count="true">Follow @@fekberg</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                </div>
+                <div class="mybook">
+                    <h2>My<span> book</span></h2>
+                    <p>
+                        <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106" target="_blank"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/08/SmorgasbordOneYearOfffer_Amazon2.png" /></a>
+                        <span style="margin-left: 20px;"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5BWJRQAAJWEBW"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/PriceTag_Off.png" alt="PriceTag_Off" height="192" class="alignright size-full wp-image-1770" /></a><br /><br /><a style="margin-left: 60px;" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5BWJRQAAJWEBW"><img src="https://www.paypalobjects.com/en_US/SE/i/btn/btn_buynowCC_LG.gif" /></a></span>
+                        <br /><br />
+                        <span style="font-size: 80%;">
+                            Check out my recently published book.<strong>C# Smorgasbord</strong> covers a vast variety of different technologies, patterns and best practices that any C# developer should master.<br /><br /><em>All printed copies include access to the e-book bundle (PDF, ePub and Mobi!).</em>
+                            <br /><br />
+                            <a href="http://books.filipekberg.se/" target="about:blank">Save a tree? E-book bundle including PDF, ePub and Mobi available for €4.99. Click here to read more!</a>
+                        </span>
+                    </p>
+                </div>
+                <div class="awards">
+                    <h2>Aw<span>ards</span></h2>
+                    <p>
+                        <a href="http://mvp.microsoft.com/en-us/mvp/Filip%20Ekberg-4040071" style="padding-left: 4px;"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/MVP_Logo_Small.png" alt="Filip Ekberg Microsoft MVP" /></a><br /><br />
+                        <a href="http://www.dzone.com/users/fekberg"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/big-mvbbutton.png" alt="Filip Ekberg DZone Most-Valuable-Blogger" /></a>
+                    </p>
+                </div>
+                <div class="archives">
+                    <h2>Arch<span>ives</span></h2>
+                    <ul>
+                        @foreach (var item in Model.MonthYearList)
+                        {
+                            <li><a href="@item.Url">@item.Title</a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="categories">
+                    <h2>Cate<span>gories</span></h2>
+                    <ul>
+                        @foreach (var category in Model.AllCategories)
+                        {
+                            <li><a href="/category/@category.Url" title="@category.Name">@category.Name</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="aboutme">
+                <img src="/images/filip.png" alt="" style="float: left;" />
+                <h2 class="h2">About <span class="h2span">me</span></h2>
+                <p>
+                    I am a Software Engineer working with various techniques such as C#, WPF, WCF, ASP.NET MVC, ASP.NET and much more.<br />
+                    Currently I am employeed by Readify in Sydney, Australia as a Senior Developer. I spend most of my days working with the latest technologies from Microsoft.
+                </p>
+                <p>&copy; <strong>2008 - 2013</strong> <em>Filip Ekberg</em></p>
+                <small>This is my personal blog. The views on these pages are mine alone and not those of my employer.</small>
+            </div>
+            <div class="findme">
+                <h2 class="h2">Hey! <span class="h2span">I'm here too</span></h2>
+                <br />
+                <a class="linkedin" style="float: left; padding-right: 10px;" href="http://se.linkedin.com/pub/filip-ekberg/5/7b7/77a"><img src="/images/linkedin_button.png" alt="linkedin" /></a>
+                <a class="twitter" style="float: left;" href="http://www.twitter.com/fekberg"><img src="/images/twitter_button.png" alt="twitter" /></a>
+            </div>
+            <div style="clear: both;" />
+        </div>
+    </footer>
+    <script src="/js/libs/jquery.imagefit.js"></script>
+    <script src="/js/libs/modernizr-2.0.6.min.js"></script>
+    <script>
+        window._gaq = [['_setAccount', 'UA-4140933-6'], ['_trackPageview'], ['_trackPageLoadTime']];
+        Modernizr.load({
+            load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+        });
+    </script>
+
+    <!--[if lt IE 7 ]>
+      <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+      <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+    <script>
+        $(window).load(function () {
+            $('#content').imagefit();
+        });
+        function track() {
+            _gaq.push(['_trackEvent', 'External Link', 'C# Smorgasbord on Amazon', 'Buy C# Smorgasbord on Amazon']);
+            return true;
+        }
+    </script>
+    <script>
+        $(function () {
+            $("code").each(function () {
+                if (!$(this).hasClass("prettyprint")) {
+                    $(this).addClass("prettyprint");
+                    a = true
+                }
+            });
+
+            prettyPrint();
+        });
+    </script>
+</body>
+</html>
