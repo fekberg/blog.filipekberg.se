@@ -28,7 +28,7 @@ echo -----
 echo Start - Building the Snow Site
 echo Running Sandra.Snow.PreCompiler.exe config=%DEPLOYMENT_SOURCE%
 pushd %DEPLOYMENT_SOURCE%
-call  %DEPLOYMENT_SOURCE%\Sandra.Snow.Processor\Sandra.Snow.PreCompiler.exe config=%DEPLOYMENT_SOURCE%\
+call  %DEPLOYMENT_SOURCE%\Snow\_compiler\Snow.exe config=%DEPLOYMENT_SOURCE%\Snow\
 IF !ERRORLEVEL! NEQ 0 goto error
 echo Finish - Building the Snow Site
 echo -----
