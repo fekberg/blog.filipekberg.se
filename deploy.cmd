@@ -42,6 +42,8 @@ IF NOT DEFINED NEXT_MANIFEST_PATH (
   )
 )
 
+echo Setting up Kudu Sync
+
 IF NOT DEFINED KUDU_SYNC_COMMAND (
   :: Install kudu sync
   echo Installing Kudu Sync
