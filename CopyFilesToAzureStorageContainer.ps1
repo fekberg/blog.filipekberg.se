@@ -62,11 +62,15 @@ workflow UploadFilesInParallel
         [System.Object[]]$Files
     )
 
+    Write-Host "Uploading start"
+    
     if ($Files.Count -gt 0)
     {
-        foreach -parallel ($file in $Files) 
+        foreach ($file in $Files) 
         {
             $blobFileName = Split-Path -Path $file.FullName -NoQualifier
+
+            Write-Host "Uploading " + $blobFileName
             try
             {
                 Set-AzureStorageBlobContent -Container $StorageContainer `
@@ -80,6 +84,8 @@ workflow UploadFilesInParallel
             }
         }
     }
+
+    Write-Host "Uploading done"
 }
 
 # Ensure the local path given exists. Create it if switch specified to do so.
