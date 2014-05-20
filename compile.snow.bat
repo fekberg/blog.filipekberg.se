@@ -31,6 +31,13 @@ pushd %DEPLOYMENT_SOURCE%
 call  .\Snow\_compiler\Snow.exe config=.\Snow\
 echo Build OK
 IF !ERRORLEVEL! NEQ 0 goto error
+
+mkdir %DEPLOYMENT_SOURCE%\Website\feed
+copy %DEPLOYMENT_SOURCE%\Website\feed.xml %DEPLOYMENT_SOURCE%\Website\feed\index.xml
+
+mkdir %DEPLOYMENT_SOURCE%\Website\rss
+copy %DEPLOYMENT_SOURCE%\Website\rss.xml %DEPLOYMENT_SOURCE%\Website\rss\index.xml
+
 echo Finish - Building the Snow Site
 echo -----
 
