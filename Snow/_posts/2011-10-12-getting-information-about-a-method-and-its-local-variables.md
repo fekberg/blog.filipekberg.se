@@ -41,7 +41,7 @@ I am going to use almost the same code as in the last example, except that I've 
         }
     }
 
-If you want to know more about what it does, be sure to <a href="http://cdn.filipekberg.se/2011/10/11/creating-static-methods-at-runtime/">check out my previous blog post</a>! It's a bit easier to create my dynamic method now and invoke it:
+If you want to know more about what it does, be sure to <a href="http://blog.filipekberg.se/2011/10/11/creating-static-methods-at-runtime/">check out my previous blog post</a>! It's a bit easier to create my dynamic method now and invoke it:
 
     var methodCreator = new MyMethodCreator();
     DivideInvoker divideIt = methodCreator.CreateInvoker();

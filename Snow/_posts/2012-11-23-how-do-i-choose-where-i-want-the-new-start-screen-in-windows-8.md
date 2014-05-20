@@ -42,4 +42,4 @@ This start button shows up when you hover the different left bottom corners on a
 
 It's all about HCI (Human-Computer-Interaction) and making the experience better for everyone, but it takes time change an old behavior. Why do you so eagerly want the old start button/menu back?
 
-<a href="http://cdn.filipekberg.se/2012/11/20/c-smorgasbord-sale/"><strong>In case you've missed it</strong> C# Smorgasbord is currently on sale and I'm giving away discount codes for 35% off!</a>
+<a href="http://blog.filipekberg.se/2012/11/20/c-smorgasbord-sale/"><strong>In case you've missed it</strong> C# Smorgasbord is currently on sale and I'm giving away discount codes for 35% off!</a>

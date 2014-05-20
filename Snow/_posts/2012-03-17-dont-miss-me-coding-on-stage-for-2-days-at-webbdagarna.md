@@ -30,6 +30,6 @@ I will be at the event to reprecent <a href="http://starrepublic.com/aktuellt/we
 
 Video translation: I am Filip Ekberg and I work as a Software Engineer at Star Republic, follow us on this rock-n-roll journey, where we build Swedens coolest app, live on stage at Webbdagarna in Stockholm 22-23 March!
 
-Don't forget to follow me on <a href="twitter.com/fekberg">twitter</a>, this is where I will announce and communicate with everyone at the event (and outside the event).
+Don't forget to follow me on <a href="http://twitter.com/fekberg">twitter</a>, this is where I will announce and communicate with everyone at the event (and outside the event).
 
 Hope you'll tune in - Rock On!

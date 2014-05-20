@@ -12,7 +12,7 @@ Lately a lot of my time has been spent on playing around with Roslyn, if you hav
 
 With that said, let's step on the gas a bit, a while back there was a blog post about how to replicate the c# interactive window outside visual studio, hence creating a REPL that didn't require you to run visual studio. This is pretty awesome if you ask me. However the code that you write into the REPL is assumed to be trusted, it doesn't run in a completely different security context which makes it dangerous if you want to expose it to others.<!--excerpt-->
 
-I've been hooked on IRC for many, many years so it came quite naturally to me that I wanted to create an IRC client (bot) that I could send commands to and have the result printed back to me. For those that don't know what IRC is, it's short for <a href="en.wikipedia.org/wiki/IRC">"Internet Relay Chat"</a>. Basically you can join rooms and have discussions and you can have private conversations and so on. I will only focus on the Roslyn parts here.
+I've been hooked on IRC for many, many years so it came quite naturally to me that I wanted to create an IRC client (bot) that I could send commands to and have the result printed back to me. For those that don't know what IRC is, it's short for <a href="http://en.wikipedia.org/wiki/IRC">"Internet Relay Chat"</a>. Basically you can join rooms and have discussions and you can have private conversations and so on. I will only focus on the Roslyn parts here.
 
 So what I wanted to achieve was the following:
 

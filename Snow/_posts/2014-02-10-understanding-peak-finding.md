@@ -8,7 +8,7 @@ metadescription: In this article we will take a look at one of the fundamental a
 categories: Algorithms & Data structures, C#, Programming
 tags: Algorithms, Back to Basics, csharp, MIT, Peak-Finding
 ---
-No matter how far we are in our careers as professional developers, it's great to freshen up on our fundamentals. Be it the importance of <a href="blog.filipekberg.se/2013/07/01/memory-access-pattern-matters/" target="_blank">Memory Access Patterns</a> or algorithms in general, it's really beneficial. I find it quiet interesting that it's been a pretty long time since I sat in the algorithms and data structures course on my technical institute and I tend to understand it completely different now.<!--excerpt--> I heard a really great thing from a professor at MIT who said the following:
+No matter how far we are in our careers as professional developers, it's great to freshen up on our fundamentals. Be it the importance of <a href="http://blog.filipekberg.se/2013/07/01/memory-access-pattern-matters/" target="_blank">Memory Access Patterns</a> or algorithms in general, it's really beneficial. I find it quiet interesting that it's been a pretty long time since I sat in the algorithms and data structures course on my technical institute and I tend to understand it completely different now.<!--excerpt--> I heard a really great thing from a professor at MIT who said the following:
 
 <blockquote>You can practice really hard for two years to become a great programmer and you can practice for 10 years to become an excellent programmer. Or you can practice for two years and take an algorithms course and become an excellent programmer</blockquote>
 

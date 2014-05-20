@@ -16,7 +16,7 @@ All these contributions has been noticed and 2013 could not have started better,
 Congratulations! We are pleased to present you with the 2013 Microsoft® MVP Award! This award is given to exceptional technical community leaders who actively share their high quality, real world expertise with others. We appreciate your outstanding contributions in Visual C# technical communities during the past year.
 </blockquote><!--excerpt-->
 
-<a href="http://mvp.microsoft.com/en-US/Pages/default.aspx"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/MVP_Horizontal_FullColor.png" alt="" title="MVP" width="810" class="alignright size-full wp-image-1581" /></a>
+<a href="http://mvp.microsoft.com"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/MVP_Horizontal_FullColor.png" alt="" title="MVP" width="810" class="alignright size-full wp-image-1581" /></a>
 
 It is a great honor and I look forward to all the amazing things we will discover together in 2013!
 

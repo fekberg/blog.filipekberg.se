@@ -8,7 +8,7 @@ metadescription: Read about my experience with self-publishing a programming boo
 categories: .NET, C#, Programming, Projects & Project Organization
 tags: amazon, c# smorgasbord, createspace, csharp smorgasbord, self-publishing
 ---
-<em>This is the second part of the blog series <a href="http://cdn.filipekberg.se/tag/self-publishing/">"Self-publishing a book"</a> if you haven't already check out <a href="http://cdn.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a>.</em>
+<em>This is the second part of the blog series "Self-publishing a book" if you haven't already check out <a href="http://blog.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a>.</em>
 
 <blockquote><strong>I was back to square one, with only my raw material</strong>. But the hope was not gone, I now had a goal; I am going to publish a book -- but how?</blockquote><!--excerpt-->
 

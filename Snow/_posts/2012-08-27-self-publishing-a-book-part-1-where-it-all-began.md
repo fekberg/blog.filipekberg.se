@@ -18,7 +18,7 @@ Those are some of the questions that I receive on a daily basis. I've had in min
 If you have any questions just give me a comment, tweet or e-mail, I will try to answer all questions.
 
 <h3>Where did the idea come from?</h3>
-It all began long before I decided to make a book. During 2011, I <a href="http://cdn.filipekberg.se/2012/01/05/a-summary-of-2011-and-a-look-at-what-is-about-to-come/">blogged </a>a lot, had a lot of in-house presentations for co-workers, did <a href="http://www.youtube.com/user/frW87?feature=mhee">screencasts </a>and spent a lot of time on <a href="http://stackoverflow.com/users/39106/filip-ekberg">StackOverflow</a>.
+It all began long before I decided to make a book. During 2011, I <a href="http://blog.filipekberg.se/2012/01/05/a-summary-of-2011-and-a-look-at-what-is-about-to-come/">blogged </a>a lot, had a lot of in-house presentations for co-workers, did <a href="http://www.youtube.com/user/frW87?feature=mhee">screencasts </a>and spent a lot of time on <a href="http://stackoverflow.com/users/39106/filip-ekberg">StackOverflow</a>.
 
 So here I was, with all these great raw materials that I didn't know what to do with. I felt that I wanted to reach out to the people that didn't attend my presentations, that didn't read everything in my blog and that didn't even know about my work in the first place. This started to grow on me, in late November 2011 I started doing some research on how to convert a blog to a book. My initial thought was just to copy and paste everything from my blog into a (what I thought at the time) nice Word template.
 

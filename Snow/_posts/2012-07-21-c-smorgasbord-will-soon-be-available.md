@@ -8,7 +8,7 @@ metadescription: C# Smorgasbord - Looking at everything from testing strategies 
 categories: .NET, Algorithms & Data structures, Architecture, C#, Programming
 tags: async, author, await, csharp, csharp smorgasbord, dynamic, dynamic programming, filip ekberg, filip ekberg author, ndepend, Programming, programming book, resharper, roslyn
 ---
-<strong>UPDATE: <a href="http://cdn.filipekberg.se/2012/08/10/c-smorgasbord/">C# Smorgasbord is now available!</a></strong>
+<strong>UPDATE: <a href="http://blog.filipekberg.se/2012/08/10/c-smorgasbord/">C# Smorgasbord is now available!</a></strong>
 
 Since the fall 2011 I have been working on a book called <a href="http://books.filipekberg.se/">C# Smorgasbord</a>. The book is inspired by all the interesting topics that I've touched in this blog.
 

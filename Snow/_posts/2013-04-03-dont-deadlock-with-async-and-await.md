@@ -8,7 +8,7 @@ metadescription: Avoid deadlocking your applications when using async and await.
 categories: .NET, C#
 tags: async, await, csharp, deadlock, Programming
 ---
-Deadlocking is really something you need to avoid and in case you don't know what a deadlock is here's a great illustration of a <a href="http://www.jnieto.org/article/deadlock_in_real_life" target="_blank">"real life deadlock"</a>:
+Deadlocking is really something you need to avoid and in case you don't know what a deadlock is here's a great illustration of a "real life deadlock":
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/04/deadlock.png" alt="deadlock" width="263" height="262" class="alignright size-full wp-image-1896" />
 
@@ -18,7 +18,7 @@ What happens in a computer program when you get a deadlock is that it freezes an
 
 Normally you solve this by introducing locking and semaphores. As discussed in the article linked above (where I got the very nice illustration) a semaphore can be seen as a traffic light which handles how the cross-over is loaded with cars.
 
-A while back I wrote an article called <a href="http://cdn.filipekberg.se/2012/09/20/avoid-shooting-yourself-in-the-foot-with-tasks-and-async/" target="_blank">"Avoid shooting yourself in the foot with Tasks and Async"</a>, I suggest that you should always return a `Task` from your asynchronous methods and you really should. What I am about to tell you below though is what you should avoid when doing this.
+A while back I wrote an article called <a href="http://blog.filipekberg.se/2012/09/20/avoid-shooting-yourself-in-the-foot-with-tasks-and-async/" target="_blank">"Avoid shooting yourself in the foot with Tasks and Async"</a>, I suggest that you should always return a `Task` from your asynchronous methods and you really should. What I am about to tell you below though is what you should avoid when doing this.
 
 When a method is marked as asynchronous and the await-part is reached, the method will "exit" and return the "awaiting `Task`", which means it's not the `Task` that runs inside the method but in fact a `Task` that keeps track of the status of the asynchronous operation. 
 
