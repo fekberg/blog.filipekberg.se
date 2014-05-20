@@ -1,2 +1,2 @@
 [config]
-command = deployment\deploy.bat
+command = compile.snow.bat
