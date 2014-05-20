@@ -57,7 +57,7 @@ Let's get to it, here's a link summary to all my posts in 2011
 <strong>Screencasts</strong>
 <ul>
 	<li><a href="http://blog.filipekberg.se/2011/06/11/c-5-async-ctp-async-in-action-video-screencast/" title="C# 5 Async CTP – Async in Action – Video screencast" target="_blank">C# 5 Async CTP – Async in Action – Video screencast</a></li>
-	<li><a href="http://blog.filipekberg.se/2011/06/20/c-5-async-ctp-%E2%80%93-old-vs-new-%E2%80%93-video-screencast/" title="C# 5 Async CTP – Old VS New – Video screencast" target="_blank">C# 5 Async CTP – Old VS New – Video screencast</a></li>
+	<li><a href="http://blog.filipekberg.se/2011/06/20/c-5-async-ctp-old-vs-new-video-screencast/" title="C# 5 Async CTP – Old VS New – Video screencast" target="_blank">C# 5 Async CTP – Old VS New – Video screencast</a></li>
 	<li><a href="http://blog.filipekberg.se/2011/07/21/c-4-0-using-the-dynamic-keyword/" title="C# 4.0 Using the Dynamic Keyword" target="_blank">C# 4.0 Using the Dynamic Keyword</a></li>
 	<li><a href="http://blog.filipekberg.se/2011/07/25/generic-programming-in-c/" title="Generic Programming in C#" target="_blank">Generic Programming in C#</a></li>
 </ul>

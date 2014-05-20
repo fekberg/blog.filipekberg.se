@@ -65,7 +65,7 @@ Instead of us comparing instruction by instruction, let's use a tool for that wh
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad.png" alt="" title="LINQPad" width="641" height="608" class="alignnone size-full wp-image-1216" />
 
-<em><a href="http://cdn.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/">(You know that you can use LINQPad for more than just LINQ, </em>right?)</a>
+<em><a href="http://blog.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/">(You know that you can use LINQPad for more than just LINQ, </em>right?)</a>
 
 Now that you've saved both the IL outputs as text files, I copied into Notepad and saved it like that. You can create a new Compare session by selecting the left and right file like this in WinMerge:
 
