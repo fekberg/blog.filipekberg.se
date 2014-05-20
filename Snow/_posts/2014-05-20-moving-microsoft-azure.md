@@ -86,7 +86,7 @@ There's a bunch of things to say about the move to Sandra.Snow, I think that mak
 
 <ul>
 	<li>All pages are static HTML pages</li>
-	<li>All pages are generated from Markdown files (yes I hard to convert the Wordpress content to markdown)</li>
+	<li>All pages are generated from Markdown files (yes I had to convert the Wordpress content to markdown)</li>
 	<li>It's SUPER fast now that Sandra.Snow converts everything for me to static files</li>
 	<li>I push a new post to github, Azure fetches it, runs Sandra.Snow, deploys files to Azure Storage and the site to where it should be</li>
 </ul>
