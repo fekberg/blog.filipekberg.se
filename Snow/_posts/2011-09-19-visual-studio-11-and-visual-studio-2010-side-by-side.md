@@ -12,6 +12,6 @@ For those that don't want to install the Windows 8 Developer Preview on their wo
 
 You can download the Visual Studio 11 Developer Preview on MSDN by <a href="http://t.co/0djD8PIh">clicking here</a>!
 
-<img style="width: 800px" src="http://dl.dropbox.com/u/4396175/vs2010andvs11.png" alt="Visual Studio 11 and Visual Studio 2010 on Windows 7" />
+<img style="width: 800px" src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-11-and-visual-studio-2010-side-by-side/vs2010andvs11.png" alt="Visual Studio 11 and Visual Studio 2010 on Windows 7" />
 
 Happy coding!

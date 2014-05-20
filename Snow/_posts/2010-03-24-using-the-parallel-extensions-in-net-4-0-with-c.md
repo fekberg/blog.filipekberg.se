@@ -79,7 +79,7 @@ First of all we want to do it like we did in the old days, so I've created a met
 	}
 
 Of we run this the output is
-<img src="http://dl.dropbox.com/u/4396175/snapshots/parallel_run_1.png" alt="Execution time" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/using-the-parallel-extensions-in-net-4-0-with-c/parallel_run_1.png" alt="Execution time" />
 
 Now, that's a bit too slow for me, so <strong>Let's Parallelize that!</strong> All i've done now is to creat a new method called ProcessPoolAsParallel which takes the same input and expects to give the same result. There's a little bit difference though, the foreach is now replaced with the `Parallel.ForEach` method.
 
@@ -100,7 +100,7 @@ Now, that's a bit too slow for me, so <strong>Let's Parallelize that!</strong> A
 	}
 
 So if we run this now the result is:
-<img src="http://dl.dropbox.com/u/4396175/snapshots/parallel_run_2.png" alt="Parallel run 2" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/using-the-parallel-extensions-in-net-4-0-with-c/parallel_run_2.png" alt="Parallel run 2" />
 
 So this increased significally!
 

@@ -24,7 +24,7 @@ Then we've created an instance of it like this:
 
 If we inspect the person-object now this is what it will look like:
 
-<img src="http://dl.dropbox.com/u/4396175/person_object.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/setting-values-by-using-reflection/person_object.png" alt="" />
 
 Of course `Name` will be null, we haven't set it to anything yet. In order to set it, we need to get the `Type` object for the Person-class, just like we've done before:
 
@@ -50,7 +50,7 @@ The last parameter defines the index of the property where the value should be s
 
 So if we inspect the person-object now we should see the following:
 
-<img src="http://dl.dropbox.com/u/4396175/person_object_1.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/setting-values-by-using-reflection/person_object_1.png" alt="" />
 
 As you might have noticed it's quite similar to how you retrieve values. Let's look at how we handle arrays, it's pretty similar to what we've just seen, first of all, I added a new object called `Computer` that looks like this:
 
@@ -105,6 +105,6 @@ Then we can use this property info to set the value on our person object and pas
 
 In both this case and the previous case where I just got the reference and worked directly with that, this will be the result when we inspect the person instance:
 
-<img src="http://dl.dropbox.com/u/4396175/person_object_withComputer.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/setting-values-by-using-reflection/person_object_withComputer.png" alt="" />
 
 I hope you found this interesting and if you have any thoughts please leave a comment below!

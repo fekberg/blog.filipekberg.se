@@ -80,6 +80,6 @@ And now we can call this just like we normally do:
 
 The result will look like this:
 
-<img src="http://dl.dropbox.com/u/4396175/dynamicmethod_call.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/calling-a-non-dynamic-method-with-parameters-from-a-dynamic-method/dynamicmethod_call.png" alt="" />
 
 I hope you found this interesting and if you have any thoughts please leave a comment below!

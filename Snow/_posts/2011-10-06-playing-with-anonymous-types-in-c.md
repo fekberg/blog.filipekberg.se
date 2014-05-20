@@ -15,7 +15,7 @@ In C# 3.0 something called anonymous types was introduced, this means that a cer
 <!--excerpt-->
 If we hover the person-variable we should see something like this show up:
 
-<img src="http://dl.dropbox.com/u/4396175/anonymous_types.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/playing-with-anonymous-types-in-c/anonymous_types.png" alt="" />
 
 Having this anonymous type in our context means that we could write `person.Name` to get the value of the Name variable. One thing that is important when talking about anonymous types is that the variables are read only, which means that you cannot change Name after you've initialized the anonymous type.
 
@@ -48,7 +48,7 @@ The answer is:<strong> No.</strong> ( <a href="http://tomasp.net/blog/cannot-ret
 
 But if we debug the application and hover the person-variable, we will see this:
 
-<img src="http://dl.dropbox.com/u/4396175/anonymous_type_hover.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/playing-with-anonymous-types-in-c/anonymous_type_hover.png" alt="" />
 
 This is quite irritating, right? There's a fun way to actually get the property value and that is by using reflection like this:
 

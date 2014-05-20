@@ -18,7 +18,7 @@ However, the sample in the document has an error to it so it doesn't run out of 
 
 First thing is to open up an instance of Visual Studio and create a new Code Issue project, I'll call it MyFirstCodeIssueFix
 
-<img src="http://dl.dropbox.com/u/4396175/roslyn_code_fix_1.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-basic-code-analysis-with-roslyn/roslyn_code_fix_1.png" alt="" />
 
 This project comes with some code already so that you can get started, but we're going to start looking at this from the beginning so let's remove everything in
 
@@ -102,7 +102,7 @@ So by now we've completed the check and if we've come this far, there is an erro
 
 And this is what you should see:
 
-<img src="http://dl.dropbox.com/u/4396175/roslyn_code_fix_2.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-basic-code-analysis-with-roslyn/roslyn_code_fix_2.png" alt="" />
 
 Here's the entire `GetIssues` method:
 

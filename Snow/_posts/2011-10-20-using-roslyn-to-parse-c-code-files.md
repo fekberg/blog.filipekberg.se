@@ -24,11 +24,11 @@ What this means is that you can parse a code file that haven't been compiled yet
 
 When all this is installed, open up Visual Studio and create a new Roslyn C# Console Application
 
-<img src="http://dl.dropbox.com/u/4396175/roslyn_1.png" style="width: 800px;" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/using-roslyn-to-parse-c-code-files/roslyn_1.png" style="width: 800px;" alt="" />
 
 Now create a new folder called ToParse and add a class to it with some fields and methods
 
-<img src="http://dl.dropbox.com/u/4396175/roslyn_2.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/using-roslyn-to-parse-c-code-files/roslyn_2.png" alt="" />
 
 So now we have this Person class that we want to parse, here's to code so you can just copy/paste it:
 
@@ -98,7 +98,7 @@ We do this by first getting all the descendent nodes from the root and just get 
 
 If we write this to the console as well we should see the following:
 
-<img src="http://dl.dropbox.com/u/4396175/roslyn_3.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/using-roslyn-to-parse-c-code-files/roslyn_3.png" alt="" />
 
 This is just the bare surface of what you can do with Roslyn, there are some Very interesting resources to look through. <a href="http://www.microsoft.com/download/en/details.aspx?id=27745">Here's an MSDN page with a lot of documents on how you do certain things in Roslyn.</a> Be sure to check that out! So far we've just done the parsing step, but you can also do compilation with it since it exposes all the different steps of the C# and VB.NET compiler.
 

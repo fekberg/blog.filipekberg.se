@@ -137,7 +137,7 @@ As you can see we just use the property information as we've seen in earlier blo
 
 And when I run it I will get the following information ( more text after the picture! ):
 
-<img src="http://dl.dropbox.com/u/4396175/DumpStackFrames.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/getting-information-about-a-method-and-its-local-variables/DumpStackFrames.png" alt="" />
 
 As you can see the dynamic method has a pretty odd type as opposed to what it would look like if we used a lambda expression like this instead:
 

@@ -75,4 +75,4 @@ My final test-code looks like this
 	Console.WriteLine("Execution time: {0}", (end - start));
 
 And this is the output
-<img src="http://dl.dropbox.com/u/4396175/snapshots/linq_parallel.png" alt="LINQ Parallelism" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/using-parallel-extensions-in-linq/linq_parallel.png" alt="LINQ Parallelism" />

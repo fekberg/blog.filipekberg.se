@@ -58,7 +58,7 @@ By calling `GetMethods()` you will get an `IEnumerable<MethodInfo>`. So what I'v
 
 If you look closely enough you can see that I still don't have a relationship between my method information (firstMethod) and my instance (person). You might be a bit surprised that the following is the content of the methods variable:
 
-<img src="http://dl.dropbox.com/u/4396175/getMethods.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/what-is-reflection-and-why-is-it-useful/getMethods.png" alt="" />
 
 As you can see here there's actually a get/set method for each of the properties and we want to get the first method, so we can do this by using a simple functional approach like this:
 
