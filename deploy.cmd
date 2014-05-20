@@ -26,6 +26,3 @@ IF NOT DEFINED DEPLOYMENT_TARGET (
 :: 3. Build Snow Site
 echo -----
 echo Start - Building the Snow Site
-echo Running Snow.exe config=%DEPLOYMENT_SOURCE%\Snow\
-pushd %DEPLOYMENT_SOURCE%
-call  .\Snow\_compiler\Snow.exe config=.\Snow\
