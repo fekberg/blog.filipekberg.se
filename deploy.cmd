@@ -26,9 +26,10 @@ IF NOT DEFINED DEPLOYMENT_TARGET (
 :: 3. Build Snow Site
 echo -----
 echo Start - Building the Snow Site
-echo Running Sandra.Snow.PreCompiler.exe config=%DEPLOYMENT_SOURCE%
+echo Running Snow.exe config=%DEPLOYMENT_SOURCE%\Snow\
 pushd %DEPLOYMENT_SOURCE%
 call  %DEPLOYMENT_SOURCE%\Snow\_compiler\Snow.exe config=%DEPLOYMENT_SOURCE%\Snow\
+echo Build OK
 IF !ERRORLEVEL! NEQ 0 goto error
 echo Finish - Building the Snow Site
 echo -----
