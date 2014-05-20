@@ -35,7 +35,7 @@ echo Finish - Building the Snow Site
 echo -----
 
 echo Start Copy Files to Azure Storage
-call CopyFilesToAzureStorageContainer.ps1 -LocalPath %DEPLOYMENT_SOURCE%\upload -StorageContainer "fekberg" -Recurse
+call CopyFilesToAzureStorageContainer.ps1 -LocalPath %DEPLOYMENT_SOURCE%\upload -StorageContainer "fekberg-blog" -Recurse
 
 IF NOT DEFINED NEXT_MANIFEST_PATH (
   SET NEXT_MANIFEST_PATH=%ARTIFACTS%\manifest
