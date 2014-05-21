@@ -394,7 +394,7 @@ The live site has been using Snow now for just a little over a day and so far it
 
 I compared some loading times of the same page between the Wordpress site and the Snow site, both relied on the same Azure CDN for other content. However, the time it took to download the HTML which was rather static for the same page on the two different systems is rather different.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/SandraSnowVSWordpress.png" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/PerfComparison.png" />
 
 **I really hope** you found this blog post informative. I spent some time writing down my thoughts during the process of deploying the site using Snow and the things I learned in Azure while doing so. It's been fun and writing content feels much easier and more fun now for some reason.
 
