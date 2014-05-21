@@ -5,11 +5,11 @@ date: 2014-05-21 17:00
 author: fekberg
 comments: true
 published: draft
-metadescription: I've left Wordpress for Sandra.Snow to get reliability and speed
+metadescription: I've left Wordpress for Snow to get reliability and speed
 categories: Architecture, Programming
 tags: Microsoft Azure, Wordpress
 ---
-As per my previous post [I've moved to Azure](http://blog.filipekberg.se/2014/05/20/moving-microsoft-azure/) and this has been a really interesting experience so far. Not only did it force me to learn more about the offerings of Microsoft Azure, but I also came to the conclusion that moving away, as far as possible, from Wordpress was about time.
+As per my previous post [I've moved to Azure](http://blog.filipekberg.se/2014/05/20/moving-microsoft-azure/) and this has been a really interesting experience so far. Not only did it force me to learn more about the offerings of Microsoft Azure, but I also came to the conclusion that moving away, as far as possible, from Wordpress was about time.<!--excerpt-->
 
 ### Why?
 After I had migrated to Microsoft Azure with my Wordpress blog I looked closely over how the average response time increased for the site, compared to what I had on my previous server. It wasn't until I published another WebSite on the same Instance that I noticed that I didn't really have to live with the long load times.
@@ -25,19 +25,18 @@ Given that I could skip the importance of E-mail subscription, I only had the se
 If we remove e-mail subscribers and search, all that is left is static content. So why would I use something as heavy as Wordpress to serve that? I don't know and that is why I decided to say goodbye to Wordpress.
 
 ### Choosing a new blog engine
-After a bunch of discussions on [JabbR](https://jabbr.net/#) I came to the conclusion that I wanted to go with a static file hosting plan as suggested by a lot of the frequent users I looked up [Sandra.Snow](https://github.com/Sandra/Sandra.Snow). I'll call it **Snow** for short from now on.
+After a bunch of discussions on [JabbR](https://jabbr.net/#) I came to the conclusion that I wanted to go with a static file hosting plan as suggested by a lot of the frequent users I looked up [Snow](https://github.com/Sandra/Sandra.Snow).
 
 My only worry was that it would be hard for me to migrated from Wordpress to a new blog engine, so my first goal was to find out how much trouble I was in if I wanted to do this. Snow is inspired by Jekyll, a blog engine that relies on Markdown. When it processes the markdown files it generates static html files for you.
 
 [Snow is open source, and available on github](https://github.com/Sandra/Sandra.Snow). This makes it easy for me to extend it if is so choose. It's also built on Nancy (Yay!).
 
 ### Converting all the content to "Markdown"
-
 Getting all my content converted to markdown meant that I had to export everything from Wordpress. I had already gone through the trouble as you saw in my previous post to add all the images to the Azure Storage/CDN. This means that I can point to the same resources, I just need to convert all the content into files that Snow understand.
 
 I found another tool, also open source, called [wpXml2Jekyll](https://github.com/theaob/wpXml2Jekyll). To my surprise it was written in C# which made it very easy for me to tweak it to my liking. As Wordpress handles re-writing all image sources to point to the CDN, I had to manually swap all the links out to point to that. I had also invested a lot of time in writing SEO Titles and Meta Descriptions for each post on my blog, and I wanted to persist this.
 
-*Set out to convert my blog to markdown files, I started the convertion and it turned out great!*
+*Set out to convert my blog to markdown files, I started the conversion and it turned out great!*
 
 The result was OK, actually better than OK, it would have taken me so much longer to extract my 150 posts manually. When writing my posts using Wordpress I had used a plugin to insert code snippets, so all my code snippets were surrounded by something looking like this:
 
@@ -67,7 +66,7 @@ So far this is where I am at:
 * Comments already migrated to Disqus
 * Sharing (ShareThis) relies on equal domain and path name
 
-### Setting up Sandra.Snow
+### Setting up Snow
 Now that I had everything in place all that was left was to get Snow to convert this all into proper HTML. You can get started with Snow by either forking the repository or downloading the [pre-compiled assemblies and binaries](https://github.com/Sandra/Sandra.Snow.SnowTemplate), I did the latter because I had some initial problems compiling it out of the box.
 
 #### Folder structure
@@ -163,7 +162,7 @@ The config is where the magic happens, this is where we define what goes where a
 * Which directories to copy from the themes folder
 * Which files and how to process each file
 
-The URL Format was important to me, I wanted everyone that linked to my blog to still be able to link to the same content. This was truly the most important part as it would otherwise break everyting.
+The URL Format was important to me, I wanted everyone that linked to my blog to still be able to link to the same content. This was truly the most important part as it would otherwise break everything.
 
 My snow.config looks like the following:
 	
@@ -213,14 +212,197 @@ My snow.config looks like the following:
 As you see here I tell it to put `about-filip.cshtml` after it has been processed into `/about-filip/`.
 
 
-#### Going for a test run
+#### Going For a Test Run
 My files were clean enough so it was easy for me to extract my theme from Wordpress to the Snow template. After having done that and put all my markdown files into the `_posts` folder I executed `compile.snow.bat`.
 
 This file contains the following:
 
 	.\Snow\_compiler\Snow.exe config=.\Snow\ server=true
 
-Make note of `serve=true` this will tell Snow to serve the files after it has processed the site which makes it easy to test locally. Running that showed me something like this (note that I navigate to this post as a draf! blog-ception!):
+Make note of `serve=true` this will tell Snow to serve the files after it has processed the site which makes it easy to test locally. Running that shows me something like this (note that I navigate to this post as a draf! blog-ception!):
 
-![](http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/snow_test_run.PNG)
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/snow_test_run.png" style="width: 800px;" />
 
+**Looking pretty good, right?**
+
+This way I could develop everything locally and make sure that it all looked good. At this stage my blog looked exactly like I wanted, the version now running on Snow that is. As I was ready to test it on Azure it hit me that I want to make it as easy as possible for me to upload new posts in the future.
+
+### Preparing Microsoft Azure and your Github Repository
+The Wordpress version of the blog runs on Azure and now that I have my Snow version ready, I want to get this all setup for continuous delivery. This means the following:
+
+1. My Snow version of the blog will be hosted on for instance Github
+2. When I commit something to the repository, Azure pulls it down and compiles/processes the code according to the deployment configuration
+3. When the compilation is done, the new versions of the static files are published to the webroot
+
+It was also important to me that I could get images uploaded to Azure Storage, as this is where my CDN points to. As you could see in the `snow.config` from above, I have a directory inside my theme called `upload` (`.\Snow\themes\fekberg\uploads`). When deployed by Azure this is the folder that I want pushed to Azure Storage. More about that particular code in just a moment.
+
+I like testing my setup, code and deployment strategy  on a demo site before I do the same changes to the live site. That means that I had to setup an Azure WebSite to test this with. I called this `fekberg-snow` and choose to put it in my current hosting plan, which is the same hosting plan that I use for the blog that was already live.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/create_website.png" style="width: 800px;" />
+
+#### Creating the Github repository
+Now that we have the Azure WebSite, we want to enable it to pull the website code from Github. There are multiple providers that you can use, but I prefer github for this. You'll have to prepare the github repository with the following:
+
+1. Create a new Repository, I called mine the same as my CNAME to make it easier to identify
+2. Add the folder `Website` to your `.gitignore` 
+3. Commit the code from the root of your Snow site, that means `Snow` and `compile.snow.bat`, don't commit your static HTML files though, that will just make it messy; hence why you should have added it to the `.gitignore`
+
+I've got my Snow version of the blog publicly available on my github site here: [github.com/fekberg/blog.filipekberg.se](https://github.com/fekberg/blog.filipekberg.se)
+
+Have a peak around that if you're stuck getting it to work.
+
+#### Preparing the Github Repository for Automatic Deployment
+Azure will download the contents of the repository and look for a `.deployment` file. In order to prepare the repository for this I had to create this file and tell it what to do when Azure deploys. You have a bunch of settings you could possibly do here, but I just simply told it to execute a simple command like this:
+
+	[config]
+	command = compile.snow.bat
+
+You might think that `compile.snow.bat` looks the same as before, I can tell you it does not. Azure uses Kudu and we can create a deployment script that leverages from this. It's not particularly important exactly what is going on in the script, but by changing it we can hook into what goes on during deployment.
+
+	@echo off
+
+	setlocal enabledelayedexpansion
+	
+	SET ARTIFACTS=%~dp0%artifacts
+	
+	IF NOT DEFINED DEPLOYMENT_SOURCE (
+	  SET DEPLOYMENT_SOURCE=%~dp0%.
+	)
+	
+	IF NOT DEFINED DEPLOYMENT_TARGET (
+	  SET DEPLOYMENT_TARGET=%ARTIFACTS%\wwwroot
+	)
+
+	echo Start - Building the Snow Site
+	echo Running Snow.exe config=%DEPLOYMENT_SOURCE%\Snow\
+
+	pushd %DEPLOYMENT_SOURCE%
+	call  .\Snow\_compiler\Snow.exe config=.\Snow\
+
+	IF !ERRORLEVEL! NEQ 0 goto error
+	
+	mkdir %DEPLOYMENT_SOURCE%\Website\feed
+	copy %DEPLOYMENT_SOURCE%\Website\feed.xml %DEPLOYMENT_SOURCE%\Website\feed\index.xml
+	
+	mkdir %DEPLOYMENT_SOURCE%\Website\rss
+	copy %DEPLOYMENT_SOURCE%\Website\rss.xml %DEPLOYMENT_SOURCE%\Website\rss\index.xml
+	
+	
+	call  .\MoveFilesToAzureStorage\MoveFilesToAzureStorage.exe
+	
+	IF NOT DEFINED NEXT_MANIFEST_PATH (
+	  SET NEXT_MANIFEST_PATH=%ARTIFACTS%\manifest
+	
+	  IF NOT DEFINED PREVIOUS_MANIFEST_PATH (
+	    SET PREVIOUS_MANIFEST_PATH=%ARTIFACTS%\manifest
+	  )
+	)
+	
+	echo Setting up Kudu Sync
+	
+	IF NOT DEFINED KUDU_SYNC_COMMAND (
+	  :: Install kudu sync
+	  echo Installing Kudu Sync
+	  call npm install kudusync -g --silent
+	  IF !ERRORLEVEL! NEQ 0 goto error
+	
+	  :: Locally just running "kuduSync" would also work
+	  SET KUDU_SYNC_COMMAND=node "%appdata%\npm\node_modules\kuduSync\bin\kuduSync"
+	)
+	
+	
+	echo Kudu Sync from "%DEPLOYMENT_SOURCE%\Website" to "%DEPLOYMENT_TARGET%"
+	call %KUDU_SYNC_COMMAND% -q -f "%DEPLOYMENT_SOURCE%\Website" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.deployment;deploy.cmd" 2>nul
+	IF !ERRORLEVEL! NEQ 0 goto error
+	
+	goto end
+	
+	:error
+	echo An error has occured during web site deployment.
+	exit /b 1
+	
+	:end
+	echo Finished successfully.
+
+I didn't want to leave you out of any juicy details so sorry about having to scroll down here to continue reading. Most of the contents of that script is from a template, it simply moves files around based on if the compilation was successful or not.
+
+**There are three interesting things here in particular.**
+
+##### Building the Snow Site
+In order to build the Snow site, we navigate to the deployment source, this is where Azure downloaded all our files. After that we simply tell it to compile the Snow site as we have seen before.
+
+	pushd %DEPLOYMENT_SOURCE%
+	call  .\Snow\_compiler\Snow.exe config=.\Snow\
+
+##### Persist a URL for /feed/
+The Wordpress blog let you go to `/feed/` and I didn't want my users that subscribe to that feed to be left out. So I simply create a folder and copy two `index.xml` files over to those folders. **You also have to enable that in Azure** to be a document root!
+
+	mkdir %DEPLOYMENT_SOURCE%\Website\feed
+	copy %DEPLOYMENT_SOURCE%\Website\feed.xml %DEPLOYMENT_SOURCE%\Website\feed\index.xml
+	
+	mkdir %DEPLOYMENT_SOURCE%\Website\rss
+	copy %DEPLOYMENT_SOURCE%\Website\rss.xml %DEPLOYMENT_SOURCE%\Website\rss\index.xml
+
+
+##### Moving files to Azure Storage
+While we are looking into the deployment script, you might as well look at the line:
+
+	call  .\MoveFilesToAzureStorage\MoveFilesToAzureStorage.exe
+
+This calls a program, [available on my github page](https://github.com/fekberg/MoveFilesToAzureStorage) that lets you upload files to Azure Storage. I'll go into more detail in just a moment when we are looking at how to setup Azure for this automatic deploy! Just keep in mind that we have this file executed from the deploy script. To make this work, this also requires you to have that file in your repository, download the source and compile it or download the executable from my blog's repository.
+
+The rest of the file contains Kudu specific things and is not particularly interesting to us right now to get this to work.
+
+**Push to github!**
+
+#### Setup Azure to Automatically Deploy
+Everything is ready on the Github side of things, everything is ready content wise, we just need to deploy!
+
+##### Adding App Settings and Connection Strings
+Before hooking up Github, we need to add some connection strings to make the Azure Storage part to work. I have a storage with a container in it called `fekberg-blog`. This is what is distributed to my CDN. You will have to add the following settings to make the deployment to Azure Storage work:
+
+* StorageContainer
+* FilesLocation
+* SotrageConnectionString (ex. `DefaultEndpointsProtocol=http;AccountName=[AccountNameHere];AccountKey=[AccountKeyHere]`)
+
+Here is an example of what that looks like; this is found in the Web Site portal under "Configure":
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_5.png" style="width: 800px;" />
+
+##### Set up deployment from source
+When in the dashboard of my Website, I simply scrolled down or look for "Set up deployment from source" and clicked that.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_1.png" style="width: 800px;" />
+
+##### Where is Your Source Code?
+After clicking that, I was prompted with a selection to choose the provider of where my code is locatated. As I've pushed it to github, that is what I choose here as well.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_2.png" style="width: 800px;" />
+
+##### Choose a Repository to Deploy
+I was prompted to authenticate with Github, when that was all setup I was allowed to select repositories and branches. In my case, I was deploying from `blog.filipekberg.se`.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_3.png" style="width: 800px;" />
+
+##### Website is Now Deployed!
+We can verify that the deployment was successful in the "Deployments" section of the Azure WebSite. The files from the `upload` folder are now in Azure Storage and the files that Snow produced, are now in the wwwroot!
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_4.png" style="width: 800px;" />
+
+### I'm now using Snow, couldn't be happier!
+The live site has been using Snow now for just a little over a day and so far it has been a tremendous speed improvement. It's not really that odd because it is just static files. All this means that I scale better if I need to and you can access the site faster. It's a win - win!
+
+I compared some loading times of the same page between the Wordpress site and the Snow site, both relied on the same Azure CDN for other content. However, the time it took to download the HTML which was rather static for the same page on the two different systems is rather different.
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/SandraSnowVSWordpress.png" />
+
+**I really hope** you found this blog post informative. I spent some time writing down my thoughts during the process of deploying the site using Snow and the things I learned in Azure while doing so. It's been fun and writing content feels much easier and more fun now for some reason.
+
+If you've read this far, thank you I really hope you leave a comment and if you consider migrating your blog or starting a new blog, I really recommend Snow.
+
+I'll leave you with a set of links to sum up what I've linked above:
+
+* [blog.filipekberg.se on Github](https://github.com/fekberg/blog.filipekberg.se)
+* [Snow on Github](https://github.com/Sandra/Sandra.Snow)
+* [SnowTemplate on Github](https://github.com/Sandra/Sandra.Snow.SnowTemplate)
+* [Move Files to Azure Storage program on Github](https://github.com/fekberg/MoveFilesToAzureStorage)
