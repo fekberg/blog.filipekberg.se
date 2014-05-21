@@ -221,7 +221,7 @@ This file contains the following:
 
 Make note of `serve=true` this will tell Snow to serve the files after it has processed the site which makes it easy to test locally. Running that shows me something like this (note that I navigate to this post as a draf! blog-ception!):
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/snow_test_run.png" style="width: 800px;" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/snow_test_run.PNG" style="width: 800px;" />
 
 **Looking pretty good, right?**
 
