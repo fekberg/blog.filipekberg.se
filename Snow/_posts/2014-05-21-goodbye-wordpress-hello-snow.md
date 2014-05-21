@@ -4,7 +4,6 @@ title: Goodbye Wordpress Hello Snow
 date: 2014-05-21 17:00
 author: fekberg
 comments: true
-published: draft
 metadescription: I've left Wordpress for Snow to get reliability and speed
 categories: Architecture, Programming
 tags: Microsoft Azure, Wordpress
@@ -389,7 +388,7 @@ We can verify that the deployment was successful in the "Deployments" section of
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_4.png" style="width: 800px;" />
 
-### I'm now using Snow, couldn't be happier!
+### I'm now using Snow and couldn't be happier!
 The live site has been using Snow now for just a little over a day and so far it has been a tremendous speed improvement. It's not really that odd because it is just static files. All this means that I scale better if I need to and you can access the site faster. It's a win - win!
 
 I compared some loading times of the same page between the Wordpress site and the Snow site, both relied on the same Azure CDN for other content. However, the time it took to download the HTML which was rather static for the same page on the two different systems is rather different.
@@ -398,7 +397,7 @@ I compared some loading times of the same page between the Wordpress site and th
 
 **I really hope** you found this blog post informative. I spent some time writing down my thoughts during the process of deploying the site using Snow and the things I learned in Azure while doing so. It's been fun and writing content feels much easier and more fun now for some reason.
 
-If you've read this far, thank you I really hope you leave a comment and if you consider migrating your blog or starting a new blog, I really recommend Snow.
+If you've read this far, thank you I really hope you leave a commen, If you consider migrating your blog or starting a new blog, I really recommend Snow.
 
 I'll leave you with a set of links to sum up what I've linked above:
 
@@ -406,3 +405,5 @@ I'll leave you with a set of links to sum up what I've linked above:
 * [Snow on Github](https://github.com/Sandra/Sandra.Snow)
 * [SnowTemplate on Github](https://github.com/Sandra/Sandra.Snow.SnowTemplate)
 * [Move Files to Azure Storage program on Github](https://github.com/fekberg/MoveFilesToAzureStorage)
+
+**Goodbye Wordpress and Hello Snow!**
