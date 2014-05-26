@@ -27,7 +27,7 @@ It’s a very hard and interesting question, I could of course throw C# and a bo
 
 First thing I try to do is of course to figure out why they want to learn programming, I think everyone should, but it’s a good starting point to get an understanding of what they want to get out of it. Not that it would change my answer but it’s still interesting because you can tweak the response.
 
->> When you find yourself doing the same thing over and over again, consider automating that with software that you write yourself
+> When you find yourself doing the same thing over and over again, consider automating that with software that you write yourself
 
 If you hava a real world problem, or a real goal for that matter, it’s easier to suggest a course of action. Writing the software and learning how to write it will most likely take a lot more time than just repeating yourself though, which is something to be honest about and to have in mind. However, when you’ve learnt how to write your first software, writing the second one should be easier or at least go a bit quicker.
 
