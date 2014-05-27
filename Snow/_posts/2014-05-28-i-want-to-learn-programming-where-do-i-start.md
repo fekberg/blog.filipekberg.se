@@ -1,9 +1,8 @@
 ---
 layout: post
 title: I Want To Learn Programming, Where Do I Start?
-date: 2014-05-26 10:00
+date: 2014-05-28 00:00
 author: fekberg
-published: draft
 comments: true
 metadescription: I Want To Learn Programming, Where Do I Start?
 categories: Programming
