@@ -29,7 +29,6 @@ echo Start - Building the Snow Site
 echo Running Snow.exe config=%DEPLOYMENT_SOURCE%\Snow\
 pushd %DEPLOYMENT_SOURCE%
 call  .\Snow\_compiler\Snow.exe config=.\Snow\
-echo Build OK
 IF !ERRORLEVEL! NEQ 0 goto error
 
 mkdir %DEPLOYMENT_SOURCE%\Website\feed
