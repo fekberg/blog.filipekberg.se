@@ -2,7 +2,7 @@
 @using System.Collections.Generic
 @{
     Layout = "default.cshtml";
-    Title = Model.Title;
+    ViewBag.Title = Model.Title;
     var url = "http://blog.filipekberg.se" + @Model.Url;
 }
 
