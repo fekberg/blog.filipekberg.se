@@ -1,11 +1,10 @@
 ---
 layout: post
-title: What is Xamarin and why should I care?
+title: What is Xamarin and Why Should I Care?
 date: 2014-07-02 00:00
 author: fekberg
 comments: true
-published: draft
-metadescription: What is Xamarin and why should I care?
+metadescription: What is Xamarin and Why Should I Care?
 categories: Xamarin, .NET, C#, Programming
 tags: Xamarin, Programming, CSharp, iOS, Android, Windows Phone
 ---
@@ -26,3 +25,5 @@ Want to know more about Xamarin and Mobile Development? Here's a link collection
 * <a href="http://blog.filipekberg.se/2014/04/29/universal-windows-windows-phone-apps/" target="_blank">Universal Windows and Windows Phone Apps</a>
 * <a href="https://www.youtube.com/watch?v=A7n4EVRPleg" target="_blank">Asynchronous programming</a>
 * <a href=" http://blog.filipekberg.se/2012/12/21/creating-a-windows-8-store-game-with-monogame-xaml-and-signalr/" target="_blank">Creating a Windows 8 Store Game with MonoGame (XAML) and SignalR</a>
+
+Have you been using Xamarin lately? How are you finding the latest updates that include Xamarin.Forms? Leave a comment and let me know what you think!
