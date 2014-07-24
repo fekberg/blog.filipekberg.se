@@ -34,4 +34,4 @@ Imagine also being able to add timers in here to see how long certain calls take
 
 Performing the actual replacing of nodes may not be as trivial as you expect though, it does take some understanding of the compiler platform and what the representation of code looks like from the compilers perspective. On a very abstract and basic level, the tree that represents a code block is immutable, what you do is that you tell the node that you are currently inspecting (the +) that you want to replace it with another node (the -). This will return a new tree representation that you can include in your compilation. You need to think of the replacement of nodes as replacements of a string, it will not do inplace replacing, but the structure is immutable!
 
-# Analysing code with the Compiler Platform aka Roslyn
+### Analysing code with the Compiler Platform aka Roslyn
