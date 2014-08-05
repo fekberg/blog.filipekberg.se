@@ -39,7 +39,7 @@ There are previous articles, and also my book that covers the basic understandin
 ### Compiling code with the Compiler Platform  aka Roslyn
 To use the new Compiler Platform we first need to install it, this is easilly done using NuGet. This means that we can, in a normal console application, web application or even WPF applicaiton, just pull in the files via the NuGet package manager. It is a pre-release so do not forget to append the attribute for that, as you see in the following image, the package `Microsoft.CodeAnalysis` is installed via the NuGet package manager.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/microsoft-compiler-platform-aka-roslyn/nuget.png" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/microsoft-compiler-platform-aka-roslyn/nuget.PNG" />
 
 Installing this will bring in a couple of other packages as well:
 
