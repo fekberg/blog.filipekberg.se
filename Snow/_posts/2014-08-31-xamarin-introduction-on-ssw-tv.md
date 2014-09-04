@@ -10,7 +10,7 @@ tags: Android, Cross-platform development, csharp, ios, Mobile Development, SSW,
 ---
 Cross-platform development and Xamarin is something that everyone is talking about right now and rightfully so! It makes development for iOS, Android and Windows Phone a delight! I was invited to give an Introduction to Xamarin (+ some more bonus content at the end!) at the Xamarin Hack Day in Sydney.
 
-You can read more about upcoming Xamarin Hack Days around the world on <a href="xamarinhackday.com" target="_blank">xamarinhackday.com</a>.<!--excerpt-->
+You can read more about upcoming Xamarin Hack Days around the world on <a href="http://xamarinhackday.com" target="_blank">xamarinhackday.com</a>.<!--excerpt-->
 
 As always, sit back, relax, enjoy some popcorn and learn some Xamarin!
 
