@@ -16,4 +16,4 @@ As always, sit back, relax, enjoy some popcorn and enjoy the upcoming features o
 <iframe width="640" height="360" src="//www.youtube.com/embed/BA3sL783_Co" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Are you excited about the changes in the next version of C#? I sure am! Altough I'm probably biased as it's obvious I have a strong love for this language.
+Are you excited about the changes in the next version of C#? I sure am! Although I'm probably biased as it's obvious I have a strong love for this language.
