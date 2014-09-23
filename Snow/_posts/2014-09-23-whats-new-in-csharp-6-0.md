@@ -17,10 +17,10 @@ I was again invited to write an article for DNC Magazine, this time on the chang
 <a href="http://www.dotnetcurry.com/showarticle.aspx?ID=1042" target="_blank">Read the entire article in the DNC Magazine</a>!
 <!--excerpt-->
 
-## What's New in C# 6.0?
+### What's New in C# 6.0?
 The next version of C# will include a bunch of interesting changes, for a deeper look at these features check out the article on <a href="http://www.dotnetcurry.com/showarticle.aspx?ID=1042" target="_blank">DNC Magazine</a>. Below is a summary of the features that we will see in C# 6.0.
 
-### Features we will definitely see
+#### Features we will definitely see
 * Primary Constructors
 * Auto-Property Initializers
 * Using statements for static members 
@@ -31,7 +31,7 @@ The next version of C# will include a bunch of interesting changes, for a deeper
 * Null Propagation
 * Binary 
 
-### Features we might see
+#### Features we might see
 * Binary literals and digit separators
 * Expression-bodied members
 * Event initializers
