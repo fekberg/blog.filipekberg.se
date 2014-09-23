@@ -175,7 +175,7 @@
       <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
     <![endif]-->
     <script>
-        $(document).load(function () {
+        $(window).load(function () {
             $('#content').imagefit();
         });
         function track() {
@@ -193,6 +193,7 @@
             });
 
             prettyPrint();
+            $('#content').imagefit();
         });
     </script>
 </body>
