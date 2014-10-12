@@ -13,17 +13,27 @@
  <!--<![endif]-->
 <head>
     <meta http-equiv="last-modified" content="@Model.GeneratedDate" />
+    
     <script type="text/javascript">
         var analyticsFileTypes = "";
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>@ViewBag.Title</title>
+   
     <link rel="shortcut icon" href="http://filipekberg.se/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="alternate" type="application/rss+xml" title="Filip Ekberg's Blog" href="http://feeds.feedburner.com/fekberg" />  
+    
+	<link rel="me" type="text/html" href="http://feeds.feedburner.com/fekberg"/> 
+	<link rel="me" type="text/html" href="http://twitter.com/fekberg"/> 
+	<link rel="me" type="text/html" href="https://www.facebook.com/fekberg"/> 
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Filip Ekberg">
     <meta name="keywords" content="C#, C# programming, programming, C# Smorgasbord, .NET Programmering, Software Engineering, Roslyn, Filip Ekberg, Ekberg, Filip, Programming, csharp, dotnet, self-publishing, programming book" />
+
+    <meta name="application-name" content="Filip Ekberg's Blog"/>
 
     <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
     <!--[if lt IE 9]>
@@ -35,13 +45,14 @@
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/js/jquery-picture-min.js"></script>
     <script type="text/javascript" src="/js/prettify.js"></script>
     <script type="text/javascript">var switchTo5x = true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({ publisher: "cf1125c6-b02f-405c-b0b2-53de97e4ea82", doNotHash: false, doNotCopy: false, hashAddressBar: false });</script>
 
     <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+
+    <title>@ViewBag.Title</title>
     
     @Html.CanonicalUrl()
 </head>
@@ -181,9 +192,6 @@
     </script>
     <script>
         $(function () {
-            
-            $('#content img').picture();
-    
             $("code").each(function () {
                 if (!$(this).hasClass("prettyprint")) {
                     $(this).addClass("prettyprint");
