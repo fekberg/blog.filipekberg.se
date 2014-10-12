@@ -35,7 +35,7 @@
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/js/imgLiquid-min.js"></script>
+    <script src="/js/jquery-picture-min.js"></script>
     <script type="text/javascript" src="/js/prettify.js"></script>
     <script type="text/javascript">var switchTo5x = true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
@@ -181,6 +181,9 @@
     </script>
     <script>
         $(function () {
+            
+            $('#content img').picture();
+    
             $("code").each(function () {
                 if (!$(this).hasClass("prettyprint")) {
                     $(this).addClass("prettyprint");
@@ -189,10 +192,6 @@
             });
 
             prettyPrint();
-        });
-        
-        $(document).ready(function() {
-            $("#content img").imgLiquid();
         });
         
     </script>
