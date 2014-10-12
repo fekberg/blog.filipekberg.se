@@ -175,9 +175,6 @@
       <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
     <![endif]-->
     <script>
-        $(window).load(function () {
-            $('#content').imagefit();
-        });
         function track() {
             _gaq.push(['_trackEvent', 'External Link', 'C# Smorgasbord on Amazon', 'Buy C# Smorgasbord on Amazon']);
             return true;
@@ -193,8 +190,12 @@
             });
 
             prettyPrint();
+        });
+        
+         $(window).load(function () {
             $('#content').imagefit();
         });
+        
     </script>
 </body>
 </html>
