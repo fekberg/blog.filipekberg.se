@@ -616,6 +616,7 @@ footer {
 }
 */
 @media only screen and (max-width: 1150px)  {
+	div#content img { width: 100%; height: auto; }
 	header div#logo h1{ font-size: 58pt; }
 	div#main div.post {
 		padding-right: 20px;
