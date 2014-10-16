@@ -3,6 +3,7 @@
 @{
     Layout = "default.cshtml";
     ViewBag.Title = "Filip Ekberg's Blog Category " + Model.Category.Name;
+    ViewBag.MetaDescription= "Filip Ekberg's Blog Category " + Model.Category.Name;
 }
 <div class="post">
     <h1>@Model.Category.Name Posts</h1>
