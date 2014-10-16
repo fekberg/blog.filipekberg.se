@@ -1,7 +1,7 @@
 @inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.BaseViewModel>
 @using System.Collections.Generic
 @{
-    var keywords = string.Join(",", Model.Keywords) + Model["Tags"];
+    var keywords = string.Join(",", Model.Keywords) + Model.Settings.Tags;
     
     var description = ViewBag.MetaDescription; 
     
