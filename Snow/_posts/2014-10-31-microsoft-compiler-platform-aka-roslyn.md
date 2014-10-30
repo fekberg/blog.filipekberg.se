@@ -57,16 +57,16 @@ The first thing that we will add in this console application to test the power o
 
 	var code = @"
 	using System;
-
+	
 	namespace AnalyseMe
 	{
-	    class Program
-	    {
-	        public static void Main(string[] args)
-	        {
-	            Console.WriteLine(""Hello World!"");
-	        }
-	    }
+		class Program
+		{
+			public static void Main(string[] args)
+			{
+				Console.WriteLine(""Hello World!"");
+			}
+		}
 	}"; 
 
 The intention here is to compile the code, look for any possible errors and then execute the file on disk. We can perform the final executions by hand, but do the rest with Roslyn. We are ready to ask for a syntax tree representation of our code, as the code snippet is C# we can use the static method `ParseText` on the class `CSharpSyntaxTree`:
@@ -78,8 +78,8 @@ We can then create something called a compilation, to this compilation we can ap
 The C# language has its specification and the parsing of the syntax tree adheres to this, however at this stage it is only represented as a syntax tree and nothing thus far is executable. This is why we need to add a reference to the assembly where the namespaces we use live. As the following code sample shows, we create the compilation, references an assembly and add the syntax tree.
 
 	var compilation = CSharpCompilation.Create("AnalyseMe")
-	    .AddReferences(new MetadataFileReference(Assembly.GetAssembly(typeof(Console)).Location))
-	    .AddSyntaxTrees(tree);
+		.AddReferences(new MetadataFileReference(Assembly.GetAssembly(typeof(Console)).Location))
+		.AddSyntaxTrees(tree);
 
 We still cannot execute the code, as nothing has been emitted to an executable. However we can ask for a diagnosis of the code or we can ask for it to finally be emitted so that it can be executed. When asking for the diagnosis we can see if the things found are just errors or simple warnings, if it is just warnings you can compile, but if it is errors you cannot. That is not actually the entire truth, you can emit the code that does not in fact represent a proper program, and there will be no errors of doing so. The result binary will just be 0 in size.
 
@@ -87,7 +87,7 @@ It is easy to ask for a diagnosis as you see here:
 
 	foreach (var diagnose in compilation.GetDiagnostics())
 	{
-	    Console.WriteLine(diagnose);
+		Console.WriteLine(diagnose);
 	}
 
 If we remove a semicolor or a curlybrace from the code that we are compiling, you will see that the diagnosis will give different results.
@@ -102,47 +102,47 @@ The above will create an executable called `test.exe` which we can simply run an
 
 Below is a full code sample of the above code
 
-	using System.Reflection;
-	using Microsoft.CodeAnalysis;
-	using Microsoft.CodeAnalysis.CSharp;
-	using System;
+using System.Reflection;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using System;
 
-	namespace RoslynDemo
+namespace RoslynDemo
+{
+	class Program
 	{
-	    class Program
-	    {
-	        static void Main(string[] args)
-	        {
+		static void Main(string[] args)
+		{
+		
+		var code = @"
+using System;
 
-	            var code = @"
-	using System;
-
-	namespace AnalyseMe
+namespace AnalyseMe
+{
+	class Program
 	{
-	    class Program
-	    {
-	        public static void Main(string[] args)
-	        {
-	            Console.WriteLine(""Hello World!"");
-	        }
-	    }
-	}";
-
-	            var tree = CSharpSyntaxTree.ParseText(code);
-
-	            var compilation = CSharpCompilation.Create("AnalyseMe")
-	                .AddReferences(new MetadataFileReference(Assembly.GetAssembly(typeof(Console)).Location))
-	                .AddSyntaxTrees(tree);
-
-	            foreach (var diagnose in compilation.GetDiagnostics())
-	            {
-	                Console.WriteLine(diagnose);
-	            }
-
-	            compilation.Emit("text.exe");
-	        }
-	    }
+		public static void Main(string[] args)
+		{
+			Console.WriteLine(""Hello World!"");
+		}
 	}
+}";
+		
+		var tree = CSharpSyntaxTree.ParseText(code);
+		
+		var compilation = CSharpCompilation.Create("AnalyseMe")
+			.AddReferences(new MetadataFileReference(Assembly.GetAssembly(typeof(Console)).Location))
+			.AddSyntaxTrees(tree);
+		
+		foreach (var diagnose in compilation.GetDiagnostics())
+		{
+			Console.WriteLine(diagnose);
+		}
+		
+		compilation.Emit("text.exe");
+		}
+	}
+}
 
 Not only can we compile code with the Microsoft Compiler Platform, Roslyn. We can also analyse and manipulate the code that we have represented as a syntax tree.
 
