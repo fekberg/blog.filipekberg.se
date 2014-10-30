@@ -73,9 +73,9 @@ Continuous delivery should be on every team's radar, if you're not continuously 
 
 To achieve good continuous delivery we have a bunch of tools that can help us, here are a few highlights (and I'd love to hear about your tools of choice!):
 
-* TeamCity is a great tool to use for Continuous Delivery/Integration. It will monitor changes in your source code repository, help you build and deploy your product (https://www.jetbrains.com/teamcity/)
+* [TeamCity](https://www.jetbrains.com/teamcity/) is a great tool to use for Continuous Delivery/Integration. It will monitor changes in your source code repository, help you build and deploy your product 
 * Octopus Deploy will let you automate deployments, you could for instance deploy the product to 10 servers behind a load balancer once TeamCity marks it as OK (https://octopusdeploy.com/)
-* NCrunch for Visual Studio is a tool that continuously runs all tests in your solution as there is a change to a file. It also provides you with metrics on code coverage and visual indications if a part of the code is untested. This tool is a great way to get started with testing and getting a better test coverage of your code (http://www.ncrunch.net/)
+* [NCrunch](http://www.ncrunch.net/) for Visual Studio is a tool that continuously runs all tests in your solution as there is a change to a file. It also provides you with metrics on code coverage and visual indications if a part of the code is untested. This tool is a great way to get started with testing and getting a better test coverage of your code
 * Azure is a great platform to host your solutions on, and for my blog for instance I have incorporated continuous delivery by always deploying the blog once I have added a post to the Github repository
  
 ###Where to go now?
