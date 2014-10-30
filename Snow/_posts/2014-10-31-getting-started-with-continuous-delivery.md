@@ -72,6 +72,7 @@ The different environments could have different test data, as they do resemble d
 Continuous delivery should be on every team's radar, if you're not continuously delivering your product right now by introducing it you will most certainly blow more than one mind. Of course this is something we all want, unless we work in a traditional waterfall model where we are still swimming towards the current (although I don't think there's much of a current in a waterfall.
 
 To achieve good continuous delivery we have a bunch of tools that can help us, here are a few highlights (and I'd love to hear about your tools of choice!):
+
 * TeamCity is a great tool to use for Continuous Delivery/Integration. It will monitor changes in your source code repository, help you build and deploy your product (https://www.jetbrains.com/teamcity/)
 * Octopus Deploy will let you automate deployments, you could for instance deploy the product to 10 servers behind a load balancer once TeamCity marks it as OK (https://octopusdeploy.com/)
 * NCrunch for Visual Studio is a tool that continuously runs all tests in your solution as there is a change to a file. It also provides you with metrics on code coverage and visual indications if a part of the code is untested. This tool is a great way to get started with testing and getting a better test coverage of your code (http://www.ncrunch.net/)
