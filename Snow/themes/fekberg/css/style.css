@@ -97,6 +97,8 @@ div#container {
 	margin: 0 auto;
 	max-width: 1200px;
 }
+div#content img { max-width: 100%; height: auto; }
+
 header { max-width: 1220px; min-width: width:100%;  }
 header div#logo{ }
 	header div#logo h1, header div#logo h2 {
