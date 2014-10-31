@@ -102,47 +102,47 @@ The above will create an executable called `test.exe` which we can simply run an
 
 Below is a full code sample of the above code
 
-using System.Reflection;
-using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.CSharp;
-using System;
-
-namespace RoslynDemo
-{
-	class Program
+	using System.Reflection;
+	using Microsoft.CodeAnalysis;
+	using Microsoft.CodeAnalysis.CSharp;
+	using System;
+	
+	namespace RoslynDemo
 	{
-		static void Main(string[] args)
+		class Program
 		{
-		
-		var code = @"
-using System;
-
-namespace AnalyseMe
-{
-	class Program
+			static void Main(string[] args)
+			{
+			
+			var code = @"
+	using System;
+	
+	namespace AnalyseMe
 	{
-		public static void Main(string[] args)
+		class Program
 		{
-			Console.WriteLine(""Hello World!"");
+			public static void Main(string[] args)
+			{
+				Console.WriteLine(""Hello World!"");
+			}
+		}
+	}";
+			
+			var tree = CSharpSyntaxTree.ParseText(code);
+			
+			var compilation = CSharpCompilation.Create("AnalyseMe")
+				.AddReferences(new MetadataFileReference(Assembly.GetAssembly(typeof(Console)).Location))
+				.AddSyntaxTrees(tree);
+			
+			foreach (var diagnose in compilation.GetDiagnostics())
+			{
+				Console.WriteLine(diagnose);
+			}
+			
+			compilation.Emit("text.exe");
+			}
 		}
 	}
-}";
-		
-		var tree = CSharpSyntaxTree.ParseText(code);
-		
-		var compilation = CSharpCompilation.Create("AnalyseMe")
-			.AddReferences(new MetadataFileReference(Assembly.GetAssembly(typeof(Console)).Location))
-			.AddSyntaxTrees(tree);
-		
-		foreach (var diagnose in compilation.GetDiagnostics())
-		{
-			Console.WriteLine(diagnose);
-		}
-		
-		compilation.Emit("text.exe");
-		}
-	}
-}
 
 Not only can we compile code with the Microsoft Compiler Platform, Roslyn. We can also analyse and manipulate the code that we have represented as a syntax tree.
 
