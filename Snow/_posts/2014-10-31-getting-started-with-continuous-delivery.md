@@ -54,9 +54,7 @@ Of course, in order to increase the quality of the delivery we need a way to ens
 Remember that naming your tests are crucial to their success, don't just name your tests something generic but rather follow a pattern that your team conforms to. I tend to lean towards naming my test like the following: `Given_That_Username_Is_Empty_Login_Attempt_Fails`.
 
 ###Deploying to Different Environments
-<img src="http://cdn.filipekberg.se/fekberg-blog/getting-started-with-continuous-delivery/BuildLightRed.png" style="float: right; padding-left: 20px; padding-bottom: 20px; width: 80px; " />When there's changes being pushed to our source control, hopefully the developers have already run all the unit tests locally to make sure there are no obvious errors. Unit tests are fast to run, as opposed to acceptance (functional/integration) tests which can take a long time to run.
-
-The idea is that our continuous delivery process runs through the following steps:
+<img src="http://cdn.filipekberg.se/fekberg-blog/getting-started-with-continuous-delivery/BuildLightRed.png" style="float: right; padding-left: 20px; padding-bottom: 20px; width: 80px; " />When there's changes being pushed to our source control, hopefully the developers have already run all the unit tests locally to make sure there are no obvious errors. Unit tests are fast to run, as opposed to acceptance (functional/integration) tests which can take a long time to run.<br/><br/>The idea is that our continuous delivery process runs through the following steps:
 
 1.	Run Unit Tests
 2.	Run Acceptance Tests
