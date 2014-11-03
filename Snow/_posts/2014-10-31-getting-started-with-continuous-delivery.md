@@ -11,13 +11,13 @@ tags:  .NET, CSharp, Programming, Agile, Scrum, Continuous Delivery, TeamCity, O
 ---
 
 ###Working in an agile environment
-While working in a high paced and agile environment, building block by block in reach of the ultimate minimal viable product, stakeholders will most definitely ask more than once if they can see what you have thus far.
+While working in a high paced and agile environment, building block by block to reach the ultimate minimal viable product, stakeholders will most definitely ask more than once if they can see what you have thus far.
 
-Neither agile, scrum, continuous delivery nor testing are new concepts or buzz-words. Although they have all been around for a while it is still something well worth talking about and working on improving in your team.
+Agile, Scrum, continuous delivery and testing are not new concepts or buzz-words. Although they have all been around for a while they are still something well worth talking about and working on improving in your team.
 
-Over the years I have seen countless of products being worked on where there has been no real definition of, or well-thought through direction to get to, a minimal viable product. The main problem for that derives from the customer not being able to define a subset of features that are good enough for a first product release. If we put ourselves in the shoes of a customer, we might as well have been a customer or will be in the future, imagine having a vision of a great product and now someone tells you to cut it in half and choose which side you like the most. It's difficult, right?
+Over the years I have seen countless of products being worked on where there has been no real definition of, or well-thought through direction to get to, a minimal viable product. The main problem I see derives from the customer not being able to define a subset of features that are good enough for a first product release. If we put ourselves in the shoes of a customer, we might as well have been a customer or will be in the future, imagine having a vision of a great product and someone telling you to cut it in half and choose which side you like the most. It's difficult, right?
 
-Before we fall too deep into the rabbit hole here and go in a different direction than talking about continuous delivery, let me be perfectly clear on what message I want to give with the above. In a scrum environment, we work towards a goal, most likely towards a vision that a customer have. Working in an agile environment means that the customer are allowed to change their minds, more than once even! While we are working towards this goal, we know for a fact that the customer will change their minds and our processes needs to cater for this behaviour.
+Before we fall too deep into the rabbit hole here and go in a different direction, let me be perfectly clear on what message I want to give with the above. In a scrum environment, we work towards a goal, most likely towards a vision that a customer has. Working in an agile environment means that the customer is allowed to change their minds, more than once even! While we are working towards this goal, we know for a fact that the customer will change their minds and our processes needs to cater for this behaviour.
 
 While on the subject of scrum, the point of a sprint is to deliver a set of features that your team has agreed on. After this sprint, or even during the sprint, wouldn't it be very handy of stakeholders could see, and work with, what you are building?
 
@@ -34,7 +34,7 @@ Is that all there is to continuous delivery? Certainly not.
 
 What is defined above is just what is supposed to happen when the code is pushed to the source code repository. Continuous delivery is not only about that, it is also about making sure that what is delivered is of somewhat a high quality.
 
-Each delivery through the continuous delivery pipe should in the developers point of view be a minimal viable product. This means when you check in your code into the main repository that a continuous delivery process is setup on there should be no code compilation failures, unit tests should all run fine.
+Each delivery through the continuous delivery pipe should in the developers point of view be a minimal viable product. This means when you check in your code into the main repository, you should be so certain of its high quality, that there should be no code compilation failures and unit tests should all run fine. Of course, this is not to be confused with the minimal viable product that the customer defined.
 
 Thus Continuous Delivery is a way for us to define a process for delivering features continuously and about making sure the deliverable is of high quality.
 
@@ -65,6 +65,8 @@ The idea is that our continuous delivery process runs through the following step
 5.	Deploy to Production
 
 Each step is only executed if the previous was marked as OK. I prefer to have a build light that tells me if the build fails or not!
+
+<img src="http://cdn.filipekberg.se/fekberg-blog/getting-started-with-continuous-delivery/BuildLightRed.png" style="float: right; padding-left: 20px; padding-bottom: 20px;" />
  
 The different environments could have different test data, as they do resemble different states in the deployment. The closer you get to production, the closer you should get to testing with real data.
 
@@ -78,7 +80,11 @@ To achieve good continuous delivery we have a bunch of tools that can help us, h
 * [NCrunch](http://www.ncrunch.net/) for Visual Studio is a tool that continuously runs all tests in your solution as there is a change to a file. It also provides you with metrics on code coverage and visual indications if a part of the code is untested. This tool is a great way to get started with testing and getting a better test coverage of your code
 * Azure is a great platform to host your solutions on, and for my blog for instance I have incorporated continuous delivery by always deploying the blog once I have added a post to the Github repository
  
+ <img src="http://cdn.filipekberg.se/fekberg-blog/getting-started-with-continuous-delivery/AzureDeploymnet.png" style="float: right; padding-left: 20px; padding-bottom: 20px;" />
+
 ###Where to go now?
 We've only scratched the surface of how to work in a continuous delivery environment, I hope this gives you a taste of how to improve your deliveries within your project.
 
 I'd love to hear from you what tools, processes and patters you and your team use!
+
+*Thanks a lot to [Stephen Godbold](http://stevegodbold.com/) for reviewing and giving a lot of great early feedback on this article*.
