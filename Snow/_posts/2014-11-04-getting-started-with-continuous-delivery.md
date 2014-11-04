@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Getting Started with Continuous Delivery
-date: 2014-10-31 00:00
+date: 2014-11-04 00:00
 author: fekberg
-published: draft
+published: published
 comments: true
 metadescription: Getting Started with Continuous Delivery
 categories: .NET, C#, Programming
