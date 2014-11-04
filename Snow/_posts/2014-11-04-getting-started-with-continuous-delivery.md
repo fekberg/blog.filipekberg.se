@@ -16,7 +16,7 @@ While working in a high paced and agile environment, building block by block to 
 Agile, Scrum, continuous delivery and testing are not new concepts or buzz-words. Although they have all been around for a while they are still something well worth talking about and working on improving in your team.
 
 Over the years I have seen countless of products being worked on where there has been no real definition of, or well-thought through direction to get to, a minimal viable product. The main problem I see derives from the customer not being able to define a subset of features that are good enough for a first product release. If we put ourselves in the shoes of a customer, we might as well have been a customer or will be in the future, imagine having a vision of a great product and someone telling you to cut it in half and choose which side you like the most. It's difficult, right?
-
+<!--excerpt-->
 Before we fall too deep into the rabbit hole here and go in a different direction, let me be perfectly clear on what message I want to give with the above. In a scrum environment, we work towards a goal, most likely towards a vision that a customer has. Working in an agile environment means that the customer is allowed to change their minds, more than once even! While we are working towards this goal, we know for a fact that the customer will change their minds and our processes needs to cater for this behaviour.
 
 While on the subject of scrum, the point of a sprint is to deliver a set of features that your team has agreed on. After this sprint, or even during the sprint, wouldn't it be very handy of stakeholders could see, and work with, what you are building?
