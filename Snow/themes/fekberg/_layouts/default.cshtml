@@ -1,7 +1,7 @@
 @inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.BaseViewModel>
 @using System.Collections.Generic
 @{
-    var defaultKeywords = new [] {"C#", "C# programming", "programming", "C# Smorgasbord", ".NET Programmering", "Software Engineering", "Roslyn", "Filip Ekberg", "Ekberg", "Filip", "Programming", "csharp", "dotnet", "self-publishing", "programming book", "Xamarin"};
+    var defaultKeywords = new [] {"C#", "C# Programming", "Programming", "C# Smorgasbord", ".NET Programming", "Software Engineering", "Roslyn", "Filip Ekberg", "Ekberg", "Filip", "Programming", "CSharp", "dotnet", "Self-Publishing", "C# Smorgasbord", "Programming book", "Xamarin"};
 
     var keywords = string.Join(",", defaultKeywords.Concat(Model.Keywords).Distinct());
     
