@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing the Azure Mobile Services .NET Backend
-date: 2014-11-06 00:00
+date: 2014-11-05 00:00
 author: fekberg
 published: published
 comments: true
