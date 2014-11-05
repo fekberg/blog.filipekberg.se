@@ -1,19 +1,16 @@
 @inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.BaseViewModel>
 @using System.Collections.Generic
 @{
-    var keywords = string.Join(",", Model.Keywords);
+    var keywords = new [] {"C#", "C# programming", programming, C# Smorgasbord, .NET Programmering, Software Engineering, Roslyn, Filip Ekberg, Ekberg, Filip, Programming, csharp, dotnet, self-publishing, programming book"};
+
+    var keywords = string.Join(",", keywords.Concat(Model.Keywords).Distinct());
     
     var description = ViewBag.MetaDescription; 
     
     if(string.IsNullOrWhiteSpace(description))
     {
          description = "Filip Ekberg is a C# MVP, author of C# Smorgasbord, Speaker, Pluralsight author. Swedish Software Engineer with a burning heart for programming!";
-    }
-    if(string.IsNullOrWhiteSpace(keywords))
-    {
-         keywords = "C#, C# programming, programming, C# Smorgasbord, .NET Programmering, Software Engineering, Roslyn, Filip Ekberg, Ekberg, Filip, Programming, csharp, dotnet, self-publishing, programming book";
-    }
-    
+    }   
 }
 <!DOCTYPE html>
 <html lang="en">
