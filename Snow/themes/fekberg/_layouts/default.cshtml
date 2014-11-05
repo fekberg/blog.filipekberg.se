@@ -1,9 +1,9 @@
 @inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.BaseViewModel>
 @using System.Collections.Generic
 @{
-    var keywords = new [] {"C#", "C# programming", programming, C# Smorgasbord, .NET Programmering, Software Engineering, Roslyn, Filip Ekberg, Ekberg, Filip, Programming, csharp, dotnet, self-publishing, programming book"};
+    var defaultKeywords = new [] {"C#", "C# programming", "programming", "C# Smorgasbord", ".NET Programmering", "Software Engineering", "Roslyn", "Filip Ekberg", "Ekberg", "Filip", "Programming", "csharp", "dotnet", "self-publishing", "programming book", "Xamarin"};
 
-    var keywords = string.Join(",", keywords.Concat(Model.Keywords).Distinct());
+    var keywords = string.Join(",", defaultKeywords.Concat(Model.Keywords).Distinct());
     
     var description = ViewBag.MetaDescription; 
     
