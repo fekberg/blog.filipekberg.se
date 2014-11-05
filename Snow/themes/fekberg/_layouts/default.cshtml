@@ -4,13 +4,6 @@
     var defaultKeywords = new [] {"C#", "C# Programming", "Programming", "C# Smorgasbord", ".NET Programming", "Software Engineering", "Roslyn", "Filip Ekberg", "Ekberg", "Filip", "Programming", "CSharp", "dotnet", "Self-Publishing", "C# Smorgasbord", "Programming book", "Xamarin"};
 
     var keywords = string.Join(",", defaultKeywords.Concat(Model.Keywords).Distinct());
-    
-    var description = ViewBag.MetaDescription; 
-    
-    if(string.IsNullOrWhiteSpace(description))
-    {
-         description = "Filip Ekberg is a C# MVP, author of C# Smorgasbord, Speaker, Pluralsight author. Swedish Software Engineer with a burning heart for programming!";
-    }   
 }
 <!DOCTYPE html>
 <html lang="en">
