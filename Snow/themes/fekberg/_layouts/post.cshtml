@@ -5,11 +5,11 @@
     ViewBag.Title = Model.Title;
     var url = "http://blog.filipekberg.se" + @Model.Url;
 
-    var description = Model.MetaDescription; 
+    ViewBag.Description = Model.MetaDescription; 
     
-    if(string.IsNullOrWhiteSpace(description))
+    if(string.IsNullOrWhiteSpace(ViewBag.Description))
     {
-         description = "Filip Ekberg is a C# MVP, author of C# Smorgasbord, Speaker, Pluralsight author. Swedish Software Engineer with a burning heart for programming!";
+         ViewBag.Description = "Filip Ekberg is a C# MVP, author of C# Smorgasbord, Speaker, Pluralsight author. Swedish Software Engineer with a burning heart for programming!";
     }   
 }
 
