@@ -4,13 +4,11 @@
     Layout = "default.cshtml";
     ViewBag.Title = Model.Title;
     var url = "http://blog.filipekberg.se" + @Model.Url;
+}
 
-    ViewBag.Description = Model.MetaDescription; 
-    
-    if(string.IsNullOrWhiteSpace(ViewBag.Description))
-    {
-         ViewBag.Description = "Filip Ekberg is a C# MVP, author of C# Smorgasbord, Speaker, Pluralsight author. Swedish Software Engineer with a burning heart for programming!";
-    }   
+@section MetaDescription
+{
+    <meta name="description" content="@Model.MetaDescription">
 }
 
 <div class="post">

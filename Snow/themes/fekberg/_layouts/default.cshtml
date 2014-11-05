@@ -25,7 +25,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Filip Ekberg">
     <meta name="keywords" content="@keywords" />
-    <meta name="description" content="@ViewBag.Description">
+
+    @if(IsSectionDefined("MetaDescription"))
+    {
+        @RenderSection("MetaDescription")
+    }
+    else
+    {
+        <meta name="description" content="Filip Ekberg is a C# MVP, author of C# Smorgasbord, Speaker, Pluralsight author. Swedish Software Engineer with a burning heart for programming!">
+    }
     
     <meta name="application-name" content="Filip Ekberg's Blog"/>
 
