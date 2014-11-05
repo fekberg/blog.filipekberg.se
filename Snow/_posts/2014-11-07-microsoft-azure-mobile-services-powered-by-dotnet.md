@@ -25,7 +25,7 @@ I'm very happy to be able to give you an introduction to the .NET powered backen
 I was invited to speak on this topic at TechEd Australia 2014 and the recording, and slides, are now available on Channel 9. As always I hope you will enjoy the content and if you are left with any questions or have any feedback about Azure Mobile Services, please feel free to leave me a comment.
 
 <div class="video-container">
-<iframe src="//channel9.msdn.com/Events/TechEd/Australia/2014/WPD408/player?h=450&w=800" width="800" height="450" allowFullScreen frameBorder="0" scrolling="no"></iframe>
+<iframe src="//channel9.msdn.com/Events/TechEd/Australia/2014/WPD408/player" width="800" height="450" allowFullScreen frameBorder="0" scrolling="no"></iframe>
 </div>
 
 ##### Download the resources
