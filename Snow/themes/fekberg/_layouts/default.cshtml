@@ -3,7 +3,9 @@
 @{
     var defaultKeywords = new [] {"C#", "C# Programming", "Programming", "C# Smorgasbord", ".NET Programming", "Software Engineering", "Roslyn", "Filip Ekberg", "Ekberg", "Filip", "Programming", "CSharp", "dotnet", "Self-Publishing", "C# Smorgasbord", "Programming book", "Xamarin"};
 
-    var keywords = string.Join(",", defaultKeywords.Concat(Model.Keywords).Distinct());
+    var postKeywords = Model.Keywords ?? "";
+
+    var keywords = string.Join(",", defaultKeywords.Concat(postKeywords.Split(',')).Distinct()).Trim(',');
 }
 <!DOCTYPE html>
 <html lang="en">
