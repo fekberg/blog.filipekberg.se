@@ -76,7 +76,7 @@ To achieve good continuous delivery we have a bunch of tools that can help us, h
 * [NCrunch](http://www.ncrunch.net/) for Visual Studio is a tool that continuously runs all tests in your solution as there is a change to a file. It also provides you with metrics on code coverage and visual indications if a part of the code is untested. This tool is a great way to get started with testing and getting a better test coverage of your code
 * Azure is a great platform to host your solutions on, and for my blog for instance I have incorporated continuous delivery by always deploying the blog once I have added a post to the Github repository
  
- <img src="http://cdn.filipekberg.se/fekberg-blog/getting-started-with-continuous-delivery/AzureDeploymnet.png" style="float: right; padding-left: 20px; padding-bottom: 20px;" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/getting-started-with-continuous-delivery/AzureDeploymnet.png" style="float: right; padding-left: 20px; padding-bottom: 20px;" />
 
 ###Where to go now?
 We've only scratched the surface of how to work in a continuous delivery environment, I hope this gives you a taste of how to improve your deliveries within your project.
