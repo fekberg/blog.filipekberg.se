@@ -5,7 +5,7 @@
 
     var postKeywords = Model.Keywords ?? "";
 
-    var keywords = string.Join(",", defaultKeywords.Concat(postKeywords.Split(',')).Distinct()).Trim(',');
+    var keywords = string.Join(",", postKeywords.Split(',').Concat(defaultKeywords).Distinct().Where(x => !string.IsNullOrWhiteSpace(x))).Trim(',');
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -74,7 +74,7 @@
         <header>
             <div id="logo">
                 <h1><a href="/">Filip Ekberg's <span>Blog</span></a></h1>
-                <h2>Finding new and exciting ways to solve programming tasks!</h2>
+                <h2>Microsoft MVP in C#, author of C# Smorgasbord, Speaker, Pluralsight author, Works for Readify. Swedish Software Engineer with a burning heart for programming!</h2>
             </div>
             <div id="menubar">
                 <div id="menu">
@@ -112,7 +112,7 @@
             <div id="sidebar">
                 <div class="aboutFilip" style="font-size: 80%;">
                     <h2>About <span>Filip</span></h2>
-                    <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/08/Filip_Ekberg.png" style="width: 90px; padding-right: 5px; padding-bottom: 5px;float: left;" alt="" /><strong>Filip Ekberg</strong> is a Senior Consultant working at Readify in the country with all the spiders, author of a self-published C# programming book, Pluralsight author and overall in love with programming.
+                    <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/08/Filip_Ekberg.png" style="width: 90px; padding-right: 5px; padding-bottom: 5px;float: left;" alt="" /><strong>Filip Ekberg</strong> is a Senior Consultant working at Readify in the country with all the spiders, Microsoft C# MVP, author of a self-published C# programming book, Pluralsight author and overall in love with programming.
                     <br /><br />
                     <a href="https://twitter.com/fekberg" class="twitter-follow-button" data-show-count="true">Follow @@fekberg</a>
                     <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
