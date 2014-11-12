@@ -33,8 +33,6 @@ You can read more about the announcement of Visual Studio 2015 Preview and what 
 The new, FREE, version of Visual Studio can be found over at [VisualStudio.com/free](http://www.visualstudio.com/products/free-developer-offers-vs). If you are working with open source projects, this is definitely something you should be grabbing!
 
 ###.NET Goes Open Source
-<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/DotNet2015.png" style="float: right; padding-left: 20px;" alt="" />Microsoft announced today that they are open sourcing .NET Core and if that is not enough, they are also targeting Linux and Mac! This is big news for the open source community and for the future of development on .NET. We certainly have an interesting time ahead! [You can read the full announcement on the MSDN Blog.](http://blogs.msdn.com/b/dotnet/archive/2014/11/12/net-core-is-open-source.aspx)
-
-[You can check out the repository on Github for more information.](https://github.com/Microsoft/dotnet)
+<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/DotNet2015.png" style="float: right; padding-left: 20px;" alt="" />Microsoft announced today that they are open sourcing .NET Core and if that is not enough, they are also targeting Linux and Mac!<br/><br/>This is big news for the open source community and for the future of development on .NET. We certainly have an interesting time ahead! [You can read the full announcement on the MSDN Blog.](http://blogs.msdn.com/b/dotnet/archive/2014/11/12/net-core-is-open-source.aspx)<br/><br/>[You can check out the repository on Github for more information.](https://github.com/Microsoft/dotnet)
 
 **Don't forget to submit your feedback if you find anything that you like, dislike or if there is a bug!**
