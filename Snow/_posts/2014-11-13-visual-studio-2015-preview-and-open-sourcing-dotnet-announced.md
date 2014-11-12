@@ -11,7 +11,7 @@ tags: Visual Studio, Visual Studio 2015, VS2015, VS2015 Preview, Visual Studio C
 ---
 
 ###Having a look at Visual Studio 2015
-<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/VisualStudio2015.png" alt="" style="float: right; padding-left: 20px; width: 80px;">The next version of Visual Studio is right around the corner, it has previously been referred to as Visual Studio 14 but has now gotten its name; Visual Studio 2015. This new version of Visual Studio does not only include a bunch of new features that will make developers happier and more productive, but it also includes a new version in the family that means that you as a community contributor can get completely free version of Visual Studio 2015!
+<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/VisualStudio2015.png" alt="" style="float: right; padding-left: 20px; width: 200px;">The next version of Visual Studio is right around the corner, it has previously been referred to as Visual Studio 14 but has now gotten its name; Visual Studio 2015. This new version of Visual Studio does not only include a bunch of new features that will make developers happier and more productive, but it also includes a new version in the family that means that you as a community contributor can get completely free version of Visual Studio 2015!
 <!--excerpt-->
 
 As any new version of Visual Studio, it's packed with amazing features that makes our lives as developers much easier. If you have been following the news you know that Microsoft have completely re-written their C# and VB compilers which are now completely written in managed code, open source and is called the .NET Compiler Platform. I am extremely excited about this being the compilers that will ship with Visual Studio 2015. It means that it is much easier for Microsoft and other vendors to extend the experience when working with C# and VB applications.
@@ -36,6 +36,6 @@ The new, FREE, version of Visual Studio can be found over at [VisualStudio.com/f
 ###.NET Goes Open Source
 Microsoft announced today that they are open sourcing .NET Core! This is big news for the open source community and for the future of development on .NET. We certainly have an interesting time ahead!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/" alt="DotNet2015" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/DotNet2015.png" alt="" />
 
 **Don't forget to submit your feedback if you find anything that you like, dislike or if there is a bug!**
