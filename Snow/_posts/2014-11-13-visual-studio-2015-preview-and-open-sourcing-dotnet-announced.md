@@ -3,7 +3,7 @@ layout: post
 title: Visual Studio 2015 Preview and Open Sourcing .NET Announced
 date: 2014-11-13 00:00
 author: fekberg
-published: draft
+published: published
 comments: true
 metadescription: Have a look at the new Visual Studio 2015 Preview!
 categories: .NET, C#, Programming
