@@ -27,7 +27,7 @@ This new feature will give us a completely different debugging experience! Over 
 You can read more about the announcement of Visual Studio 2015 Preview and what it contains [at the MSDN Blog.](http://blogs.msdn.com/b/somasegar/archive/2014/11/12/opening-up-visual-studio-and-net-to-every-developer-any-application-net-server-core-open-source-and-cross-platform-visual-studio-community-2013-and-preview-of-visual-studio-2015-and-net-2015.aspx)
 
 ####Download Visual Studio 2015 Preview
-[You can download Visual Studio 2015 Preview from VisualStudio.com!](http://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs) So what are you waiting for? It will install side by side with Visual Studio 2013, but if you have Visual Studio 14 CTP installed you will have to uninstall that first.\
+[You can download Visual Studio 2015 Preview from VisualStudio.com!](http://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs) So what are you waiting for? It will install side by side with Visual Studio 2013, but if you have Visual Studio 14 CTP installed you will have to uninstall that first.
 
 ####Visual Studio Community Edition
 The new, FREE, version of Visual Studio can be found over at [VisualStudio.com/free](http://www.visualstudio.com/products/free-developer-offers-vs). If you are working with open source projects, this is definitely something you should be grabbing!
