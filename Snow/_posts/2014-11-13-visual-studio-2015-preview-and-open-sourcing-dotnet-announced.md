@@ -31,8 +31,6 @@ This new feature will give us a completely different debugging experience! Over 
 The new, FREE, version of Visual Studio can be found over at [VisualStudio.com/free](http://www.visualstudio.com/products/free-developer-offers-vs). If you are working with open source projects, this is definitely something you should be grabbing!
 
 ###.NET Goes Open Source
-Microsoft announced today that they are open sourcing .NET Core and if that is not enough, they are also targeting Linux and Mac! This is big news for the open source community and for the future of development on .NET. We certainly have an interesting time ahead!
-
-<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/DotNet2015.png" alt="" />
+<img src="http://cdn.filipekberg.se/fekberg-blog/visual-studio-2015-preview-and-open-sourcing-dotnet-announced/DotNet2015.png" style="float: right; padding-left: 20px;" alt="" />Microsoft announced today that they are open sourcing .NET Core and if that is not enough, they are also targeting Linux and Mac! This is big news for the open source community and for the future of development on .NET. We certainly have an interesting time ahead!
 
 **Don't forget to submit your feedback if you find anything that you like, dislike or if there is a bug!**
