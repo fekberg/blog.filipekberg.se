@@ -21,7 +21,7 @@ Let's get to it! Back to basics!
 <h3>What is Peak-Finding?</h3>
 Imagine you have a set of numbers, these numbers are stored in a one dimensional array; hence a normal array. Now you want to find one of the elements where the element peaks. Notice that we don't want to find the highest peak, we just want to find <strong>a</strong> peak. As to any problem there are multiple solutions and these solutions might differentiate from one and another. Some might be faster and some might be slower.
 
-Let's say that we have the following set of numbers: `{1, 2, 4, 3, 5, 1, 3}`
+Let's say that we have the following set of numbers: `{1, 3, 4, 3, 5, 1, 3}`
 
 <strong>How would you find the peak in that?</strong>
 
@@ -37,7 +37,7 @@ I won't bother with showing the code for this one, it's just a simple loop with 
 <h4>Finding the peak in one dimension (fast) O(log n)</h4>
 As the heading says, this is logarithmic, base 2 logarithmic to be exact. This means that somewhere in our algorithm we are dividing the set in two and doing so as `n` grows. So what might this mean, in terms of solving the problem? We're taking a divide and conquer approach! Just as you would with binary search. Binary search divides the array in half until it finds the correct element. Searching a phone book with 2^32 amount of records would take only 32 tries because we know it is sorted! 
 
-The same approach is applicable for the peak finding. If we take a look at the set of numbers we have again: `{1, 2, 4, 3, 5, 1, 3}` we know that if we start in the middle we will look at the value 3, which is less than both 4 and 5. So what now? Which side do we jump to? We can jump to the left here and divide the set in half, leaving us with the following:  `{1, 3, 4}` and we're in the middle so we've selected the three here. But, three is only larger than 1 and less than 4 so we have another step to do here and that is to jump to the right, this time we only have `{4}` left so this is our base case, we only have one item and such this is a peak.
+The same approach is applicable for the peak finding. If we take a look at the set of numbers we have again: `{1, 3, 4, 3, 5, 1, 3}` we know that if we start in the middle we will look at the value 3, which is less than both 4 and 5. So what now? Which side do we jump to? We can jump to the left here and divide the set in half, leaving us with the following:  `{1, 3, 4}` and we're in the middle so we've selected the three here. But, three is only larger than 1 and less than 4 so we have another step to do here and that is to jump to the right, this time we only have `{4}` left so this is our base case, we only have one item and such this is a peak.
 
 Here's a breakdown of the algorithm where `a` defines the array and `n` the amount of elements.
 
