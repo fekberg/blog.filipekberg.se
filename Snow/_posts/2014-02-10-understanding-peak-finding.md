@@ -96,7 +96,7 @@ We then call it like this:
 There are a couple of edge cases that we might want to handle while we are at it, such as if the array us empty. The beginning if our `FindPeak` method will look something like this:
 
     if (problem.Length <= 0) return 0;
-    if (right == -1) right = problem.Length;
+    if (right == -1) right = problem[0].Length;
 
     int j = (left + right) / 2;
     int globalMax = FindGlobalMax(problem, j);
