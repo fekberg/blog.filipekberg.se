@@ -169,7 +169,87 @@ Now let us take a look at that animation again and see if we can follow along an
 
 We've now found the peak in our 2D array! Here's a question for you: What is the time time complexity of this algorithm?
 
-<a href="https://github.com/fekberg/Algorithms/blob/master/Peak%20Finding/Peak%20Finding/Program.cs" target="_blank">The complete code is available on GitHub in my Algorithms repository.</a>
+Here is the complete solution for the 2D Peak Finding:
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[][] problem = new[]{
+	            new [] {0,  0,  9,  0,  0,  0,  0},
+	            new [] {0,  0,  0,  0,  0,  0,  0},
+	            new [] {0,  1,  0,  0,  0,  8,  9},
+	            new [] {0,  2,  0,  0,  0,  0,  0},
+	            new [] {0,  3,  0,  0,  0,  0,  0},
+	            new [] {0,  5,  0,  0,  0,  0,  0},
+	            new [] {0,  4,  7,  0,  0,  0,  0},
+            };
+            int peak = new Program().FindPeak(problem);
+
+            Console.WriteLine("Found a peak with value	: {0}", peak);
+        }
+
+        int FindPeak(int[][] problem, int left = 0, int right = -1)
+        {
+            if (problem.Length <= 0) return 0;
+
+            if (right == -1) right = problem[0].Length;
+
+            int j = (left + right) / 2;
+            int globalMax = FindGlobalMax(problem, j);
+
+            if (
+                (globalMax - 1 > 0 &&
+                problem[globalMax][j] >=
+                problem[globalMax - 1][j]) &&
+
+                (globalMax + 1 < problem.Length &&
+                problem[globalMax][j] >=
+                problem[globalMax + 1][j]) &&
+
+                (j - 1 > 0 &&
+                problem[globalMax][j] >=
+                problem[globalMax][j - 1]) &&
+
+                (j + 1 < problem[globalMax].Length &&
+                problem[globalMax][j] >=
+                problem[globalMax][j + 1])
+                )
+            {
+                return problem[globalMax][j];
+            }
+            else if (j > 0 && problem[globalMax][j - 1] > problem[globalMax][j])
+            {
+                right = j;
+                return FindPeak(problem, left, right);
+            }
+            else if (j + 1 < problem[globalMax].Length && problem[globalMax][j + 1] > problem[globalMax][j])
+            {
+                left = j;
+                return FindPeak(problem, left, right);
+            }
+
+            return problem[globalMax][j];
+        }
+
+        int FindGlobalMax(int[][] problem, int column)
+        {
+            int max = 0;
+            int index = 0;
+            for (int i = 0; i < problem.Length; i++)
+            {
+                if (max < problem[i][column])
+                {
+                    max = problem[i][column];
+                    index = i;
+                }
+            }
+
+            return index;
+        }
+    }
+
+<a href="https://github.com/fekberg/Algorithms/blob/master/Peak%20Finding/Peak%20Finding/Program.cs" target="_blank">You can also find the code on GitHub, in my Algorithms repository.</a>
 
 <strong>Keep learning, keep coding and keep solving problems! Let me know if you liked this and if you found something to optimize or fix in my examples!</strong>
 
