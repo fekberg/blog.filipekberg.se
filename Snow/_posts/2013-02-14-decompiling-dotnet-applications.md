@@ -174,7 +174,7 @@ And the resulted files look exactly as we expect them to, the code file has the 
 <li>Beautiful UI</li>
 
 <h4>Cons</h4>
-<li>It costs $368 + tax if you want the VS Extension and this is quite expensive when good alternatives are completely free</li>
+<li>It costs $199 if you want the VS Extension and this is quite expensive when good alternatives are completely free</li>
 
 <h4>Summary</h4>
 The costs is the only downside that I've found during my time using it which means that if .NET Reflector was free tool for Decompiling .NET Applications it would be the number 1 choice. It isn't free and the cost must be factored in when comparing the value of the product.
