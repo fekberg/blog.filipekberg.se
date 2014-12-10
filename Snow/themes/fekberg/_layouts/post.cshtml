@@ -22,9 +22,8 @@
         <span class='st_facebook_large' st_title='@Model.Title' st_url='@url' displayText='Facebook'></span>
         <span class='st_googleplus_large' st_title='@Model.Title' st_url='@url' displayText='Google +'></span>
         <span class='st_linkedin_large' st_title='@Model.Title' st_url='@url' displayText='LinkedIn'></span>
-        <span class='st_fbrec_hcount'  st_title='@Model.Title' st_url='@url' displayText='Facebook Recommend'></span>
     </div>
-    <p><span><a href="https://twitter.com/fekberg" class="twitter-follow-button" data-show-count="false">Follow @@fekberg</a></span></p>
+    <p><span><a href="https://twitter.com/fekberg" class="twitter-follow-button" data-show-count="false">Follow @@fekberg</a></span><span class='st_fbrec_hcount'  st_title='@Model.Title' st_url='@url' displayText='Facebook Recommend'></span></p>
     <div class="post-info-bottom">
         <span class="post-info-category">
             @foreach (var category in Model.Categories)
