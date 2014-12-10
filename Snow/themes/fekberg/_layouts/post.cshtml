@@ -17,12 +17,11 @@
     @Html.RenderSeries()
 
     @Html.Raw(Model.PostContent)
-    <p>
-        <span st_via='fekberg' class='st_twitter_hcount' st_title='@Model.Title' st_url='@url' displaytext='twitter'></span>
-        <span class='st_facebook_hcount' st_title='@Model.Title' st_url='@url' displaytext='facebook'></span>
-        <span class='st_plusone_hcount' st_title='@Model.Title' st_url='@url' displaytext='plusone'></span>
-        <span class='st_fblike_hcount' st_title='@Model.Title' st_url='@url' displaytext='fblike'></span>
-    </p>
+    <div>
+        <span class='st_facebook_hcount' st_title='@Model.Title' st_url='@url'  displayText='Facebook'></span>
+        <span class='st_twitter_hcount' st_title='@Model.Title' st_url='@url'  displayText='Tweet'></span>
+        <span class='st_fblike_hcount' st_title='@Model.Title' st_url='@url'  displayText='Facebook Like'></span>
+    </div>
     <p><span><a href="https://twitter.com/fekberg" class="twitter-follow-button" data-show-count="false">Follow @@fekberg</a></span></p>
     <div class="post-info-bottom">
         <span class="post-info-category">
