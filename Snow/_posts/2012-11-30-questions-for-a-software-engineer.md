@@ -29,7 +29,7 @@ This means that the short answer is, I wasn't any good at programming at all whe
 <em>Programming had by then became a part of what identified me and who I wanted to be.</em>
 
 <h4>What was the hardest part about writing/releasing your own book?</h4>
-There were a lot of bumps in the road when writing the book. <a href="http://blog.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">I've written about the writing process</a> and what decisions that I made along the way.
+There were a lot of bumps in the road when writing the book. <a href="http://filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">I've written about the writing process</a> and what decisions that I made along the way.
 
 But if I need to choose one of the most hard parts about writing the book. That would probably be: handling all the input from proof readers. 
 

@@ -31,4 +31,4 @@ Personally if I hadn't challenged myself into doing things that scares me I woul
 
 <strong>You can be awesome if you just put your mind into it, remember that you're just as awesome as you see yourself.</strong>
 
-<a href="http://blog.filipekberg.se/2013/02/26/c-smorgasbord-ebook-limited-time-offer-now-only-e4-99/">There's a chapter in my book called "Creating a challenge out of the trivial tasks", the ebook is currently available for €4.99!</a>
+<a href="http://filipekberg.se/2013/02/26/c-smorgasbord-ebook-limited-time-offer-now-only-e4-99/">There's a chapter in my book called "Creating a challenge out of the trivial tasks", the ebook is currently available for €4.99!</a>

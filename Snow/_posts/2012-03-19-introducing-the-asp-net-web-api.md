@@ -26,7 +26,7 @@ As mentioned above, you can retrieve data in different formats such as XML or JS
 
 In order to try this out, I will be using <a href="http://curl.haxx.se/download.html">curl </a>to make the web requests, because this will allow me to specify the headers manually.
 
-Start off by creating a new <a href="http://www.asp.net/mvc/mvc4">ASP.NET MVC 4 Web Applicaiton</a> in <a href="http://blog.filipekberg.se/2012/03/01/visual-studio-11-beta/">Visual Studio 11 Beta</a>:
+Start off by creating a new <a href="http://www.asp.net/mvc/mvc4">ASP.NET MVC 4 Web Applicaiton</a> in <a href="http://filipekberg.se/2012/03/01/visual-studio-11-beta/">Visual Studio 11 Beta</a>:
 
 <a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/11.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/11.png" alt="" title="Creating a new ASP.NET MVC 4 Web Application" width="640" class="aligncenter size-full wp-image-645" /></a>
 
@@ -90,4 +90,4 @@ This will allow you to add `?type=json` or `?type=xml` to request a certain outp
 
 If you want to retrieve a specific item, you can simply do `/api/values/1`.
 
-This has been a short introduction to get you started with the ASP.NET Web API. If you found this interesting, stay tuned for the <a href="http://blog.filipekberg.se/2012/03/17/dont-miss-me-coding-on-stage-for-2-days-at-webbdagarna/">live stream that I will do from Webbdagarna</a> (if the Internet connection allows) and also stay tuned for upcoming posts where we hook up with Entity Framework to make this API more alive.
+This has been a short introduction to get you started with the ASP.NET Web API. If you found this interesting, stay tuned for the <a href="http://filipekberg.se/2012/03/17/dont-miss-me-coding-on-stage-for-2-days-at-webbdagarna/">live stream that I will do from Webbdagarna</a> (if the Internet connection allows) and also stay tuned for upcoming posts where we hook up with Entity Framework to make this API more alive.

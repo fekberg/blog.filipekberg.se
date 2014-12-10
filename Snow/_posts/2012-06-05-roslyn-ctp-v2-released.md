@@ -32,14 +32,14 @@ Then we can create a simple `ScriptEngine` that just executes a snippet:
 
 <a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/06/4.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/06/4.png" alt="" title="Executing a code snippet with Roslyn" width="864" height="579" class="aligncenter size-full wp-image-867" /></a>
 
-I tried upgrading the <a href="https://github.com/fekberg/Roslyn-Hosted-Execution">code </a>from the my previous post on "<a href="http://blog.filipekberg.se/2011/12/08/hosted-execution-of-smaller-code-snippets-with-roslyn/">Hosted code execution</a>" and it seems to only be minor changes that are needed. These were the only errors:
+I tried upgrading the <a href="https://github.com/fekberg/Roslyn-Hosted-Execution">code </a>from the my previous post on "<a href="http://filipekberg.se/2011/12/08/hosted-execution-of-smaller-code-snippets-with-roslyn/">Hosted code execution</a>" and it seems to only be minor changes that are needed. These were the only errors:
 
 <ul>
 	<li>The constructor for `CompilationOptions` takes less parameters ( no longer a lot of optional parameters )</li>
 	<li>`ParseOptions` no longer has a constructor defined, use `CompilationOptions.Default`</li>
 	<li>`ObjectFormatter` no longer has a constructor defined, use `ObjectFormatter.Instance`<li></ul>
 
-There are most likely a lot of other changes made, but these are the ones that broke the build of "<a href="http://blog.filipekberg.se/2011/12/08/hosted-execution-of-smaller-code-snippets-with-roslyn/">Hosted code execution</a>".
+There are most likely a lot of other changes made, but these are the ones that broke the build of "<a href="http://filipekberg.se/2011/12/08/hosted-execution-of-smaller-code-snippets-with-roslyn/">Hosted code execution</a>".
 
 <a href="http://social.msdn.microsoft.com/Forums/en-US/roslyn/thread/2341e1f5-ce2e-48ff-93d6-bdd1bdbabd81">See a list of API Changes here.</a> The post also lists the new language features implemented since CTP1 (C#):
 

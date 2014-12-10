@@ -27,4 +27,4 @@ The best motivation wins and the winner will be notified via e-mail, so be sure 
 
 <em>The draw ends <del datetime="2012-08-20T06:04:38+00:00">September 20</del> August 26 (6pm CEST) and all comments will be published after that.</em>
 
-<h4><a href="http://blog.filipekberg.se/2012/08/26/the-winners-are/">The winners have been announced!</a></h4>
+<h4><a href="http://filipekberg.se/2012/08/26/the-winners-are/">The winners have been announced!</a></h4>

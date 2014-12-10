@@ -8,7 +8,7 @@ metadescription: Read about my experience with self-publishing a programming boo
 categories: .NET, C#, Programming, Projects & Project Organization
 tags: amazon, c# smorgasbord, createspace, csharp smorgasbord, self-publishing
 ---
-This is the third part of the blog series "Self-publishing a book" if you haven’t already check out <a href="http://blog.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a> & <a href="http://blog.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2</a>.
+This is the third part of the blog series "Self-publishing a book" if you haven’t already check out <a href="http://filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a> & <a href="http://filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2</a>.
 
 <blockquote>Word was acting up, I spent too much time trying to work around it and less time on the content — <strong>this was not going to work</strong>. I decided to drop Word. But for what and how would it make anything easier when all CreateSpace supplied was a Word template?</blockquote><!--excerpt-->
 
@@ -21,7 +21,7 @@ Before I actually dropped Word completely I had gotten a lot of feedback from fr
 
 Since I didn't know anything about LaTeX I needed a crash course and somewhere to get a little bit of inspiration/help. Fortunate for me, I found a LaTeX channel on IRC, <strong>#latex</strong> on <a href="http://webchat.freenode.net">freenode</a>. As mentioned in the Wikipedia quote above, LaTeX is actually just a language used for the typesetting system <a href="http://en.wikipedia.org/wiki/TeX">TeX</a>. This explains why the other place where I got a lot of feedback is called <a href="http://tex.stackexchange.com/">tex.stackexchange.com</a>. Both of these (plus google of course) has been very helpful!
 
-Getting a crash course in LaTeX wouldn't be enough, I still needed my book to conform with the CreateSpace guidelines. I hadn't decided the <a href="http://desktoppub.about.com/od/glossary/g/Trim-Size.htm">trim size</a>(page size) of the book yet. I was thinking about going for 7" x 10" but then I <a href="http://blog.filipekberg.se/2012/05/06/what-is-your-prefered-size-on-a-programming-book/">created a poll on this blog</a> which later changed my mind. It actually turned out that the size I had in mind was the one you guys wanted the least.
+Getting a crash course in LaTeX wouldn't be enough, I still needed my book to conform with the CreateSpace guidelines. I hadn't decided the <a href="http://desktoppub.about.com/od/glossary/g/Trim-Size.htm">trim size</a>(page size) of the book yet. I was thinking about going for 7" x 10" but then I <a href="http://filipekberg.se/2012/05/06/what-is-your-prefered-size-on-a-programming-book/">created a poll on this blog</a> which later changed my mind. It actually turned out that the size I had in mind was the one you guys wanted the least.
 
 So before I could completely step from Word to LaTeX, I had to know if there was some information about LaTeX + CreateSpace. I googled and stumbled upon a forum post on the very good CreateSpace community forum. <a href="https://www.createspace.com/en/community/thread/7524">This post</a> mentioned a <a href="https://github.com/aginiewicz/createspace"><strong>CreateSpace package</strong></a> for LaTeX. Best of all, this was open source and available on <a href="https://github.com/aginiewicz/createspace">github</a>!
 
@@ -99,6 +99,6 @@ The focus so far had been to find a way to comfortably write the content; I now 
 
 <h3>Check out the other parts in the series</h3>
 <ul>
-	<li><a href="http://blog.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
-	<li><a href="http://blog.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2 – Back at Square One</a></li>
+	<li><a href="http://filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
+	<li><a href="http://filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2 – Back at Square One</a></li>
 </ul>

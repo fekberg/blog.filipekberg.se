@@ -14,7 +14,7 @@ The following image illustrates what happens when we compile something, we put t
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Compiling_CSharpCode.png" alt="Compiling C# Code" width="752" height="224" class="alignright size-full wp-image-1720" />
 
-Let's consider a basic variable instantiation and an equality check, when this is compiled it will output something partially readable. To me the output is readable but that's just because I have a weird love for IL. When this basic snippet was compiled using <a href="http://blog.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/" target="_blank">LINQPad</a> it generated some IL which you can see below.
+Let's consider a basic variable instantiation and an equality check, when this is compiled it will output something partially readable. To me the output is readable but that's just because I have a weird love for IL. When this basic snippet was compiled using <a href="http://filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/" target="_blank">LINQPad</a> it generated some IL which you can see below.
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Compiled_CSharpCode.png" alt="Compiled C# Code" width="576" height="408" class="alignright size-full wp-image-1717" />
 

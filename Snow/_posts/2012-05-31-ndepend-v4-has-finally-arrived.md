@@ -12,7 +12,7 @@ It is truly a great pleasure to finally be able to spread the word about <a href
 
 <a href="http://www.ndepend.com">NDepend</a> is a complexity analysis tool that integrates into Visual Studio 2011, 2010 and 2008. It also comes with a standalone component for analyzing your projects.
 
-I have been using <a href="http://www.ndepend.com">NDepend</a> v4 for a while now and I liked it so much that it gets a place <a href="http://blog.filipekberg.se/2012/03/27/video-trailer-for-a-c-smorgasbord/" title="A C# Smorgasbord">in my upcoming book</a>.
+I have been using <a href="http://www.ndepend.com">NDepend</a> v4 for a while now and I liked it so much that it gets a place <a href="http://filipekberg.se/2012/03/27/video-trailer-for-a-c-smorgasbord/" title="A C# Smorgasbord">in my upcoming book</a>.
 
 What makes <a href="http://www.ndepend.com">NDepend</a> so powerful is that you can customize the analysis to adapt to your own set of restrictions and you do this with what is called <a href="http://www.ndepend.com/Features.aspx#CQL">Code Query LINQ(CQLinq)</a>. This is one of the biggest changes in version 4 and it really takes the tool to another level, prior to version 4 you used another way to customize your queries.
 

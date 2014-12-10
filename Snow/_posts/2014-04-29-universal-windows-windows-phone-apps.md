@@ -21,4 +21,4 @@ With the new possibilities of sharing code between our Windows and Windows Phone
 
 <a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/Universal_Apps_Notes_Filip-Ekberg.docx" target="_blank">Download Notes</a>
 
-If you're in Australia this month, be sure to check out my Xamarin talks that I'll be doing in <a href="http://blog.filipekberg.se/2014/04/04/cross-platform-development-using-c-and-xamarin-studio-australia-tour/" target="_blank">Melbourne, Brisbane and Sydney</a>.
+If you're in Australia this month, be sure to check out my Xamarin talks that I'll be doing in <a href="http://filipekberg.se/2014/04/04/cross-platform-development-using-c-and-xamarin-studio-australia-tour/" target="_blank">Melbourne, Brisbane and Sydney</a>.
