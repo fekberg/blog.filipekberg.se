@@ -6,7 +6,7 @@
 }
 @foreach (var postPaged in Model.PostsPaged)
 {
-    var url = "http://blog.filipekberg.se" + @postPaged.Url;
+    var url = "http://filipekberg.se" + @postPaged.Url;
 
     <div class="post">
         <h1><a href="@postPaged.Url">@postPaged.Title</a> </h1>
