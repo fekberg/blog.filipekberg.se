@@ -367,7 +367,7 @@ div#main{
 			height: 0;
 			overflow: hidden;
 		}
-
+		div#main div#content div.post .video-container button { border: 0; }
 		div#main div#content div.post .video-container iframe,  
 		div#main div#content div.post .video-container object,  
 		div#main div#content div.post .video-container embed {
