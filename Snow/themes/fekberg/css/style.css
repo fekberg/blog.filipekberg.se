@@ -57,7 +57,6 @@ legend { border: 0; *margin-left: -7px; padding: 0; }
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 button, input { line-height: normal; *overflow: visible; }
 table button, table input { *overflow: auto; }
-button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
 input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
 input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
@@ -367,7 +366,7 @@ div#main{
 			height: 0;
 			overflow: hidden;
 		}
-		.j-tooltip { border: 0; }
+		
 		div#main div#content div.post .video-container iframe,  
 		div#main div#content div.post .video-container object,  
 		div#main div#content div.post .video-container embed {
