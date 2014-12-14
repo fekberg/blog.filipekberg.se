@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using WebAPI with Azure Mobile Services 
-date: 2014-12-15 00:00
+date: 2014-12-14 00:00
 author: fekberg
 comments: true
 metadescription: When you thought Azure Mobile Services couldn't become more awesome the .NET backend was thrown into the mi
