@@ -4,7 +4,6 @@ title: C# 6.0 - Null Propagation
 date: 2015-01-12 00:00
 author: fekberg
 comments: true
-published: draft
 metadescription: C# 6.0 How to use Null Propagation
 categories: .NET, C#
 tags: C# 6.0, CSharp, Null Propagation, .NET, dotnet, CSharp 6.0, C# 6, Reflector
