@@ -75,7 +75,7 @@ This means if person is not null, it'll go ahead and call `GetAddress()` on that
 
 	Console.WriteLine((person != null) ? ((person.GetAddress() == null) ? null : person.GetAddress().StreetName) : null);
 
-It's a bit worrying to see that `GetAddress()` is called twice and when I did my talk at DDD Brisbane I was a bit stunned when I saw this as I did not expect it! As you saw in the above example with the structure of the `Address` type, you see that I added a console output so that we can see if it is in fact called twice or not. Luckily enough, running this only results in one console output!
+It's a bit worrying to see that `GetAddress()` is called twice and when I did my talk at [DDD Brisbane](http://filipekberg.se/2014/12/10/csharp-6-0/) I was a bit stunned when I saw this as I did not expect it! As you saw in the above example with the structure of the `Address` type, you see that I added a console output so that we can see if it is in fact called twice or not. Luckily enough, running this only results in one console output!
 
 Let us look at the IL and see what it looks like! Funnily enough, Reflector does not really show the same result when looking at the IL!
 
@@ -110,3 +110,9 @@ You see here that there is in fact just one call to `GetAddress()` and there's o
 We have seen how powerful null propagation can be, and hopefully you have gotten some answers to how you can use it in your applications. Keep in mind, we are hiding complexity behind syntactic sugar and this is just a nice and easy way for us to easily spot errors and not bloating our code with lots of if-statements.
 
 Use with care!
+
+Get a complete overview of what is new in C# 6.0 in my talk here:
+
+<div class="video-container">
+<iframe width="640" height="360" src="//www.youtube.com/embed/fNTf680fTHE" frameborder="0" allowfullscreen></iframe>
+</div>
