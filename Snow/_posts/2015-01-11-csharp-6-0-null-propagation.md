@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C# 6.0 - Null Propagation
-date: 2015-01-12 00:00
+date: 2015-01-11 00:00
 author: fekberg
 comments: true
 metadescription: C# 6.0 How to use Null Propagation
@@ -10,7 +10,7 @@ tags: C# 6.0, CSharp, Null Propagation, .NET, dotnet, CSharp 6.0, C# 6, Reflecto
 ---
 The next version of C# brings a lot of sugar to the table, which we have looked at a few times already. Although, I think it will be interesting to look into a few of the features in more detail and of course look at what tools like reflector says about the code generated. To start this off I want to look at null propagation. This is one of my favourite language features in the upcoming version of C#. I think, and I hope, that this will change the amount of Null Reference Exceptions that we experience in our applications.
 
-Let us start by just looking at the operator itself, it's simple and elegant. The null propagation operator looks like this: `?.`
+Let us start by just looking at the operator itself, it's simple and elegant. The null propagation operator looks like this: `?.`<!--excerpt-->
 
 A question mark is commonly used throughout the language for evaluation of truth. For instance, it is used in in-line if statements. We have also seen double question marks used as a shorthand syntax for asking if an expression evaluates to null and if it does, we supply a value that is given instead of null. Not unlike these two cases, the question mark in the case of null propagation indicates that we will not proceed to what is on the right hand side if what is on the left is null.
 
