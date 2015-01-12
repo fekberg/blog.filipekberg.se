@@ -8,10 +8,6 @@ published: draft
 metadescription: C# 6.0 How to use Null Propagation
 categories: .NET, C#
 tags: C# 6.0, CSharp, Null Propagation, .NET, dotnet, CSharp 6.0, C# 6, Reflector
-series:
-    name: C# 6.0
-    current: 1
-    part: C# 6.0 - Null Propagation
 ---
 The next version of C# brings a lot of sugar to the table, which we have looked at a few times already. Although, I think it will be interesting to look into a few of the features in more detail and of course look at what tools like reflector says about the code generated. To start this off I want to look at null propagation. This is one of my favourite language features in the upcoming version of C#. I think, and I hope, that this will change the amount of Null Reference Exceptions that we experience in our applications.
 
