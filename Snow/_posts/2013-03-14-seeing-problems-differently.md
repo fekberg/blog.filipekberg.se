@@ -8,7 +8,7 @@ metadescription: Seeing problems differently, look at the world in a different w
 categories: Programming
 tags: Programming
 ---
-<em><a href="http://filipekberg.se/2013/02/26/c-smorgasbord-ebook-limited-time-offer-now-only-e4-99/" target="_blank">C# Smorgasbord ebook bundle including PDF, ePub and Mobi is still available for €4.99!</a></em>
+<em><a href="http://www.filipekberg.se/2013/02/26/c-smorgasbord-ebook-limited-time-offer-now-only-e4-99/" target="_blank">C# Smorgasbord ebook bundle including PDF, ePub and Mobi is still available for €4.99!</a></em>
 
 We always have interesting discussions at work, both philosophical and mostly programming discussions. Sometimes the things people say make you think a while longer.<!--excerpt-->
 

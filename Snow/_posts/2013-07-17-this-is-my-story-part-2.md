@@ -94,4 +94,4 @@ I went on a lot of interviews for positions both as senior C++ developer on a co
 
 <em>This was my first “real” job as a full-time software engineer and I started off as a lead developer, in a small team but still making a lot of the interesting decisions. Prior to this I had only worked with my own business at the side of my studies which in many recruiters eyes made me look like a junior developer; maybe I was? I never considered myself a junior developer when I finished school though.</em>
 
-<a href="http://filipekberg.se/2013/07/22/this-is-my-story-part-3/">Continue to part 3</a>
+<a href="http://www.filipekberg.se/2013/07/22/this-is-my-story-part-3/">Continue to part 3</a>

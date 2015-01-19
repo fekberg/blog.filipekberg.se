@@ -20,7 +20,7 @@ There are techniques for mocking things in the real world as well, an example of
 
 <strong>How does this apply to programming?</strong>
 
-As we've concluded mocking is about faking either a thing or a behavior and in our code it is of course a behavior that we want to fake/impersonate. In the article about <a href="http://filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> I talked about breaking things apart from each other by using interfaces, this is going to help us out a lot with the mocking as well.
+As we've concluded mocking is about faking either a thing or a behavior and in our code it is of course a behavior that we want to fake/impersonate. In the article about <a href="http://www.filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> I talked about breaking things apart from each other by using interfaces, this is going to help us out a lot with the mocking as well.
 
 Let us assume that we have a system that handles payments and our different payment providers use a shared interface called `IPaymentProvider`. Then we have something that handles the processing of all the payments through the different payment providers let us assume that this class is called `Payment` and the constructor of `Payment` takes an `IPaymentProvider`.
 
@@ -67,7 +67,7 @@ We've looked almost all parts of the system, but where is the implementations of
 
 <strong>Let's assume we don't have it!</strong> Even though we don't have access to the implementation at this time (maybe we haven't made it quite yet, we might not even know what payment providers we are implementing the system against) we still want to test the process of the Execute method, we want to assure that no exceptions are thrown and that based on a Reservation that did not go through, we don't want it to go any further.
 
-In the article on <a href="http://filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> we talked about introducing fakes by creating "dumb" implementations that only did what we asked of them. This is indeed one way to go but let us take a look at another approach of this. Let's look at a Mocking Framework!
+In the article on <a href="http://www.filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> we talked about introducing fakes by creating "dumb" implementations that only did what we asked of them. This is indeed one way to go but let us take a look at another approach of this. Let's look at a Mocking Framework!
 
 There are a lot of mocking frameworks out there for .NET, here are two that are very good (among many many others):
 

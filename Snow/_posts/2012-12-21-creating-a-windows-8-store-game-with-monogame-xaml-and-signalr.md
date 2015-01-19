@@ -111,7 +111,7 @@ Now, go down to the constructor of the `GamePage` class and add this to the bott
     _connection = new HubConnection("http://signalr.fekberg.com/");
     _proxy = _connection.CreateHubProxy("game");
 
-If you recall from <a href="http://filipekberg.se/2012/12/10/running-signalr-on-mono/">previous posts about SignalR</a> we need to hock up the events before we start the connection. This is pretty much equal to what we saw in the WinRT with HTML and JavaScript demo. Here's what I have to hook it up with the Tic-Tac-Toe server, to make it a bit more fluent we are going to send the request to start a game as soon as the name is registered:
+If you recall from <a href="http://www.filipekberg.se/2012/12/10/running-signalr-on-mono/">previous posts about SignalR</a> we need to hock up the events before we start the connection. This is pretty much equal to what we saw in the WinRT with HTML and JavaScript demo. Here's what I have to hook it up with the Tic-Tac-Toe server, to make it a bit more fluent we are going to send the request to start a game as soon as the name is registered:
 
     _proxy.On("registerComplete", () =>
     {
@@ -478,10 +478,10 @@ Don't worry, you can download the entire solution that I worked on <a href="http
 
 <ul>
 <li>
-<a href="http://filipekberg.se/2012/11/29/introduction-to-signalr-creating-a-cross-platform-game/">Introduction to SignalR – Creating a Cross-Platform game</a>
+<a href="http://www.filipekberg.se/2012/11/29/introduction-to-signalr-creating-a-cross-platform-game/">Introduction to SignalR – Creating a Cross-Platform game</a>
 </li>
 <li>
-<a href="http://filipekberg.se/2012/12/10/running-signalr-on-mono/">Running SignalR on Mono</a>
+<a href="http://www.filipekberg.se/2012/12/10/running-signalr-on-mono/">Running SignalR on Mono</a>
 </li>
 </ul>
 

@@ -20,7 +20,7 @@ Now let's say that we have all colors together, that means that we have the foll
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/05/Bits2.png" width="810" class="alignright size-full wp-image-1944" />
 
-Red, Green and Blue added together! So why does this matter? If you don't know your bits and bytes it's going to be quite difficult to understand. <a href="http://filipekberg.se/2012/09/18/things-in-c-you-might-have-missed/" target="_blank">There's an older article that I've written about bits and bytes</a>, check that out if this is all Greek to you!
+Red, Green and Blue added together! So why does this matter? If you don't know your bits and bytes it's going to be quite difficult to understand. <a href="http://www.filipekberg.se/2012/09/18/things-in-c-you-might-have-missed/" target="_blank">There's an older article that I've written about bits and bytes</a>, check that out if this is all Greek to you!
 
 As you see it just "added" the bits together, but how do we do this in C# then? It looks "so easy" on paper! First we need to fine an enumerator for this.
 

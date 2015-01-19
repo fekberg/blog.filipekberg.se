@@ -9,7 +9,7 @@ categories: Programming
 tags: c# smorgasbord, csharp, Give-away, MSIL, Pluralsight, Programming, Raffle
 ---
 <h3>Congratulations everyone that participated</h3>
-Everyone that participated in the <a href="http://filipekberg.se/2013/06/17/win-a-pluralsight-one-year-subscription-and-c-smorgasbord/" target="_blank">raffle</a> got something! There was just one winner that got the one year Pluralsight Plus Subscription, but All of you got a 30 day coupon! As a bonus, everyone that participated got a digital copy of C# Smorgasbord and two lucky people got signed copies as well.<!--excerpt-->
+Everyone that participated in the <a href="http://www.filipekberg.se/2013/06/17/win-a-pluralsight-one-year-subscription-and-c-smorgasbord/" target="_blank">raffle</a> got something! There was just one winner that got the one year Pluralsight Plus Subscription, but All of you got a 30 day coupon! As a bonus, everyone that participated got a digital copy of C# Smorgasbord and two lucky people got signed copies as well.<!--excerpt-->
 
 I really hope that you take this chance to learn something from the Pluralsight courses and from the book. The course library is truly outstanding and I really recommend you to watch <a href="http://pluralsight.com/training/Courses/TableOfContents/msil-csharp-developer" target="_blank">my course on MSIL</a>!
 

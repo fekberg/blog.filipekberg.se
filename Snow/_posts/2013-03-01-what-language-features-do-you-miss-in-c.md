@@ -22,4 +22,4 @@ Mindscape has an article about what <a href="http://www.mindscapehq.com/blog/ind
 
 <strong>What language features do you miss in C# and why?</strong>  Keep in mind that a language feature should target a broad audience! Maybe you're happy with what is in the language right now?
 
-<a href="http://filipekberg.se/2013/02/26/c-smorgasbord-ebook-limited-time-offer-now-only-e4-99/" target="_blank">C# Smorgasbord ebook limited-time offer now only €4.99!</a>
+<a href="http://www.filipekberg.se/2013/02/26/c-smorgasbord-ebook-limited-time-offer-now-only-e4-99/" target="_blank">C# Smorgasbord ebook limited-time offer now only €4.99!</a>

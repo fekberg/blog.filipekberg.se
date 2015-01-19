@@ -8,7 +8,7 @@ metadescription: What can we do with the Roslyn Interactive Window? A C# REPL ca
 categories: .NET, C#, Programming
 tags: csharp, dotnet, productivity, roslyn
 ---
-In the <a href="http://filipekberg.se/2011/11/14/using-the-c-interactive-window-that-comes-with-roslyn/">previous post</a> we looked over an introduction to the C# Interactive Window that comes with Roslyn, now let's have a look at some things in the c# interactive window that will increase your productivity! I want to thank Kevin Pilch-Bisson ( @Pilchie ) for pointing some of these things out.
+In the <a href="http://www.filipekberg.se/2011/11/14/using-the-c-interactive-window-that-comes-with-roslyn/">previous post</a> we looked over an introduction to the C# Interactive Window that comes with Roslyn, now let's have a look at some things in the c# interactive window that will increase your productivity! I want to thank Kevin Pilch-Bisson ( @Pilchie ) for pointing some of these things out.
 
 One question that arise when I showed off the C# Interactive Window at work was: This looks great, but can we use types in our current solution?<!--excerpt-->
 

@@ -62,7 +62,7 @@ Once it is imported, it will look like this:
 
 Now let's download some data! Add the following on the next line:
 
-	var data = client.DownloadString("http://filipekberg.se");
+	var data = client.DownloadString("http://www.filipekberg.se");
 
 When you press enter, the statement will be executed and this might take a couple of seconds. Notice that nothing has been printed out or evaluated yet and by that I mean, in the F# Interactive Window after each statement you got some data printed out about what the last statement generated, that's not the case in the C# Interactive Window, but! If you write the name of the variable we just created, you'll see something pretty cool!
 

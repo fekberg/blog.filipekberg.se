@@ -78,4 +78,4 @@ I understood that if I wanted my dreams to become reality I had to step up the g
 
 <em>Still, I had hopes that I would pass the course and be accepted to the Software Engineering program.</em>
 
-<a href="http://filipekberg.se/2013/07/17/this-is-my-story-part-2/">Continue to part 2</a>
+<a href="http://www.filipekberg.se/2013/07/17/this-is-my-story-part-2/">Continue to part 2</a>

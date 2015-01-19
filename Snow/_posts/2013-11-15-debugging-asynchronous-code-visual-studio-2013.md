@@ -38,7 +38,7 @@ I put together a fairly simple code snippet to show some data in the new window 
         }
     }
 
-Notice that the method doesn't really return anything but it's best practice to return a `Task` instead of `void`, <a href="http://filipekberg.se/2013/10/29/advanced-async-talk-alt-net/" target="_blank">I recently did a talk on why that is so if you want to know that go and have a look!</a> Another thing to notice is that I follow the method naming convention and appending the word `Async` to the method name.
+Notice that the method doesn't really return anything but it's best practice to return a `Task` instead of `void`, <a href="http://www.filipekberg.se/2013/10/29/advanced-async-talk-alt-net/" target="_blank">I recently did a talk on why that is so if you want to know that go and have a look!</a> Another thing to notice is that I follow the method naming convention and appending the word `Async` to the method name.
 
 Alright, let's go back to the window that we are looking for now, I set a breakpoint, told Visual Studio to start a new debugging instance and this is what I get now:
 

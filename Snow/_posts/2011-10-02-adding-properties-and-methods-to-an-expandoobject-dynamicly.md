@@ -10,9 +10,9 @@ tags: .NET, .net 4.0, csharp, csharp 4, dotnet, dynamic, dynamic programming, ex
 ---
 Meanwhile I am planning and writing manuscript and code samples for my upcoming video series that will cover "Programming fundamentals using C#", I thought it was time for a short post on some dynamic programming in C#!<!--excerpt-->
 
-Another thing worth mentioning is that I will be using Visual Studio 11 Developer Preview, if you haven't checked it out, <a href="http://filipekberg.se/2011/09/19/visual-studio-11-and-visual-studio-2010-side-by-side/">I posted a quick blog post about it running side by side with Visual Studio 2010!</a>.
+Another thing worth mentioning is that I will be using Visual Studio 11 Developer Preview, if you haven't checked it out, <a href="http://www.filipekberg.se/2011/09/19/visual-studio-11-and-visual-studio-2010-side-by-side/">I posted a quick blog post about it running side by side with Visual Studio 2010!</a>.
 
-So, for those that are completely new and haven't yet checked out my videos on <a href="http://filipekberg.se/2011/07/21/c-4-0-using-the-dynamic-keyword/">"C# 4.0 Using the Dynamic Keyword"</a>, here's a quick summary:
+So, for those that are completely new and haven't yet checked out my videos on <a href="http://www.filipekberg.se/2011/07/21/c-4-0-using-the-dynamic-keyword/">"C# 4.0 Using the Dynamic Keyword"</a>, here's a quick summary:
 
 <ul>
 	<li>C# is not dynamically typed even though you can have dynamic types. It's a statically typed dynamic type!</li>

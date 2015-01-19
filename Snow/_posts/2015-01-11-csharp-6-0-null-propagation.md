@@ -75,7 +75,7 @@ This means if person is not null, it'll go ahead and call `GetAddress()` on that
 
 	Console.WriteLine((person != null) ? ((person.GetAddress() == null) ? null : person.GetAddress().StreetName) : null);
 
-It's a bit worrying to see that `GetAddress()` is called twice and when I did my talk at [DDD Brisbane](http://filipekberg.se/2014/12/10/csharp-6-0/) I was a bit stunned when I saw this as I did not expect it! As you saw in the above example with the structure of the `Address` type, you see that I added a console output so that we can see if it is in fact called twice or not. Luckily enough, running this only results in one console output!
+It's a bit worrying to see that `GetAddress()` is called twice and when I did my talk at [DDD Brisbane](http://www.filipekberg.se/2014/12/10/csharp-6-0/) I was a bit stunned when I saw this as I did not expect it! As you saw in the above example with the structure of the `Address` type, you see that I added a console output so that we can see if it is in fact called twice or not. Luckily enough, running this only results in one console output!
 
 Let us look at the IL and see what it looks like! Funnily enough, Reflector does not really show the same result when looking at the IL!
 

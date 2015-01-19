@@ -8,7 +8,7 @@ metadescription: Read about my experience with self-publishing a programming boo
 categories: .NET, C#, Programming, Projects & Project Organization
 tags: amazon, c# smorgasbord, createspace, csharp smorgasbord, self-publishing
 ---
-<em>This is the second part of the blog series "Self-publishing a book" if you haven't already check out <a href="http://filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a>.</em>
+<em>This is the second part of the blog series "Self-publishing a book" if you haven't already check out <a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a>.</em>
 
 <blockquote><strong>I was back to square one, with only my raw material</strong>. But the hope was not gone, I now had a goal; I am going to publish a book -- but how?</blockquote><!--excerpt-->
 
@@ -74,6 +74,6 @@ Word was acting up, I spent too much time trying to work around it and less time
 
 <h3>Check out the other parts in the series</h3>
 <ul>
-	<li><a href="http://filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
-	<li><a href="http://filipekberg.se/2012/09/23/self-publishing-a-book-part-3-using-a-good-typesetting-system/">Part 3 – Using a good typesetting system</a></li>
+	<li><a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
+	<li><a href="http://www.filipekberg.se/2012/09/23/self-publishing-a-book-part-3-using-a-good-typesetting-system/">Part 3 – Using a good typesetting system</a></li>
 </ul>

@@ -32,5 +32,5 @@ It's a 30 minute webinar where Patrick and I talk about Code Quality, Code Compl
 
 <strong>After watching the video, please tell me and Patrick what you thought about the video and tell me what your tips are to find complexity in your code or projects!</strong>
 
-P.S. <a href="http://filipekberg.se/2012/11/20/c-smorgasbord-sale/">Today is the last day to get a 35%
+P.S. <a href="http://www.filipekberg.se/2012/11/20/c-smorgasbord-sale/">Today is the last day to get a 35%
 discount on C# Smorgasbord! </a>

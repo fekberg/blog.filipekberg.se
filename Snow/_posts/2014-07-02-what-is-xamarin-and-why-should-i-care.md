@@ -19,11 +19,11 @@ tags: Xamarin, Programming, CSharp, iOS, Android, Windows Phone
 
 Want to know more about Xamarin and Mobile Development? Here's a link collection of presentations and articles that I've done:
 
-* <a href="http://filipekberg.se/2014/03/26/xamarin-introduction/" target="_blank">Xamarin Introduction</a>
+* <a href="http://www.filipekberg.se/2014/03/26/xamarin-introduction/" target="_blank">Xamarin Introduction</a>
 * <a href="https://www.youtube.com/watch?v=JwYVInQjY8g" target="_blank">Your first iOS Xamarin Studio Project</a>
 * <a href="https://www.youtube.com/watch?v=VfoJCd_TMx0" target="_blank">Xamarin and REST APIs</a>
-* <a href="http://filipekberg.se/2014/04/29/universal-windows-windows-phone-apps/" target="_blank">Universal Windows and Windows Phone Apps</a>
+* <a href="http://www.filipekberg.se/2014/04/29/universal-windows-windows-phone-apps/" target="_blank">Universal Windows and Windows Phone Apps</a>
 * <a href="https://www.youtube.com/watch?v=A7n4EVRPleg" target="_blank">Asynchronous programming</a>
-* <a href=" http://filipekberg.se/2012/12/21/creating-a-windows-8-store-game-with-monogame-xaml-and-signalr/" target="_blank">Creating a Windows 8 Store Game with MonoGame (XAML) and SignalR</a>
+* <a href=" http://www.filipekberg.se/2012/12/21/creating-a-windows-8-store-game-with-monogame-xaml-and-signalr/" target="_blank">Creating a Windows 8 Store Game with MonoGame (XAML) and SignalR</a>
 
 Have you been using Xamarin lately? How are you finding the latest updates that include Xamarin.Forms? Leave a comment and let me know what you think!

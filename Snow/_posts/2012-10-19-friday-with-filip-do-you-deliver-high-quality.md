@@ -14,11 +14,11 @@ tags: code quality, communicaiton issues, communication, dotnet, friday with fil
 During the Fridays with Filip we've looked at how to ensure that certain parts of your project conforms to a high standard. I'm talking about the following<!--excerpt-->:
 
 <ul>
-	<li><a href="http://filipekberg.se/2012/09/14/friday-with-filip-do-you-use-a-decent-testing-strategy/">Ensuring that we have a decent testing strategy</a></li>
-	<li><a href="http://filipekberg.se/2012/09/21/friday-with-filip-do-you-care-about-web-security/">Talking about security in your project</a></li>
-	<li><a href="http://filipekberg.se/2012/09/28/friday-with-filip-being-productive/">How to be productive and deliver good quality in a tight time schedule</a></li>
-	<li><a href="http://filipekberg.se/2012/10/05/friday-with-filip-joining-new-projects/">If you need to get a crash course in a new project, you'll want to deliver things with high quality as soon as possible</a></li>
-	<li><a href="http://filipekberg.se/2012/10/12/friday-with-filip-dealing-with-code-complexity/">How to spot complexity in your code base and possibly how to solve it</a></li>
+	<li><a href="http://www.filipekberg.se/2012/09/14/friday-with-filip-do-you-use-a-decent-testing-strategy/">Ensuring that we have a decent testing strategy</a></li>
+	<li><a href="http://www.filipekberg.se/2012/09/21/friday-with-filip-do-you-care-about-web-security/">Talking about security in your project</a></li>
+	<li><a href="http://www.filipekberg.se/2012/09/28/friday-with-filip-being-productive/">How to be productive and deliver good quality in a tight time schedule</a></li>
+	<li><a href="http://www.filipekberg.se/2012/10/05/friday-with-filip-joining-new-projects/">If you need to get a crash course in a new project, you'll want to deliver things with high quality as soon as possible</a></li>
+	<li><a href="http://www.filipekberg.se/2012/10/12/friday-with-filip-dealing-with-code-complexity/">How to spot complexity in your code base and possibly how to solve it</a></li>
 </ul>
 
 There are so much more things (even small things) that matter when you want a successful high quality project/solution. You can't rely on a decent testing strategy, security awareness and rapid development to get high quality. There's still a lot of other aspects in your project that you need to take into consideration.

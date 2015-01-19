@@ -8,7 +8,7 @@ metadescription: I've left Wordpress for Snow to get reliability and speed
 categories: Architecture, Programming
 tags: Microsoft Azure, Wordpress
 ---
-As per my previous post [I've moved to Azure](http://filipekberg.se/2014/05/20/moving-microsoft-azure/) and this has been a really interesting experience so far. Not only did it force me to learn more about the offerings of Microsoft Azure, but I also came to the conclusion that moving away, as far as possible, from Wordpress was about time.<!--excerpt-->
+As per my previous post [I've moved to Azure](http://www.filipekberg.se/2014/05/20/moving-microsoft-azure/) and this has been a really interesting experience so far. Not only did it force me to learn more about the offerings of Microsoft Azure, but I also came to the conclusion that moving away, as far as possible, from Wordpress was about time.<!--excerpt-->
 
 ### Why?
 After I had migrated to Microsoft Azure with my Wordpress blog I looked closely over how the average response time increased for the site, compared to what I had on my previous server. It wasn't until I published another WebSite on the same Instance that I noticed that I didn't really have to live with the long load times.
@@ -116,7 +116,7 @@ Same goes for the file, `post.cshtml` that we use to define the post template:
 	@{
 	    Layout = "default.cshtml";
 	    
-	    var url = "http://filipekberg.se" + @Model.Url;
+	    var url = "http://www.filipekberg.se" + @Model.Url;
 	}
 	
 	<div class="post">
@@ -167,7 +167,7 @@ My snow.config looks like the following:
 	
 	{
 	  "blogTitle": "Filip Ekberg's Blog",
-	  "siteUrl": "http://filipekberg.se",
+	  "siteUrl": "http://www.filipekberg.se",
 	  "author": "Filip Ekberg",
 	  "email": "mail@filipekberg.se",
 	  "posts": "_posts",
