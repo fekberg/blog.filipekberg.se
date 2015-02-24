@@ -6,8 +6,7 @@ author: fekberg
 comments: true
 metadescription: When is 1 Not Equal to 1?
 categories: .NET, C#
-published: draft
-tags: C# 6.0, CSharp, Null Propagation, .NET, dotnet, CSharp 6.0, C# 6, Reflector
+tags: C# 6.0, CSharp, Null Propagation, .NET, dotnet, CSharp 6.0, C# 6
 ---
 Not too long ago I noticed a rather interesting question on JabbR that caught my attention:
 
