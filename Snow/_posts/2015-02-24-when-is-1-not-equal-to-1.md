@@ -30,7 +30,7 @@ Every type in .NET has the capabilities of overriding `Equals`, however the buil
 
 And voila, it worked; which is obvious when you know the method signature of `Convert.ChangeType`. 
 
-Let us look at something, equally interesting (no pun intended). Consider we have the well-used `Point` and an `X` and `Y` coordinate. This type has an operator overload for equality checks looking like the following:
+Let us look at something, equally interesting (pun intended). Consider we have the well-used `Point` and an `X` and `Y` coordinate. This type has an operator overload for equality checks looking like the following:
 
 	public static bool operator ==(Point a, Point b)
 	{
