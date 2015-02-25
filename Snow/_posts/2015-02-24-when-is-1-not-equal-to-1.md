@@ -18,7 +18,7 @@ I ask the developer to send me the code snippet that fails, this is what the dev
 
 	Convert.ChangeType("1", typeof(int)) == Convert.ChangeType("1", typeof(int))
 
-Obviously they couldn't simply change their code to use `int.TryParse`, otherwise they would have. 
+Obviously it's simplified for the sake of this articlle, and they couldn't change their code to use `int.TryParse`, otherwise they would have. 
 
 **Do you expect this to be true?** At this point you most likely figure out that the answer to this question is no. [If we look at the complete signature of this method, we can see that it will return an **`object`**!](https://msdn.microsoft.com/en-us/library/dtb69x08(v=vs.110).aspx)
 
