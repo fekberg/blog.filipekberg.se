@@ -30,7 +30,7 @@ Every type in .NET has the capabilities of overriding `Equals`, however the buil
 	
 	((object)1).Equals((object)1)
 
-And voila, it worked; which is obvious when you know the method signature of `Convert.ChangeType`. 
+And voila, it worked; which is obvious when you know the method signature of `Convert.ChangeType`. If the developer had used `int.TryParse` instead, this problem wouldn't have occurred in the first place. However, in their solution did a few more things which didn't make this easily possible. 
 
 Let us look at something, equally interesting (pun intended). Consider we have the well-used `Point` and an `X` and `Y` coordinate. This type has an operator overload for equality checks looking like the following:
 
@@ -41,12 +41,14 @@ Let us look at something, equally interesting (pun intended). Consider we have t
 
 What do you think happens in the following scenario?
 
-	object a = new Point { X = 100, Y = 100 };
-	object b = new Point { X = 100, Y = 100 };
+	var a = new Point { X = 100, Y = 100 };
+	var b = new Point { X = 100, Y = 100 };
 
-	a == b
+	(object)a == (object)b
 
-Will `a` equal `b`? No, of course not. We are actually not making use of the operator overload in this case, since both `a` and `b` are `objects` for all we care. The solution for this would be to override `Equals`!
+Will `a` equal `b`? No, of course not. We are actually not making use of the operator overload in this case, since both `a` and `b` are `objects` for all we care.  
+
+The solution for this would be to override `Equals`!
 
 	public override bool Equals(object obj)
 	{
@@ -57,6 +59,6 @@ Will `a` equal `b`? No, of course not. We are actually not making use of the ope
 
 We even got to use null propagation! This way it wouldn't blow up if we run it like this: `a.Equals(null)`.
 
-Looking back at the fundamentals from time to time doesn't hurt, and helping out a fellow developer in need at least makes me sleep better at night.
+Looking back at the fundamentals from time to time doesn't hurt, and helping out a fellow developer in need at least makes me sleep better at night.  
 
 I hope you found this read interesting!
