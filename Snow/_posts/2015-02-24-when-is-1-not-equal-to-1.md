@@ -14,11 +14,11 @@ Not too long ago I noticed a rather interesting question on JabbR that caught my
 
 To my surprise the data type was not of a type where `NaN` is applicable;<!--excerpt--> in fact it was insisted that this was an integer compared to another integer. Being even more intrigued about the problem at this point I asked for a little bit more insight into the code. A piece of the code caught my eyes, the developer had to convert two parameters into the integers for some reason. To do this in C#, you can use `Convert.ChangeType`; minimum this method takes two parameters: the value and the type to convert to.
 
-I ask the developer to send me the code snippet that fails, this is what the developer sends me:
+**I ask the developer** to send me the code snippet that fails, this is what the developer sends me:
 
 	Convert.ChangeType("1", typeof(int)) == Convert.ChangeType("1", typeof(int))
 
-Obviously it's simplified for the sake of this articlle, and they couldn't change their code to use `int.TryParse`, otherwise they would have. 
+Obviously it's simplified for the sake of this article, and they couldn't change their code to use **`int.TryParse`**, otherwise they would have. 
 
 **Do you expect this to be true?** At this point you most likely figure out that the answer to this question is no. [If we look at the complete signature of this method, we can see that it will return an **`object`**!](https://msdn.microsoft.com/en-us/library/dtb69x08(v=vs.110).aspx)
 
