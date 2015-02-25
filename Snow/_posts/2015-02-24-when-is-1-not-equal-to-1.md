@@ -57,4 +57,6 @@ Will `a` equal `b`? No, of course not. We are actually not making use of the ope
 
 We even got to use null propagation! This way it wouldn't blow up if we run it like this: `a.Equals(null)`.
 
-Looking back at the fundamentals from time to time doesn't hurt, and helping out a fellow developer in need at least makes me sleep better at night. I hope you found this read interesting!
+Looking back at the fundamentals from time to time doesn't hurt, and helping out a fellow developer in need at least makes me sleep better at night.
+
+I hope you found this read interesting!
