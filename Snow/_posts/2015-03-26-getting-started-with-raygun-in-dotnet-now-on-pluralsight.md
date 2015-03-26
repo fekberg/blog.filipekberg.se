@@ -18,4 +18,6 @@ I am very excited to announce that my latest course is now available on Pluralsi
 <li>ASP.NET applications</li>
 </ul>
 
+Watch the course on Pluralsight: [Getting Started with Raygun in .NET](http://www.pluralsight.com/courses/raygun-dotnet-getting-started)
+
 I hope you enjoy my work on this course, please leave me a comment if you end up watching the course and let me know if it helps you!
