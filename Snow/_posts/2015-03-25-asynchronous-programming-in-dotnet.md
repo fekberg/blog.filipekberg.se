@@ -4,7 +4,6 @@ title: Asynchronous Programming in .NET
 date: 2015-03-25 00:00
 author: fekberg
 comments: true
-published: draft
 metadescription: Learn how Asynchronous Programming works, and what you need to know how to avoid deadlocks!
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, CSharp 6.0, C# 6, Reflector
@@ -14,7 +13,7 @@ Asynchronous programming have been around for quite some time. Even so it is bec
 After watching this session, I hope that you will have a good understanding how to use asynchronous operations in your code. Be it a WPF, Windows Forms, Xamarin.iOS, Xamarin.Android, ASP.NET or other .NET application! We will of course look at the most common reasons for locking and killing your application.
 
 <div class="video-container">
-<iframe width="640" height="360" src="//www.youtube.com/embed/fNTf680fTHE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/PQKIS2oZ_K0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 **Slides available below on Slideshare**
