@@ -4,7 +4,6 @@ title: Joining Invoice2Go
 date: 2015-04-20 00:00
 author: fekberg
 comments: true
-published: draft
 metadescription: I'm joining Invoice2Go as a Senior Software Engineer
 categories: .NET, C#
 tags: Invoice2Go, Career, .NET, C# 
