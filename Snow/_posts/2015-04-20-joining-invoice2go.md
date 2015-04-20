@@ -12,4 +12,4 @@ tags: Invoice2Go, Career, .NET, C#
 
 I would really like to thank everyone that has attended my sessions, watched my courses, read my book or visited this blog; you are all the reason I love doing what I do. Without your support, I would never have moved to Australia and I would never have had the opportunity to work with these great companies!
 
-My adventure at <a href="https://www.invoice2go.com" target="__blank">Invoice2Go</a> starts next week and I am super excited!
+**My adventure at <a href="https://www.invoice2go.com" target="__blank">Invoice2Go</a> starts next week and I am super excited!**
