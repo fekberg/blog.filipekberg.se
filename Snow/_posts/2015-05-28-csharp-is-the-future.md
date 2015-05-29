@@ -4,7 +4,6 @@ title: C# Is The Future
 date: 2015-05-28 00:00
 author: fekberg
 comments: true
-published: draft
 metadescription: C# is definitely as relevant as always, are you embracing C#?
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, CSharp 6.0, C# 6
