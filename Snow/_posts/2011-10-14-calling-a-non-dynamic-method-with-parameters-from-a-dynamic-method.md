@@ -24,7 +24,7 @@ Also the Jmp operation has a set of requirements ( from MSDN ):
 	<li>There are no stack transition behaviors for this instruction.</li>
 	<li>The jmp (jump) instruction transfers control to the method specified by method, which is a metadata token for a method reference. The current arguments are transferred to the destination method.</li>
 	<li>The evaluation stack must be empty when this instruction is executed. The calling convention, number and type of arguments at the destination address must match that of the current method.</li>
-	<li>The <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.jmp.aspx">`OpCodes.Jmp`</a> instruction cannot be used to transferred control out of a try, filter, catch, or finally block.</li>
+	<li>The <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.jmp.aspx">OpCodes.Jmp</a> instruction cannot be used to transferred control out of a try, filter, catch, or finally block.</li>
 </ul>
 
 So by the looks of it, we want to use <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.call.aspx">`OpCodes.Call`</a>! The method that I want to call is quite simple, it looks like this:
