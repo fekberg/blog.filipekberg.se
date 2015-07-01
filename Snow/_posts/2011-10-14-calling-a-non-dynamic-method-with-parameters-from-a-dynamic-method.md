@@ -13,8 +13,8 @@ I think it's time that we explore some more `OpCodes` and in this post I will lo
 There are two `OpCodes` that we can use to execute a method these are<!--excerpt-->:
 
 <ul>
-	<li><a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.call.aspx">`OpCodes.Call`</a></li>
-	<li><a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.jmp.aspx">`OpCodes.Jmp`</a></li>
+	<li><a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.call.aspx">OpCodes.Call</a></li>
+	<li><a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.jmp.aspx">OpCodes.Jmp</a></li>
 </ul>
 
 The difference between these two are important, the first one <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.call.aspx">`OpCodes.Call`</a>, calls a method and expects that we are coming back after the <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.ret.aspx">`OpCodes.Ret`</a> in the called method. Whereas <a href="http://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes.jmp.aspx">`OpCodes.Jmp`</a> exit the context.
