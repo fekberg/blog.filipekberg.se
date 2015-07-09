@@ -31,13 +31,11 @@ pushd %DEPLOYMENT_SOURCE%
 call  .\Snow\_compiler\Snow.exe config=.\Snow\
 IF !ERRORLEVEL! NEQ 0 goto error
 
-del %DEPLOYMENT_SOURCE%\Website\feed\index.xml
 rmdir /s /q %DEPLOYMENT_SOURCE%\Website\feed
 mkdir %DEPLOYMENT_SOURCE%\Website\feed
 copy %DEPLOYMENT_SOURCE%\Website\feed.xml %DEPLOYMENT_SOURCE%\Website\feed\index.xml
 
-del %DEPLOYMENT_SOURCE%\Website\feed\index.xml
-rmdir /s /q %DEPLOYMENT_SOURCE%\Website\feed
+rmdir /s /q %DEPLOYMENT_SOURCE%\Website\rss
 mkdir %DEPLOYMENT_SOURCE%\Website\rss
 copy %DEPLOYMENT_SOURCE%\Website\rss.xml %DEPLOYMENT_SOURCE%\Website\rss\index.xml
 
