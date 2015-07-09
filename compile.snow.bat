@@ -31,13 +31,13 @@ pushd %DEPLOYMENT_SOURCE%
 call  .\Snow\_compiler\Snow.exe config=.\Snow\
 IF !ERRORLEVEL! NEQ 0 goto error
 
-rmdir /s /q %DEPLOYMENT_SOURCE%\Website\feed
-mkdir %DEPLOYMENT_SOURCE%\Website\feed
-copy %DEPLOYMENT_SOURCE%\Website\feed.xml %DEPLOYMENT_SOURCE%\Website\feed\index.xml
+rmdir /s /q %DEPLOYMENT_SOURCE%\Snow\Website\feed
+mkdir %DEPLOYMENT_SOURCE%\Snow\Website\feed
+copy %DEPLOYMENT_SOURCE%\Snow\Website\feed.xml %DEPLOYMENT_SOURCE%\Snow\Website\feed\index.xml
 
-rmdir /s /q %DEPLOYMENT_SOURCE%\Website\rss
-mkdir %DEPLOYMENT_SOURCE%\Website\rss
-copy %DEPLOYMENT_SOURCE%\Website\rss.xml %DEPLOYMENT_SOURCE%\Website\rss\index.xml
+rmdir /s /q %DEPLOYMENT_SOURCE%\Snow\Website\rss
+mkdir %DEPLOYMENT_SOURCE%\Snow\Website\rss
+copy %DEPLOYMENT_SOURCE%\Snow\Website\rss.xml %DEPLOYMENT_SOURCE%\Snow\Website\rss\index.xml
 
 echo Finish - Building the Snow Site
 echo -----
@@ -65,8 +65,8 @@ IF NOT DEFINED KUDU_SYNC_COMMAND (
 )
 
 
-echo Kudu Sync from "%DEPLOYMENT_SOURCE%\Snow\Website" to "%DEPLOYMENT_TARGET%"
-call %KUDU_SYNC_COMMAND% -q -f "%DEPLOYMENT_SOURCE%\Website" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.deployment;deploy.cmd" 2>nul
+echo Kudu Sync from "%DEPLOYMENT_SOURCE%\Snow\Snow\Website" to "%DEPLOYMENT_TARGET%"
+call %KUDU_SYNC_COMMAND% -q -f "%DEPLOYMENT_SOURCE%\Snow\Website" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.deployment;deploy.cmd" 2>nul
 IF !ERRORLEVEL! NEQ 0 goto error
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
