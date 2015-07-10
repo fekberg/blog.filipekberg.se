@@ -11,12 +11,14 @@ tags: Azure, Microsoft Azure, Traffic Manager
 ---
 Yesterday I was notified on Twitter that the RSS feed for my blog included draft posts. Which is not really ideal since it will contain articles that aren't really ready. I have previously written about how I moved to [Sandra.Snow from Wordpress](http://www.filipekberg.se/2014/05/21/goodbye-wordpress-hello-snow/) and how much I really enjoy this transition. One of the biggest benefits is that it is open source, this means fixing this bug was rather easy and quick.
 
-Albeit the fix might have been easy and quick, I did run in to some issues with my automatic deployment. Every time I check something in to the git repository, Azure will notice this and start deploying my website. Little did I know that there was another bug, unrelated to the RSS feed getting my drafts, in my deployment script. Luckily for me, I got Microsoft Azure Traffic Manager running on-top of my blog, which means that I load balance between different zones. It's configured to run in performance mode so that visitors in US are transferred to the US West location. Meanwhile, EU visitors are transitioned to the EU location and Asia to the Southeast Asia location.
+Albeit the fix might have been easy and quick, I did run in to some issues with my automatic deployment. Every time I check something in to the git repository, Azure will notice this and start deploying my website. Little did I know that there was another bug, unrelated to the RSS feed getting my drafts, in my deployment script. Luckily for me, I got Microsoft Azure Traffic Manager running on-top of my blog, which means that I load balance between different zones. 
+
+The load balancer is configured to run in performance mode so that visitors in US are transferred to the US West location. Meanwhile, EU visitors are transitioned to the EU location and Asia to the Southeast Asia location.
 
 To avoid down-time, I had two options when fiddling around with the fix for the bug.
 
-1) Clone the Website in one of the locations and setup a staging like environment
-2) Disable one of the locations in the load balancer and use that as a staging environment
+1. **Clone the Website** in one of the locations and setup a staging like environment
+2. **Disable one of the locations** in the load balancer and use that as a staging environment
 
 Obviously the second option would be cheaper, but it does come at a price: users from that location will experience longer load times.
 
@@ -26,11 +28,12 @@ As mentioned above, I have the site running in three different locations: West U
 
 The beauty is that I can hit the websites using a handful of different URLs, externally you will visit this blog on <a href="http://www.filipekberg.se">www.filipekberg.se</a>, but it's also setup to listen at:
 
-1) filipekberg.se
-2) blog.filipekberg.se (legacy)
-3) fekberg.trafficmanager.net (azure traffic manager)
+* filipekberg.se
+* blog.filipekberg.se (legacy)
+* fekberg.trafficmanager.net (azure traffic manager)
 
 And the region specific endpoints:
+
 * fekberg.azurewebsites.net (West US)
 * fekberg-sea.azurewebsites.net (Southeast Asia)
 * fekberg-eu.azurewebsites.net (Europe)
