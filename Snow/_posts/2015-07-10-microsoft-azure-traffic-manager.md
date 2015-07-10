@@ -4,7 +4,6 @@ title: Microsoft Azure Traffic Manager
 date: 2015-07-10 00:00
 author: fekberg
 comments: true
-published: draft
 metadescription: Azure, Traffic Manager
 categories: Azure
 tags: Azure, Microsoft Azure, Traffic Manager
