@@ -19,7 +19,7 @@ To avoid down-time, I had two options when fiddling around with the fix for the 
 1. **Clone the Website** in one of the locations and setup a staging like environment
 2. **Disable one of the locations** in the load balancer and use that as a staging environment
 
-Obviously the second option would be cheaper, but it does come at a price: users from that location will experience longer load times.
+Obviously the second option would be cheaper, but it does come at a price: users from that location will experience longer load times.<!--excerpt-->
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/microsoft-azure-traffic-manager/fekberg-websites.png"/>
 
