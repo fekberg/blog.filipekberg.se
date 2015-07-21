@@ -8,8 +8,6 @@ metadescription: C# 6.0, C# 7.0 all these changes happening, are you keeping up?
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, CSharp 6.0, C# 6.0, C# 6, C# 7, C# 7.0, future of c#
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/csharp-is-the-future-ssw-tv/filip-ekberg-collage.png"/>
-
 Over the past year I've done a few talks on C# 6.0 and the changes that we can expect from the next version of C#. Interestingly enough, each time I've done this talk a bunch of things have changed. Features have been added, features have been put on-hold and most importantly more people have joined the [discussions on Github](https://github.com/dotnet/roslyn/issues/2136).
 
 I was invited to speak at the Sydney and Canberra .NET User Groups where I talked about how C# is truly a relevant programming language of the future. It's time to embrace it!<!--excerpt-->
