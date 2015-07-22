@@ -8,7 +8,7 @@ metadescription: Asynchronous Programming is a difficult subject, in this talk I
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet
 ---
-Asynchronous programming can be very difficult, and if done incorrectly it can cause devastating results in your applications!<!--excerpt--> In this talk I introduce asynchronous programming in .NET and talk about a few gotchas that will be handy along the way. I'd also like to take this opportunity to announce that I'm working on my next Pluralsight course that will talk about Asynchronous Programming in .NET. It is definitely an important subject and I hope you'll enjoy both my coming course, and the blow presentation.
+Asynchronous programming can be very difficult, and if done incorrectly it can cause devastating results in your applications!In this talk I introduce asynchronous programming in .NET and talk about a few gotchas that will be handy along the way. I'd also like to take this opportunity to announce that I'm working on my next Pluralsight course that will talk about Asynchronous Programming in .NET. It is definitely an important subject and I hope you'll enjoy both my coming course, and the blow presentation.<!--excerpt--> 
 
 <div class="video-container">
 <iframe width="640" height="360" src="//www.youtube.com/embed/uDNFfzizfTU" frameborder="0" allowfullscreen></iframe>
