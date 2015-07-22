@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No More Deadlocks - SSW TV
-date: 2015-07-22 00:00
+date: 2015-07-21 21:00
 author: fekberg
 comments: true
 metadescription: Asynchronous Programming is a difficult subject, in this talk I try to teach you some gotchas to make your life easier!
