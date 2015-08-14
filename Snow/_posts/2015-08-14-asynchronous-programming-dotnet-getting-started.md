@@ -27,4 +27,4 @@ No need to worry! Pluralsight offers a 10 day free trial, sign up, check out my 
 
 
 <img src="http://cdn.filipekberg.se/fekberg-blog/asynchronous-programming-dotnet-getting-started/
-pluralsight_access_pass.png" style="float: right; margin-left: 10px;"/>**Win a 30 day UNLIMITED Access Pass!**<br><br>I've got a handful of 30 day UNLIMITED Access Passes, if you want to win one, please leave a comment below and share some of your war stories when it comes to Asynchronous Programming!
+access_pass.png" style="float: right; margin-left: 10px;"/>**Win a 30 day UNLIMITED Access Pass!**<br><br>I've got a handful of 30 day UNLIMITED Access Passes, if you want to win one, please leave a comment below and share some of your war stories when it comes to Asynchronous Programming!
