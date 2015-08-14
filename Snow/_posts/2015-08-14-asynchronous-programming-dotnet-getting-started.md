@@ -4,7 +4,6 @@ title: Getting Started with Asynchronous Programming in .NET
 date: 2015-08-14 00:00
 author: fekberg
 comments: true
-published:  draft
 metadescription: In this course, we will cover the way to get started with asynchronous programming in .NET. You will learn how to apply these patterns in new and existing applications and you will see how to avoid the common mistakes!
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet
