@@ -8,7 +8,7 @@ metadescription: Do you want to master C#? Do you want to know what C# applicati
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, raygun, mindscape, msil, il, compilers, roslyn
 ---
-In 2013, I published my first Pluralsight course; [MSIL for the C# Developer](http://www.pluralsight.com/courses/msil-csharp-developer). The aim of this course was to teach you about how a compiler looks at your C# code, and translates that into something else. Understanding the internals of how C# is translated into IL is a good way to master C#. If you're building a car, knowing what an engine looks like on the inside will most certainly make you a better mechanic; although you'll get a long way without it as well.
+In 2013, I published my first Pluralsight course; [MSIL for the C# Developer](http://www.pluralsight.com/courses/msil-csharp-developer). The aim of this course was to teach you about how a compiler looks at your C# code, and translates that into something else. Understanding the internals of how C# is translated into IL is a good way to master C#. If you're building a car, knowing what an engine looks like on the inside will most certainly make you a better mechanic; although you'll get a long way without it as well.<!--excerpt--> 
 
 If you are building high performance applications, or when optimizing your applications for IoT, knowing what penalties are applied to your code when introducing certain keywords will really help you build faster and more solid applications.
 
