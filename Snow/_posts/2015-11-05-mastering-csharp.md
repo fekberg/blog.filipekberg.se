@@ -24,6 +24,8 @@ All to often, someone tells me that they don't understand why their application 
 
 Is this all you need to master C#? No, certainly not. It's a good step in the right direction: learn about what the compiled code looks like, learn how to analyze it, learn how to properly track errors in your applications and finally understand how to do proper asynchronous programming which is becoming more and more important. All of this will give you a good boost towards really mastering C#.
 
+If video courses is not your thing, I'd recommend checking out my book [C# Smorgasbord](http://books.filipekberg.se/). It's available as hard cover, PDF and kindle.
+
 So what's next? I'd really love to hear about your ideas on what you want to learn next!
 
 **Here's a list of my courses on Pluralsight to date:**
