@@ -7,12 +7,11 @@ comments: true
 metadescription: I Want To Learn Programming, Where Do I Start?
 categories: Programming
 ---
-<img style="float: right; width: 200px; padding-left: 10px; padding-bottom: 10px;" src="http://cdn.filipekberg.se/fekberg-blog/i-want-to-learn-programming-where-do-i-start/ReadingCSharpSmorgasbord.jpeg" />Rather frequently I get questions from friends, family and strangers asking me about what it's like to work as a software engineer. We've got a good reputation that we are well paid and have fun at work, at least that is what I've noticed people thinking about this occupation. It's not like we're paid as much as movie stars, even though some of us pretend that we are stars, but it still attracts people because of the wages and its reputation.<!--excerpt-->
+<img style="float: right; width: 200px; padding-left: 10px; padding-bottom: 10px;" src="http://cdn.filipekberg.se/fekberg-blog/i-want-to-learn-programming-where-do-i-start/ReadingCSharpSmorgasbord.jpeg" />Rather frequently I get questions from friends, family and strangers asking me about what it's like to work as a software engineer. We've got a good reputation that we are well paid and have fun at work. At least that is what I've noticed people thinking about this occupation. It's not like we're paid as much as movie stars, even though some of us pretend that we are stars, but it still attracts people because of the wages and its reputation.<!--excerpt-->
 
 While studying to become a software engineer, our class had the highest drop-out rate of all programs and largely because the misconception of what a software engineer has to do and has to learn. Some of the people just wanted to party, they would just have dropped out no matter what program they choose, others thought they would just play with computers all day. While "playing” with computers is what we do, it involves a bit more brain cells than playing an easy video game.
 
-When I meet up with family and friends, and strangers they often ask me: **So what is it that you really do?** This is the question that comes right before **Wow, that sounds awesome, how would one become a programmer?**. The answer to the first question though varies depending on whom I talk to. When talking to non-techie people I can't drop terms like "continuous integration”, "C#", "Azure” and whatnot; I have to use a language they understand. It's all about using an ubiquitous
-language, that goes for both working in and outside projects.
+When I meet up with family and friends, and strangers they often ask me: **So what is it that you really do?** This is the question that comes right before **Wow, that sounds awesome, how would one become a programmer?**. The answer to the first question though varies depending on whom I talk to. When talking to non-techie people I can't drop terms like "continuous integration”, "C#", "Azure” and whatnot; I have to use a language they understand. It's all about using a ubiquitous language, that goes for both working in and outside projects.
 
 **So what is it that you really do?** I help customers solve problems, to help them increase productivity and revenue, by introducing new software, often hand-crafted to their requirements.
 
@@ -28,7 +27,7 @@ First thing I try to do is of course to figure out why they want to learn progra
 
 > When you find yourself doing the same thing over and over again, consider automating that with software that you write yourself
 
-If you hava a real world problem, or a real goal for that matter, it's easier to suggest a course of action. Writing the software and learning how to write it will most likely take a lot more time than just repeating yourself though, which is something to be honest about and to have in mind. However, when you've learnt how to write your first software, writing the second one should be easier or at least go a bit quicker.
+If you have a real world problem, or a real goal for that matter, it's easier to suggest a course of action. Writing the software and learning how to write it will most likely take a lot more time than just repeating yourself though, which is something to be honest about and to have in mind. However, when you've learnt how to write your first software, writing the second one should be easier or at least go a bit quicker.
 
 **I Want To Learn Programming, Where Do I Start?**
 
