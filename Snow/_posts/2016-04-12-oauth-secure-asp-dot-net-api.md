@@ -9,7 +9,7 @@ categories: .NET, C#, IdentityServer
 tags: C#, CSharp, OAuth, IdentityServer, OpenId Connect, IdentityServer3, async, await, asynchronous programming, .NET, dotnet
 ---
 
-I'm very excited and proud to announce that my latest course is now live on Pluralsight! This course gives you an introduction to OAuth, OpenId Connect, IdentityServer, and ultimately, how to secure your ASP.NET APIs. I really hope you enjoy the course "[Using OAuth to Secure Your ASP.NET API](https://www.pluralsight.com/courses/oauth-secure-asp-dot-net-api)"!<!--excerpt-->
+I'm very excited and proud to announce that my latest course is now live on Pluralsight! This course gives you an introduction to OAuth, OpenId Connect, IdentityServer, and ultimately, how to secure your ASP.NET APIs. I really hope you enjoy the course "[Using OAuth to Secure Your ASP.NET API](https://www.pluralsight.com/courses/oauth-secure-asp-dot-net-api)"<!--excerpt-->
 
 The course covers:
 
