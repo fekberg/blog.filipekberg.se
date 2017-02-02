@@ -39,6 +39,8 @@ rmdir /s /q %DEPLOYMENT_SOURCE%\Snow\Website\rss
 mkdir %DEPLOYMENT_SOURCE%\Snow\Website\rss
 copy %DEPLOYMENT_SOURCE%\Snow\Website\rss.xml %DEPLOYMENT_SOURCE%\Snow\Website\rss\index.xml
 
+copy %DEPLOYMENT_SOURCE%\Snow\themes\fekberg\web.config %DEPLOYMENT_SOURCE%\Snow\Website\web.config
+
 echo Finish - Building the Snow Site
 echo -----
 
