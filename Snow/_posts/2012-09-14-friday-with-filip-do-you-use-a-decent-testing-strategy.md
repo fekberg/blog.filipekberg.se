@@ -8,7 +8,7 @@ metadescription: On Fridays, Filip shares interesting thoughts and experience th
 categories: Friday with Filip, Programming
 tags: csharp, dotnet, friday with filip, Programming
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="Friday with Filip" width="342" height="194" class="aligncenter size-full wp-image-1016" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="Friday with Filip" width="342" height="194" class="aligncenter size-full wp-image-1016" />
 
 <h3>Welcome to Friday with Filip!</h3>
 Wow, am I excited or what! I was out on a "developer lunch" in Gothenburg with some very nice people and we started talking about blogging, teaching and other fun stuff like that. We started discussing how I usually have what we call "CodeStar" at work; each Friday I teach my co-workers about something exciting for an hour or two. I'm not Always the guy doing the presentations, but mostly.<!--excerpt-->
@@ -53,12 +53,12 @@ I recently set up a fairly simple test report document that just includes this:
 	<li>Actions needed to mark the test as complete</li>
 </ul>
 
-When you assemble all these in a large document and give to your customer with a sprint delivery, you can surely feel better about yourself! <a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/TestCaseReportTemplate.docx">Here </a>is a word document that I put together for this, you can use it as you please. Let me know if you like it.
+When you assemble all these in a large document and give to your customer with a sprint delivery, you can surely feel better about yourself! <a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/TestCaseReportTemplate.docx">Here </a>is a word document that I put together for this, you can use it as you please. Let me know if you like it.
 
 <strong>What is your testing strategy, if you have any? If you don't, how would you like it to be?</strong>
 
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/quality.jpg" alt="" title="quality" width="450" style="display: block;   margin-left: auto;   margin-right: auto;" height="397" style="margin: 0 auto;" class="aligncenter size-full wp-image-1024" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/quality.jpg" alt="" title="quality" width="450" style="display: block;   margin-left: auto;   margin-right: auto;" height="397" style="margin: 0 auto;" class="aligncenter size-full wp-image-1024" />
 
 
 Don't forget to leave a comment or drop me an e-mail, thanks for reading the first <strong>Friday with Filip</strong>!

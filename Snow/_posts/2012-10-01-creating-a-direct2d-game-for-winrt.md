@@ -12,15 +12,15 @@ If you want to write a game for Windows 8 and was thinking of using XNA, think a
 
 The first thing we would have to do is to fire up Visual Studio and create a new Direct2D project. Can't find it in the C# section for Windows Store applications? That's because we'll have to use C++ for this! You'll find the project template in Other Languages -> Visual C++ -> Windows Store -> Direct2D App (XAML)<!--excerpt-->:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/12.png" alt="" title="Creating a Direct2D Project for WinRT" width="810"  class="alignnone size-full wp-image-1330" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/12.png" alt="" title="Creating a Direct2D Project for WinRT" width="810"  class="alignnone size-full wp-image-1330" />
 
 When the project is created, we will have a lot of sample files in our solution. As you can see, there are also XAML files in the project! We've got the App.xaml that will tell us which the default view is, which in this case will be DirectXPage.xaml. Let's run it in a simulated mode and see what this default code gives us. With Visual Studio 2012 we get a very handy simulator, to run the application inside it, simply change the target from Local Machine to Simulator:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/21.png" alt="" title="Running a Direct2D sample in a Windows 8 simulator" width="810" class="alignnone size-full wp-image-1332" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/21.png" alt="" title="Running a Direct2D sample in a Windows 8 simulator" width="810" class="alignnone size-full wp-image-1332" />
 
 This will bring up the simulator and the application that we got by default will let us drag around the title and if we right click the surface, we get an app bar that will allow us to change the background:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/3.png" alt="" title="Running the Direct2D Demo" width="810" class="alignnone size-full wp-image-1336" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/3.png" alt="" title="Running the Direct2D Demo" width="810" class="alignnone size-full wp-image-1336" />
 
 Here's a small video on YouTube showing what this looks like when it's running:
 
@@ -52,7 +52,7 @@ Have a look in the method `SimpleTextRenderer::Render()`, if we were to add a re
 
 We could run the application and it would look like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/4.png" alt="" title="A 2D Rectangle with Direct2D" width="810" class="alignnone size-full wp-image-1341" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/4.png" alt="" title="A 2D Rectangle with Direct2D" width="810" class="alignnone size-full wp-image-1341" />
 
 Now, try to move the rectangle around, notice that it moves around just like the text we had before did? <strong>That's magical!</strong> Actually, it's just a transformation going on; the Direct2D context is transformed and the area is moved to wherever the mouse was. These are the lines in that method which changes the transformation:
 
@@ -64,7 +64,7 @@ Now, try to move the rectangle around, notice that it moves around just like the
 
 If we simply comment these out, we'll see a completely different result. You should now see the rectangle at the top of the screen being 100 pixels wide and 100 pixels high:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/5.png" alt="" title="Direct2D Sample without transformation" width="810" class="alignnone size-full wp-image-1343" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/5.png" alt="" title="Direct2D Sample without transformation" width="810" class="alignnone size-full wp-image-1343" />
 
 Now to make this a bit more interesting, let's make the box move around a little bit. In order for it not to rely on the point & move event, we need to go back to the `DirectXPage` and remove something from the event handler `DirectXPage::OnRendering`. As it is now, it checks if it needs to be rendered by falling back on a boolean variable, but this bool is only set to true when we've moved the mouse (or finger) around. That means that the event handler should look like this instead:
 

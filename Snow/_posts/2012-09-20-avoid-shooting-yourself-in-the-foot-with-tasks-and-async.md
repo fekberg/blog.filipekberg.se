@@ -8,7 +8,7 @@ metadescription: It can be easy to shoot yourself in the foot with async, i this
 categories: .NET, C#, Programming
 tags: async, await, csharp, pitfalls
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/pitfalls2.jpg" alt="" title="Avoid the pitfalls" width="200" style="display: block;   margin-left: auto;   margin-right: auto;" class="aligncenter size-full wp-image-1142" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/pitfalls2.jpg" alt="" title="Avoid the pitfalls" width="200" style="display: block;   margin-left: auto;   margin-right: auto;" class="aligncenter size-full wp-image-1142" />
 
 Since the release of .NET 4.5, you've been able to use the RTM version of <strong>Async & Await</strong>. There are some things though that can lead to very weird behaviors in your applications, and a lot of confusion. Kevin (<a href="https://twitter.com/Pilchie">Pilchie</a>) over at Microsoft just gave me heads up on some of these and I thought that I would share it with the rest of you!<!--excerpt-->
 

@@ -4,7 +4,7 @@ https://keybase.io/fekberg
 
 I hereby claim:
 
-  * I am an admin of http://www.filipekberg.se
+  * I am an admin of https://www.filipekberg.se
   * I am fekberg (https://keybase.io/fekberg) on keybase.
   * I have a public key with fingerprint 3F13 5660 D328 9CBA CE2D  14CF A178 38E3 F9BB 0A1C
 

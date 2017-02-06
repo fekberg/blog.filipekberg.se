@@ -8,7 +8,7 @@ metadescription: On Fridays, Filip shares interesting thoughts and experience th
 categories: Friday with Filip, Programming
 tags: csharp, dotnet, friday with filip, Programming
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="float: left;" width="342" height="194" class="aligncenter size-full wp-image-1016" />I was once put in a project where a lot of the architecture and development was already in place. Immediately when I started working with the project I gave the other team members my thoughts on improvements, some of them regarding testing and some of the regarding security. Last week we focused on the testing, so this week, let us talk a little bit about security.<!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="float: left;" width="342" height="194" class="aligncenter size-full wp-image-1016" />I was once put in a project where a lot of the architecture and development was already in place. Immediately when I started working with the project I gave the other team members my thoughts on improvements, some of them regarding testing and some of the regarding security. Last week we focused on the testing, so this week, let us talk a little bit about security.<!--excerpt-->
 
 One of the biggest concerns I had about this project was that usernames and passwords were stored in clear text; <strong>this gave me the shivers</strong>. I talked to my team members and everyone agreed that this was Very bad. I have no idea why someone would design a login system with username and password where the information is stored in clear text. Or even in a way where passwords where stored in anything else than a hash.
 
@@ -48,6 +48,6 @@ Security is often a sensitive subject, but I find that most most organizations t
 
 <strong>Is security a key when you develop applications and is your company transparent when it comes to security?</strong>
 
-<a href="https://www.owasp.org" target="about:blank"><img style="display: block;   margin-left: auto;   margin-right: auto;" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/owasp.jpg" alt="" title="owasp" width="240" height="240" class="aligncenter size-full wp-image-1062" /></a>
+<a href="https://www.owasp.org" target="about:blank"><img style="display: block;   margin-left: auto;   margin-right: auto;" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/owasp.jpg" alt="" title="owasp" width="240" height="240" class="aligncenter size-full wp-image-1062" /></a>
 
 OWASP Top 10 is a good place to start, but it's just the tip of the iceberg. If you have any stories to share regarding security or any tips & trix along the way, feel free to leave a comment!

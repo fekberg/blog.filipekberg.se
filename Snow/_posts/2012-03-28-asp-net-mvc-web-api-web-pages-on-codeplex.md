@@ -26,7 +26,7 @@ To get started, fire up your favorite git program and clone this repository: <st
 
 I'm using <a href="http://www.syntevo.com/smartgit/index.html">SmartGit</a> in Windows and as you can see by the following screenshot, you've got a lot of nice information about the commits, branches, merges and fixes! Most important of all, it's alive, there are a lot of contributions made the last couple of days and I really think this will increase the quality of what is already high quality.
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/WebAPI_1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/WebAPI_1-1024x875.png" alt="" title="SmartGit overview of ASP.NET MVC/Web API/Web Pages Source Code" width="640" height="546" class="aligncenter size-large wp-image-708" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/WebAPI_1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/WebAPI_1-1024x875.png" alt="" title="SmartGit overview of ASP.NET MVC/Web API/Web Pages Source Code" width="640" height="546" class="aligncenter size-large wp-image-708" /></a>
 
 When you've got all the code fetched from the repository, all you need to do is fetching all the NuGet packages. They've made this process pretty simple, all you need to do is open up a command prompt, go to the folder where your local repository is and write the following:
 

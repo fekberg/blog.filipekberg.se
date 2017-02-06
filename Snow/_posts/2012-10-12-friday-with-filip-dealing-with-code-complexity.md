@@ -8,12 +8,12 @@ metadescription: On Fridays, Filip shares interesting thoughts and experience th
 categories: .NET, C#, Friday with Filip, Programming
 tags: .NET, code complexity, complexity, csharp, cyclomatic complexity, dotnet, friday with filip, ndepend, nunit, visual studio 2012, vs2012
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
 
 <h3>Welcome to this week's Friday with Filip!</h3>
 Yet another interesting week has passed with lots of things to discuss. Before we dig into this week's subject, I just want to take a brief moment to share something interesting that I found (it was recommended by someone I know from IRC). There's a hosting company called EDIS based in Austria that is now providing a very neat service; <strong>Raspberry Pi Colocation!</strong><!--excerpt--> As soon as I saw this I shared it with <a href="http://news.ycombinator.com/item?id=4636374">HackerNews</a> and got a response from EDIS on twitter:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/edis.png" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="EDIS Tweet" class="alignnone size-full wp-image-1394" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/edis.png" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="EDIS Tweet" class="alignnone size-full wp-image-1394" />
 
 <em>It's worth just thinking about this for a second, let's say that 1000 RPi's could host some websites, instead of 1000 1U rack servers; imagine the power that would be saved (and the space).</em>
 
@@ -32,5 +32,5 @@ It's a 30 minute webinar where Patrick and I talk about Code Quality, Code Compl
 
 <strong>After watching the video, please tell me and Patrick what you thought about the video and tell me what your tips are to find complexity in your code or projects!</strong>
 
-P.S. <a href="http://www.filipekberg.se/2012/11/20/c-smorgasbord-sale/">Today is the last day to get a 35%
+P.S. <a href="https://www.filipekberg.se/2012/11/20/c-smorgasbord-sale/">Today is the last day to get a 35%
 discount on C# Smorgasbord! </a>

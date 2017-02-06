@@ -25,7 +25,7 @@ I'm going to use Firefox, so all I did was installed the latest version of Firef
 <h3>Getting started with Selenium</h3>
 Open up, or create The Next Big Thing that you have in mind, I'm going to create a Test project for my ASP.NET MVC application because that is where I want my UI test to go.
 
-<img title="1" alt="1" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/1.png" width="770" border="0" />
+<img title="1" alt="1" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/1.png" width="770" border="0" />
 
 This will work with a lot of different testing frameworks, so don't worry about that for now. If you have any extremely specific testing framework, just head over to their website and <a href="http://docs.seleniumhq.org/about/platforms.jsp" target="_blank">have a look if it supports that.</a>
 
@@ -33,7 +33,7 @@ I want to write a test that verifies that the registration process works, that I
 
 Let's start now by adding a new test class to the test project, let's add this in a folder called UI just to group them nicely. My test class is called `RegistrationTest` which contains just one test method for now which I'll call `Can_Create_Account_And_Login`. This name is pretty descriptive of what is going to happen, sure you can be even more verbose but for the sake of your eyes I'll stick to something simple.
 
-<img title="2" alt="2" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/2.png" width="810" border="0" />
+<img title="2" alt="2" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/2.png" width="810" border="0" />
 
 There's not much to it yet, we just have the standard template MVC project, with a test project and a empty test which we are going to use for our first UI test.
 <h3>Installing Selenium via NuGet</h3>
@@ -58,7 +58,7 @@ How do you imagine that we will find elements on the web page? How would you fin
 </ul>
 The test we want to write will create a user by first navigating to the URL that our website is located on, I will just hard code this into the tests but I'd recommend storing this in a configuration file. When arrived at the page, we want to click the Register link, enter the username, password, password confirmation and finally press submit. When that is done a user should have been created and we can verify that by looking for the “Hello [Name goes here]”.
 
-<img title="3" alt="3" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/3.png" width="810" border="0" />
+<img title="3" alt="3" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/3.png" width="810" border="0" />
 
 Of course after we've registered the user and automatically been redirected to the private area of the website we want to logout and verify that the data is still persisted, so we are going to somewhat do the same process but via the registration page instead.
 
@@ -184,7 +184,7 @@ It's not really that massive or hard to get started with, this is a very simple 
 
 This is what it will look like when you run it, one thing, make sure that the web application is already up and running, if the tests can't reach it they'll fail! Notice that in the end of the test run, all the tests turn green and you can go on to testing the next thing.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/TestAutomationforWebApplications.gif" alt="TestAutomationforWebApplications" width="800" class="alignnone size-full wp-image-2206" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/01/TestAutomationforWebApplications.gif" alt="TestAutomationforWebApplications" width="800" class="alignnone size-full wp-image-2206" />
 
 Of course there are a couple of things that could come back and bite you if you're not careful, as always that is. One of the things to keep in mind is that when you use the selectors for your items, what happens if you have the same css selector for multiple items? What happens if you remove the class? There are a bunch of cases like that which you need to have in mind, but at the end of the day, this will surely help you ensure the application works better than if there were no tests!
 

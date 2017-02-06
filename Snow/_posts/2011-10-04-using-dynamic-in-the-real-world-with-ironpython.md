@@ -52,11 +52,11 @@ For those that don't know Python programming, what this basically does is that i
 
 I imported this file into my visual studio project and the project should now look somewhat like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/using-dynamic-in-the-real-world-with-ironpython/ironpython.png" alt="" style="width: 800px;"/>
+<img src="https://cdn.filipekberg.se/fekberg-blog/using-dynamic-in-the-real-world-with-ironpython/ironpython.png" alt="" style="width: 800px;"/>
 
 You also need to change the property on the file that states that it will be copied to the output directory, the properties for the file should look like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/using-dynamic-in-the-real-world-with-ironpython/ironpython_propertywindow.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/using-dynamic-in-the-real-world-with-ironpython/ironpython_propertywindow.png" alt="" />
 
 Let's dig into the C# code, shall we?
 

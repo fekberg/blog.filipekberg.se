@@ -8,7 +8,7 @@ metadescription: I've left Wordpress for Snow to get reliability and speed
 categories: Architecture, Programming
 tags: Microsoft Azure, Wordpress
 ---
-As per my previous post [I've moved to Azure](http://www.filipekberg.se/2014/05/20/moving-microsoft-azure/) and this has been a really interesting experience so far. Not only did it force me to learn more about the offerings of Microsoft Azure, but I also came to the conclusion that moving away, as far as possible, from Wordpress was about time.<!--excerpt-->
+As per my previous post [I've moved to Azure](https://www.filipekberg.se/2014/05/20/moving-microsoft-azure/) and this has been a really interesting experience so far. Not only did it force me to learn more about the offerings of Microsoft Azure, but I also came to the conclusion that moving away, as far as possible, from Wordpress was about time.<!--excerpt-->
 
 ### Why?
 After I had migrated to Microsoft Azure with my Wordpress blog I looked closely over how the average response time increased for the site, compared to what I had on my previous server. It wasn't until I published another WebSite on the same Instance that I noticed that I didn't really have to live with the long load times.
@@ -51,7 +51,7 @@ In other cases it might be a different language than C# and the attributes might
 
 I say "markdown" because it is not proper markdown, the files still have HTML inside them so that was not converted, but that doesn't matter because it still works.
 
-![](http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/posts.png)
+![](https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/posts.png)
 
 **All posts are now markdown, now what?**
 
@@ -93,7 +93,7 @@ In the `_posts` folder we put all the posts that we want to publish. This is whe
 ##### themes
 As I have my posts, all I need is to create my theme. This is where we do just that. I am a ASP.NET guy and I really enjoy working with Razor. Snow lets me do this and we can even have multiple themes! I created a theme that I call `fekberg`.
 
-![](http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/fekberg_theme.png)
+![](https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/fekberg_theme.png)
 
 As you see a bit further into the folder structur we have a `_layouts` folder, in this we put our "master page", also know as the Layout file in ASP.NET MVC.
 
@@ -116,7 +116,7 @@ Same goes for the file, `post.cshtml` that we use to define the post template:
 	@{
 	    Layout = "default.cshtml";
 	    
-	    var url = "http://www.filipekberg.se" + @Model.Url;
+	    var url = "https://www.filipekberg.se" + @Model.Url;
 	}
 	
 	<div class="post">
@@ -167,7 +167,7 @@ My snow.config looks like the following:
 	
 	{
 	  "blogTitle": "Filip Ekberg's Blog",
-	  "siteUrl": "http://www.filipekberg.se",
+	  "siteUrl": "https://www.filipekberg.se",
 	  "author": "Filip Ekberg",
 	  "email": "mail@filipekberg.se",
 	  "posts": "_posts",
@@ -220,7 +220,7 @@ This file contains the following:
 
 Make note of `serve=true` this will tell Snow to serve the files after it has processed the site which makes it easy to test locally. Running that shows me something like this (note that I navigate to this post as a draf! blog-ception!):
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/snow_test_run.PNG" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/snow_test_run.PNG" style="width: 800px;" />
 
 **Looking pretty good, right?**
 
@@ -237,7 +237,7 @@ It was also important to me that I could get images uploaded to Azure Storage, a
 
 I like testing my setup, code and deployment strategy  on a demo site before I do the same changes to the live site. That means that I had to setup an Azure WebSite to test this with. I called this `fekberg-snow` and choose to put it in my current hosting plan, which is the same hosting plan that I use for the blog that was already live.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/create_website.png" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/create_website.png" style="width: 800px;" />
 
 #### Creating the Github repository
 Now that we have the Azure WebSite, we want to enable it to pull the website code from Github. There are multiple providers that you can use, but I prefer github for this. You'll have to prepare the github repository with the following:
@@ -366,34 +366,34 @@ Before hooking up Github, we need to add some connection strings to make the Azu
 
 Here is an example of what that looks like; this is found in the Web Site portal under "Configure":
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_5.png" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_5.png" style="width: 800px;" />
 
 ##### Set up deployment from source
 When in the dashboard of my Website, I simply scrolled down or look for "Set up deployment from source" and clicked that.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_1.png" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_1.png" style="width: 800px;" />
 
 ##### Where is Your Source Code?
 After clicking that, I was prompted with a selection to choose the provider of where my code is locatated. As I've pushed it to github, that is what I choose here as well.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_2.png" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_2.png" style="width: 800px;" />
 
 ##### Choose a Repository to Deploy
 I was prompted to authenticate with Github, when that was all setup I was allowed to select repositories and branches. In my case, I was deploying from `blog.filipekberg.se`.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_3.png" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_3.png" style="width: 800px;" />
 
 ##### Website is Now Deployed!
 We can verify that the deployment was successful in the "Deployments" section of the Azure WebSite. The files from the `upload` folder are now in Azure Storage and the files that Snow produced, are now in the wwwroot!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_4.png" style="width: 800px;" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/setup_deployment_4.png" style="width: 800px;" />
 
 ### I'm now using Snow and couldn't be happier!
 The live site has been using Snow now for just a little over a day and so far it has been a tremendous speed improvement. It's not really that odd because it is just static files. All this means that I scale better if I need to and you can access the site faster. It's a win - win!
 
 I compared some loading times of the same page between the Wordpress site and the Snow site, both relied on the same Azure CDN for other content. However, the time it took to download the HTML which was rather static for the same page on the two different systems is rather different.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/PerfComparison.png" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/goodbye-wordpress-hello-snow/PerfComparison.png" />
 
 **I really hope** you found this blog post informative. I spent some time writing down my thoughts during the process of deploying the site using Snow and the things I learned in Azure while doing so. It's been fun and writing content feels much easier and more fun now for some reason.
 

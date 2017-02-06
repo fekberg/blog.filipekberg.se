@@ -8,7 +8,7 @@ metadescription: The Perfect Developer Laptop - For me, the Metabox W230ST!
 categories: Programming
 tags: Clevo, Hardware, Laptop, Metabox, Programming, W230ST
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/haswell-590x357.jpg" alt="Intel Haswell" width="300" style="float: right; padding-left: 10px;" class="alignnone size-full wp-image-2109" />I have been struggling with selecting the perfect developer laptop (in my eyes) for a couple of months now as I have been waiting for ultrabooks with the latest Haswell technology. Now I'd like to share what I ended up getting and what I ended up returning back to the store as it was just not good enough.<!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/haswell-590x357.jpg" alt="Intel Haswell" width="300" style="float: right; padding-left: 10px;" class="alignnone size-full wp-image-2109" />I have been struggling with selecting the perfect developer laptop (in my eyes) for a couple of months now as I have been waiting for ultrabooks with the latest Haswell technology. Now I'd like to share what I ended up getting and what I ended up returning back to the store as it was just not good enough.<!--excerpt-->
 
 <h3>Requirements</h3>
 When I initially started looking for a new laptop in the beginning/middle of the summer, I was looking for something that "had it all" these were my requirements at the time. Remember, as developers we are custom to requirements changing and this case was no different.
@@ -82,7 +82,7 @@ It will take a while to build when you order, I got mine within two weeks and th
 
 Here's some pictures borrowed from Affordable Laptops.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/metabox-clevo-w230st.gif" alt="metabox-clevo-w230st" width="811" height="707" class="alignnone size-full wp-image-2113" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/metabox-clevo-w230st.gif" alt="metabox-clevo-w230st" width="811" height="707" class="alignnone size-full wp-image-2113" />
 
 <h3>Conclusion</h3>
 
@@ -112,16 +112,16 @@ I was obviously not going to go on so long trips that the battery would be that 
 
 Here's a screenshot of me installing two virtual machines at the same time and doing some other work in the background see the temperatures, CPU usage and other:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/BeastOfALaptop.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/BeastOfALaptop-1024x677.png" alt="BeastOfALaptop" width="800" target="_blank" class="alignnone size-full wp-image-2114" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/BeastOfALaptop.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/BeastOfALaptop-1024x677.png" alt="BeastOfALaptop" width="800" target="_blank" class="alignnone size-full wp-image-2114" /></a>
 
 Here are some ATTO disk benchmarks, the first one is the OS drive which is a Samsung 840 PRO 512GB the second one is an Intel 525 240GB mSATA:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/atto-1.png" alt="atto-1" width="482" height="616" class="alignnone size-full wp-image-2115" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/atto-1.png" alt="atto-1" width="482" height="616" class="alignnone size-full wp-image-2115" />
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/atto-2.png" alt="atto-2" width="482" height="616" class="alignnone size-full wp-image-2116" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/atto-2.png" alt="atto-2" width="482" height="616" class="alignnone size-full wp-image-2116" />
 
 Here's the complete specification spectrum for the device, as you can see it is also called SAGER:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/Specs.jpg" alt="Specs" width="800" class="alignnone size-full wp-image-2111" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/Specs.jpg" alt="Specs" width="800" class="alignnone size-full wp-image-2111" />
 
 Some images borrowed from the <a href="http://forum.notebookreview.com/sager-clevo-reviews-owners-lounges/715556-official-clevo-w230st-sager-np7330-owners-lounge.html" target="_blank">W230ST Owners Lounge</a>.

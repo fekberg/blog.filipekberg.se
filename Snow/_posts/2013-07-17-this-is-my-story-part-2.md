@@ -17,7 +17,7 @@ I was shown that when you press the button it activates the circuit and when tha
 
 <blockquote>We wanted to make it easier for parents and the lazy people to have control over what devices are turned on or off in their home. With this device, you can simply open the Blasting Home Control program and press On / Off to control it.</blockquote>
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/4.png" alt="4" width="673" height="391" class="alignright size-full wp-image-2042" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/4.png" alt="4" width="673" height="391" class="alignright size-full wp-image-2042" />
 
 The project was a success, but when it came to presenting the project for the entire class I panicked. I really hated standing in front of people maybe because I was forced to do it and never learned how to do it properly before. Either way I got to do it in front of a small group that just had the principal, my teacher and one or two more people. We had another guy in charge at school, he was in the military prior to working at the school and I told him off my fear and he gave me a private lesson in how to speak in front of an audience. Some neat tricks such as walk from one since of the room to the other, taking small pauses to breath, drinking water and what not; I was still nervous though.
 <h3>Games follow me everywhere</h3>
@@ -35,7 +35,7 @@ I was accepted to the two year school, it was still a couple of weeks left in sc
 
 The weeks passed and when graduation came up I got the word that I had passed the math course and I knew that the deadline for applying to college had passed; what now?
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/2.png" alt="2" width="200" class="alignright size-full wp-image-2044" style="float: right; padding-left: 15px;" />I asked the teacher/principal that had helped me with my project; the lights on/off project. He helped me apply to the college in Ronneby – Blekinge Institute of Technology and the Software Engineering program. Luckily enough they didn’t have that many applicants as programming educations had faded out a bit. Even though I applied long after the deadline I got the word that I got into the program and I was faced with deciding to either go to college to study Software Engineering or more or less being handed a job from the 2 year program.
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/2.png" alt="2" width="200" class="alignright size-full wp-image-2044" style="float: right; padding-left: 15px;" />I asked the teacher/principal that had helped me with my project; the lights on/off project. He helped me apply to the college in Ronneby – Blekinge Institute of Technology and the Software Engineering program. Luckily enough they didn’t have that many applicants as programming educations had faded out a bit. Even though I applied long after the deadline I got the word that I got into the program and I was faced with deciding to either go to college to study Software Engineering or more or less being handed a job from the 2 year program.
 
 <em>I choose Software Engineering.</em>
 
@@ -94,4 +94,4 @@ I went on a lot of interviews for positions both as senior C++ developer on a co
 
 <em>This was my first “real” job as a full-time software engineer and I started off as a lead developer, in a small team but still making a lot of the interesting decisions. Prior to this I had only worked with my own business at the side of my studies which in many recruiters eyes made me look like a junior developer; maybe I was? I never considered myself a junior developer when I finished school though.</em>
 
-<a href="http://www.filipekberg.se/2013/07/22/this-is-my-story-part-3/">Continue to part 3</a>
+<a href="https://www.filipekberg.se/2013/07/22/this-is-my-story-part-3/">Continue to part 3</a>

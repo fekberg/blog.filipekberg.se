@@ -8,7 +8,7 @@ metadescription: Have you tried Nancy yet? It makes life easier!
 categories: C#
 tags: ASP.NET, C/C++, csharp, Getting started, How-to, Nancy, Programming, Web, Web Development
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/nancy-logo.png" alt="nancy-logo" width="70"  style="float: right; margin: 0; padding: 0; padding-left: 20px;" class="alignnone size-full wp-image-2157" />Have you had a chance to play with Nancy yet? Nancy is a way for us to experience the web in a lightweight way, without relying on ASP.NET or ASP.NET MVC. I'm not saying that Nancy is replacing any of those, but it is here as an alternative. Let's look at some examples of what a Nancy demo application might look like, to give you an idea of how easy it is.<!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/nancy-logo.png" alt="nancy-logo" width="70"  style="float: right; margin: 0; padding: 0; padding-left: 20px;" class="alignnone size-full wp-image-2157" />Have you had a chance to play with Nancy yet? Nancy is a way for us to experience the web in a lightweight way, without relying on ASP.NET or ASP.NET MVC. I'm not saying that Nancy is replacing any of those, but it is here as an alternative. Let's look at some examples of what a Nancy demo application might look like, to give you an idea of how easy it is.<!--excerpt-->
 
 <blockquote>Nancy is a lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono. The goal of the framework is to stay out of the way as much as possible and provide a super-duper-happy-path to all interactions.</blockquote>
 
@@ -18,7 +18,7 @@ I figured I wanted to give Nancy a try, I've seen it being used all over the pla
 
 <strong>So where do you start?</strong> <a href="https://github.com/NancyFx/Nancy" target="_blank">Nancy is open source</a> and I figured I shouldn't have to pull the code from <a href="https://github.com/NancyFx/Nancy" target="_blank">Github</a> to get started, there must be a NuGet package! So let's create a new Empty Web Application and start from there.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/1.png" alt="1" width="800" class="alignnone size-full wp-image-2154" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/1.png" alt="1" width="800" class="alignnone size-full wp-image-2154" />
 
 This leaves us with a pretty blank solution and we can start off by trying to install some stuff via NuGet. Bring up the Package Manager Console, write <strong>Install-Package Nancy</strong> and press Tab. This will show you a huge amount of interesting packages that we might need to get this running.
 
@@ -63,7 +63,7 @@ The entire code for making that work is the following:
 
 <strong>Simple enough right?</strong>
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/3.png" alt="3" width="800" class="alignnone size-full wp-image-2156" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/3.png" alt="3" width="800" class="alignnone size-full wp-image-2156" />
 
 The solution is so clean and we can focus on what is important: <strong>The functionality of the application!</strong>
 
@@ -93,11 +93,11 @@ However, with Nancy we must remove the leading "~/" otherwise it will throw an e
 
 Easily enough I can press F5 to debug the application and it shows me my two beautiful pages.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/Nancy-Browsing-Website.png" alt="4" width="800" class="alignnone size-full wp-image-2156" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/Nancy-Browsing-Website.png" alt="4" width="800" class="alignnone size-full wp-image-2156" />
 
 There's much more to Nancy than this demo application, but with just some easy steps we've created something we can work with and we don't have so much in the application that it's messy with lots of files.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/5.png" alt="5" width="800" class="alignnone size-full wp-image-2156" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/5.png" alt="5" width="800" class="alignnone size-full wp-image-2156" />
 
 The <a href="https://github.com/NancyFx/Nancy/wiki/Documentation" target="_blank">Nancy documentation page</a> is full with lots of interesting information about what you can do with Nancy and <strong>I'd love to hear if you used Nancy in a larger production web site!</strong> If you get hooked on Nancy or want to read more about it, <a href="http://www.philliphaydon.com/category/nancyfx/" target="_blank">Philip Haydon has a lot of interesting articles on his blog</a>!
 

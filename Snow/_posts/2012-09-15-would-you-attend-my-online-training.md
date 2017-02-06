@@ -12,7 +12,7 @@ I really enjoy sharing my experience and knowledge with others and I've been con
 
 Therefore, I would like to see if there's any interest in something like this. Let us assume any subject around C#/Windows 8/Programming in general.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/training.jpg" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="training" width="463" height="259" class="aligncenter size-full wp-image-1047" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/training.jpg" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="training" width="463" height="259" class="aligncenter size-full wp-image-1047" />
 
 Looking forward to see what you think! If you want to suggest a topic for training, let me know in the comment field.
 

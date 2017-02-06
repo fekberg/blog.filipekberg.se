@@ -18,7 +18,7 @@ All that was day two, besides for the actual recording, so up until now everythi
 
 As an attendee the highlight of the day was when Ballmer announced that everyone is getting 100GB of SkyDrive! I am actually going to swap from DropBox for a while to see if it is better or not. However that awesome present wasn’t enough for Ballmer so he also announced that everyone attending would get a Surface RT 32GB! When everyone calmed down and promised to write awesome apps for Windows RT, the VP for Nokia comes out on stage and gives away a Lumina 920 to everyone attending the confidence. At this time I wanted to lay down on the floor and cry of happiness. This was announced in the morning so we had to wait for our awesome devices for the entire day!
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/1.png" alt="" title="So much love from BUILD 2012" width="800" class="alignnone size-full wp-image-1442" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/1.png" alt="" title="So much love from BUILD 2012" width="800" class="alignnone size-full wp-image-1442" /></a>
 
 As soon as we picked up our stuff we went back to the hotel and I recorded an unboxing (I know most people hate those!) and hands-on.
 

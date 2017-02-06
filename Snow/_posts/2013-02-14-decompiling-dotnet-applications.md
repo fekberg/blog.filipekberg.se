@@ -12,15 +12,15 @@ There are many reasons to why you might want to decompile an application after i
 
 The following image illustrates what happens when we compile something, we put the C# code into a basket and tell the compiler to give us a binary of this which is sort of a black box at the moment. We know that whenever we want to use this black box we have something behind the curtain that knows how to open it and use it properly (read: CLR).<!--excerpt-->
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Compiling_CSharpCode.png" alt="Compiling C# Code" width="752" height="224" class="alignright size-full wp-image-1720" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Compiling_CSharpCode.png" alt="Compiling C# Code" width="752" height="224" class="alignright size-full wp-image-1720" />
 
-Let's consider a basic variable instantiation and an equality check, when this is compiled it will output something partially readable. To me the output is readable but that's just because I have a weird love for IL. When this basic snippet was compiled using <a href="http://www.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/" target="_blank">LINQPad</a> it generated some IL which you can see below.
+Let's consider a basic variable instantiation and an equality check, when this is compiled it will output something partially readable. To me the output is readable but that's just because I have a weird love for IL. When this basic snippet was compiled using <a href="https://www.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/" target="_blank">LINQPad</a> it generated some IL which you can see below.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Compiled_CSharpCode.png" alt="Compiled C# Code" width="576" height="408" class="alignright size-full wp-image-1717" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Compiled_CSharpCode.png" alt="Compiled C# Code" width="576" height="408" class="alignright size-full wp-image-1717" />
 
 Imagine that you got a DLL from an old co-worker and the code is long gone but you need to make some changes to the code. What do you do?  One option is to mimic the functionality if the application is not too big and create it from scratch but that is just cumbersome. Instead what we want to do is something like you can see illustrated below; we want to go back from IL to C#!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Decompiling_CsharpCode.png" alt="Decompiling C# Code" width="548" height="413" class="alignright size-full wp-image-1718" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Decompiling_CsharpCode.png" alt="Decompiling C# Code" width="548" height="413" class="alignright size-full wp-image-1718" />
 
 <strong><em>So how do we do this?</em> By using a decompiler!</strong>
 
@@ -33,17 +33,17 @@ JustDecompile is completely free and <a href="http://www.telerik.com/products/de
 
 Below is a screenshot of the installer and as you can see it advices you to install a lot of trials for other Telerik products.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/JustDecompileInstaller.png" alt="JustDecompile Installer" width="810" height="590" class="alignright size-full wp-image-1723" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/JustDecompileInstaller.png" alt="JustDecompile Installer" width="810" height="590" class="alignright size-full wp-image-1723" />
 
 After selecting only to install JustDecompile the installation will only take up 36MB. You'll also need to create a Telerik account if you don't already have one which can also be a hassle, but it's free so why not!
 
 I've setup a project that has the same variable declarations and the equality check from above and then compiled and opened the executable in JustDecompile. The result is quite similar to the original source as you can see in the following image.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Decompiling_With_JustDecompile.png" alt="Decompiling with JustDecompile" width="810" class="alignright size-full wp-image-1727" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Decompiling_With_JustDecompile.png" alt="Decompiling with JustDecompile" width="810" class="alignright size-full wp-image-1727" />
 
 We can also select to show the result as IL instead of C# code!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Decompile_With_JustDecompile_IL.png" alt="Decompile with JustDecompile show IL" width="810" class="alignright size-full wp-image-1729" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/Decompile_With_JustDecompile_IL.png" alt="Decompile with JustDecompile show IL" width="810" class="alignright size-full wp-image-1729" />
 
 There are a couple of things that I didn't find straight forward using JustDecompile.
 
@@ -68,21 +68,21 @@ Even though there are some cons; would I recommend you using it? Of course! If y
 <h3>ILSpy</h3>
 This one is interesting, ILSpy is an open source assembly browser and decompiler for .NET Applications! This means that if you don't like what it does or if you have feature suggestions, "you can just" provide the fix yourself! The tool itself is equal to what JustDecompile offers but the installation process is much easier. You simply grab the binaries or source from the <a href="http://ilspy.net/" target="_blank">ILSpy website</a> and unzip it wherever you want it!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy.png" alt="ILSpy" width="759" height="467" class="alignright size-full wp-image-1731" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy.png" alt="ILSpy" width="759" height="467" class="alignright size-full wp-image-1731" />
 
 I simply performed the same process as I did with JustDecompile; I started ILSpy and opened up my executable but this is where it gets interesting. The code that it decompiles to looks Exactly like the code that I wrote in Visual Studio as you can see in the following image.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy_Decompile.png" alt="ILSpy Decompile" width="810" class="alignright size-full wp-image-1734" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy_Decompile.png" alt="ILSpy Decompile" width="810" class="alignright size-full wp-image-1734" />
 
 Decompiling to VB also works right out of the box, this tool has what it takes!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy_Decompile_VB.png" alt="ILSpy Decompile to VB" width="810"  class="alignright size-full wp-image-1736" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy_Decompile_VB.png" alt="ILSpy Decompile to VB" width="810"  class="alignright size-full wp-image-1736" />
 
 Now to the more interesting feature; Can we save/export this to a C# Project?
 
 By the looks of it there's a "Save Code" action in the File menu, selecting the assembly and then pressing ctrl+s or the "Save Code" action actually lets us save a csproj file! If you open up the location in your file explorer you will see that it actually generated a project file and the code file!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy_SaveProject.png" alt="ILSpy Save project and Export Code files" width="810" class="alignright size-full wp-image-1738" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/ILSpy_SaveProject.png" alt="ILSpy Save project and Export Code files" width="810" class="alignright size-full wp-image-1738" />
 
 I think we've looked enough at ILSpy to write up a pros and cons!
 
@@ -111,13 +111,13 @@ Just as the two mentioned above dotPeek is available for free, it's not open sou
 
 Installing this is easy and doesn't force you or ask you to install anything else than what you really want in this case.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/dotPeek.png" alt="dotPeek" width="528" height="516" class="alignright size-full wp-image-1753" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/dotPeek.png" alt="dotPeek" width="528" height="516" class="alignright size-full wp-image-1753" />
 
 If you are familiar with ReSharper (R#) which is also a product from JetBrains, the keyboard shortcuts will be something of value to you. In fact dotPeek uses the same navigation as you might be used to from using ReSharper!
 
 Let's have a look at what dotPeek thinks of our executable. When opening up dotPeek you're meet with a beautiful interface that feels like it's a part of the Visual Studio family (except for the very colorful icons). Opening up the executable and looking at the code you can see that it didn't really give us the same result as any of the other decompilers we've looked at.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/dotPeek_1.png" alt="dotPeek looking at the code" width="810" class="alignright size-full wp-image-1754" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/dotPeek_1.png" alt="dotPeek looking at the code" width="810" class="alignright size-full wp-image-1754" />
 
 So instead of actually displaying what the IL tells us, it analyzes the IL and optimizes the code for us which is really not what we want to do. There's also no way of swapping between C#, VB.NET, F# or IL. So in this case we are "stuck" with looking at some C# code without knowing what IL it comes from.
 
@@ -151,17 +151,17 @@ The installation is easy and doesn't try to force you to install a lot of other 
 
 Just as with JustDecompile and ILSpy I opened up the executable that we looked at before and as expected it shows the same result as ILSpy does!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector.png" alt=".NET Reflector" width="810" class="alignright size-full wp-image-1741" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector.png" alt=".NET Reflector" width="810" class="alignright size-full wp-image-1741" />
 
 As you can see here the UI is quite minimal and easy to understand. What is interesting here is that it also allows us to view the code as F# code as you can see in the following image.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector_FSharp.png" alt=".NET Reflector F#" width="810"  class="alignright size-full wp-image-1742" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector_FSharp.png" alt=".NET Reflector F#" width="810"  class="alignright size-full wp-image-1742" />
 
 If we want to export the code that we have just as we did with ILSpy we can right click the assembly and select "Export source code" this then asks us where to store it and gives us information about the exported files. As you can see in the two following images it exported more files than ILSpy did.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector_ExportCode.png" alt=".NET Reflector Export Code" width="810" class="alignright size-full wp-image-1745" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector_ExportCode.png" alt=".NET Reflector Export Code" width="810" class="alignright size-full wp-image-1745" />
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector_ExportCode_2.png" alt=".NET Reflector Export Code Window" width="406" height="329" class="alignright size-full wp-image-1744" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/DotNetReflector_ExportCode_2.png" alt=".NET Reflector Export Code Window" width="406" height="329" class="alignright size-full wp-image-1744" />
 
 And the resulted files look exactly as we expect them to, the code file has the same code as we did in the original source code.
 

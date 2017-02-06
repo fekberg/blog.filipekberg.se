@@ -10,7 +10,7 @@ tags: C/C++, cpp, metro, windows 8
 ---
 I am going to step out of my comfort zone a bit and write a post that touches the surface of C++ in Windows 8. Let us start off by looking at an image of what the new WinRT(Windows Runtime) look like:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/winrt.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/winrt.png" alt="" title="Windows Runtime" width="814" class="aligncenter size-full wp-image-805" /></a><!--excerpt-->
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/winrt.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/winrt.png" alt="" title="Windows Runtime" width="814" class="aligncenter size-full wp-image-805" /></a><!--excerpt-->
 
 As you can see, there are a lot of powerful ways to create both metro style and desktop applications. Notice that in Metro style applications, XAML is connected to both C++ and C#/VB.
 
@@ -30,15 +30,15 @@ Let us have a look at this! You will need to have Windows 8 Consumer Preview and
 
 Start off by creating a new blank Windows Metro style application, this is found under "Other languages -> Visual C++":
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/1.png" alt="" title="Creating a new Windows Metro Style application" width="814" class="aligncenter size-full wp-image-812" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/1.png" alt="" title="Creating a new Windows Metro Style application" width="814" class="aligncenter size-full wp-image-812" /></a>
 
 When the project is created, you will see some files that have been generated, these are pretty similar to what we are used to see in a normal XAML application in .NET:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/2.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/2.png" alt="" title="The blank WinRT solution" width="814" class="aligncenter size-full wp-image-814" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/2.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/2.png" alt="" title="The blank WinRT solution" width="814" class="aligncenter size-full wp-image-814" /></a>
 
 Open up the file "BlankPage.xaml", this will bring you into the designer view of the XAML file. Add a `TextBlock` to the page:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/31.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/31.png" alt="" title="The XAML view" width="814" class="aligncenter size-full wp-image-818" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/31.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/31.png" alt="" title="The XAML view" width="814" class="aligncenter size-full wp-image-818" /></a>
 
 As you can see in the preview, it shows a tablet with the current view inside it. Remember that we are working with a Metro application, the idea is that you have a metro application in fullscreen or pinned to one of the sides on your screen.
 
@@ -72,11 +72,11 @@ So in order to set the value of the `TextBlock` we do:
 
 We can test-run this before we display the current time. First, let's select to run it in a simulator like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/4.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/4.png" alt="" title="Starting the Simulator" width="814" class="aligncenter size-full wp-image-819" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/4.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/4.png" alt="" title="Starting the Simulator" width="814" class="aligncenter size-full wp-image-819" /></a>
 
 This will bring up a tablet emulator that mirrors your system:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/5.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/5.png" alt="" title="The tablet simulator" width="814" class="aligncenter size-full wp-image-820" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/5.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/5.png" alt="" title="The tablet simulator" width="814" class="aligncenter size-full wp-image-820" /></a>
 
 Now let's take a look at how to get the current date there instead of that "Hello World!" text. In WinRT you can access an object called `Calendar` which you can use to get the date and time.
 
@@ -98,6 +98,6 @@ So in order to get a calendar object, calibrate it to the current time and then 
     					calendar->MonthAsString() + " " +
     					calendar->DayAsString();
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/6.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/6.png" alt="" title="Showing the date in a C++ XAML Application" width="937" height="599" class="aligncenter size-full wp-image-821" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/6.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/6.png" alt="" title="Showing the date in a C++ XAML Application" width="937" height="599" class="aligncenter size-full wp-image-821" /></a>
 
 This has been a short post about how to create your first C++ Metro style application in Windows 8 and I hope you enjoyed the read, if you have any questions do not hesitate to leave a comment, tweet or e-mail.

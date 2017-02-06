@@ -29,7 +29,7 @@ My old system was a virtual machine running Ubuntu, as I was running Wordpress i
 
 I decided to go with a Microsoft Azure WebSite, running on a Medium Instance VM. This gives me a dedicated, managed, virtual machine with 2 cores and 3.5GB RAM. I've set it to auto-scale based on CPU, I'd like to do it per RAM but I just hope this will do.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/AzureCapacity.png" alt="AzureCapacity" width="800" class="alignnone size-full wp-image-2381" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/AzureCapacity.png" alt="AzureCapacity" width="800" class="alignnone size-full wp-image-2381" />
 
 As you see here, I've told Azure to scale my VM when it hits 80% CPU, I've only set it to allow 2 instances otherwise this will also hit my wallet hard.
 
@@ -37,7 +37,7 @@ There is a huge difference in my setup though, remember I said that I am running
 
 <strong>So where do I store the MySQL database?</strong>? Turns out, that when you tell Azure to create a new WebSite with Wordpress as you see per the screenshot below, it asks you if you want to attach it to a ClearDB MySQL database. This is a MySQL hosting provider, not owned by Microsoft. It does come with a bit of a cost but as I cache all the things, I only need (as of now) the tier 2 version. This means I pay $9/month for my database.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/CreateNewWordpress.png" alt="CreateNewWordpress" width="800" class="alignnone size-full wp-image-2391" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/CreateNewWordpress.png" alt="CreateNewWordpress" width="800" class="alignnone size-full wp-image-2391" />
 
 The step after this is where you select your ClearDB plan, they do have a free plan with 20MB of space which isn't really much, but to start off with your blog it's great!
 
@@ -51,7 +51,7 @@ With the Wordpress site up and running, all you need now is to install W3 Total 
 
 There are two different kinds of CDN's that you can set up: Pull and Push. The ones using Push requires you to manually tell it to upload files, this is what Azure requires as of now. Pull works with CDNs like MaxCDN. Tell it to use Microsoft Azure Storage as your CDN.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/WordpressCDN.png" alt="WordpressCDN" width="800" class="alignnone size-full wp-image-2411" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/WordpressCDN.png" alt="WordpressCDN" width="800" class="alignnone size-full wp-image-2411" />
 
 After that, you'll have to head over to Wordpress -> Performance -> CDN to make the necessary settings for Windows Azure. You will have to enter the following settings:
 
@@ -63,13 +63,13 @@ After that, you'll have to head over to Wordpress -> Performance -> CDN to make 
 
 You get these settings in Azure when you create a new Storage. Once you've entered these you can click on Create container to automatically set it up in Azure.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/AttachAzureStorage.png" alt="AttachAzureStorage" width="800" class="alignnone size-full wp-image-2421" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/AttachAzureStorage.png" alt="AttachAzureStorage" width="800" class="alignnone size-full wp-image-2421" />
 
 Once you've done that and applied the settings, you will see a new dialog popping up all the time saying that you need to upload your files. I recommend having this stuck to the top so you don't forget. Because remember, Azure Storage is Push! You can download an official plugin for Azure that puts it all directly in Azure Storage. However, there is a reason for me not doing that. I want to be able to quickly swap hosts if I need to and just point my domains to somewhere else and have it run without much downtime.
 
 Notice how there is also a CNAME field that you can fill out? This is where you enter the CDN address that you can create in Azure. We've got a storage, but not a CDN so far.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/CreateCDN.png" alt="CreateCDN" width="800"  class="alignnone size-full wp-image-2431" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/05/CreateCDN.png" alt="CreateCDN" width="800"  class="alignnone size-full wp-image-2431" />
 
 You point this CDN to the Storage you created and it will deliver the files in there to all the CDNs all over the world. Now you'll have to head back to Wordpress and setup that CDN address to make it all work. It does take a while before the CDN is up and all the files are distributed so don't panic!
 

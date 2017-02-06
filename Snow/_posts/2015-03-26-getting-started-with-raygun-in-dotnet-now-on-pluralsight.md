@@ -8,7 +8,7 @@ metadescription: My course Getting Started with Raygun in .NET is now available 
 categories: .NET, C#
 tags: Raygun, Error Tracking, Xamarin, WPF, WinForms, Windows Services, TopShelf, C#, CSharp, async, await, asynchronous programming, .NET, dotnet, CSharp 6.0, C# 6, Reflector
 ---
-<img src="http://raygun.io/images/robots/homeRobot_right.png" alt="" style="float: right; margin-left: 10px; width: 60px;">I am very excited to announce that my latest course is now available on Pluralsight! This time I talk about the importance of tracking errors and how to easily track errors using Raygun!<br><br>Exactly two years ago, on this very day, [I published an article](http://www.filipekberg.se/2013/03/26/easy-error-tracking-in-your-applications/) on how to easily add error tracking to your applications using Raygun! Now I am very excited to announce this course on Pluralsight that covers the usage of Raygun in different types of .NET applications.
+<img src="http://raygun.io/images/robots/homeRobot_right.png" alt="" style="float: right; margin-left: 10px; width: 60px;">I am very excited to announce that my latest course is now available on Pluralsight! This time I talk about the importance of tracking errors and how to easily track errors using Raygun!<br><br>Exactly two years ago, on this very day, [I published an article](https://www.filipekberg.se/2013/03/26/easy-error-tracking-in-your-applications/) on how to easily add error tracking to your applications using Raygun! Now I am very excited to announce this course on Pluralsight that covers the usage of Raygun in different types of .NET applications.
 
 Watch this course to learn how to track unexpected errors in:
 

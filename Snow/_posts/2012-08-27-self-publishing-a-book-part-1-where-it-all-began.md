@@ -18,13 +18,13 @@ Those are some of the questions that I receive on a daily basis. I've had in min
 If you have any questions just give me a comment, tweet or e-mail, I will try to answer all questions.
 
 <h3>Where did the idea come from?</h3>
-It all began long before I decided to make a book. During 2011, I <a href="http://www.filipekberg.se/2012/01/05/a-summary-of-2011-and-a-look-at-what-is-about-to-come/">blogged </a>a lot, had a lot of in-house presentations for co-workers, did <a href="http://www.youtube.com/user/frW87?feature=mhee">screencasts </a>and spent a lot of time on <a href="http://stackoverflow.com/users/39106/filip-ekberg">StackOverflow</a>.
+It all began long before I decided to make a book. During 2011, I <a href="https://www.filipekberg.se/2012/01/05/a-summary-of-2011-and-a-look-at-what-is-about-to-come/">blogged </a>a lot, had a lot of in-house presentations for co-workers, did <a href="http://www.youtube.com/user/frW87?feature=mhee">screencasts </a>and spent a lot of time on <a href="http://stackoverflow.com/users/39106/filip-ekberg">StackOverflow</a>.
 
 So here I was, with all these great raw materials that I didn't know what to do with. I felt that I wanted to reach out to the people that didn't attend my presentations, that didn't read everything in my blog and that didn't even know about my work in the first place. This started to grow on me, in late November 2011 I started doing some research on how to convert a blog to a book. My initial thought was just to copy and paste everything from my blog into a (what I thought at the time) nice Word template.
 
 This resulted in something looking like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/1-1024x349.png" alt="" title="1" width="800" class="aligncenter size-large wp-image-970" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/1-1024x349.png" alt="" title="1" width="800" class="aligncenter size-large wp-image-970" /></a>
 
 At this time, I didn't have any experience at all with publishing, authoring, type-setting or anything at all like that. Once I had copy and pasted everything from my blog, I had a Word document with about 120 pages. 
 
@@ -64,6 +64,6 @@ Before I gave the idea up completely on the PDF, I did some research on "print-o
 
 <h3>Check out the other parts in the series</h3>
 <ul>
-	<li><a href="http://www.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2 – Back at Square One</a></li>
-	<li><a href="http://www.filipekberg.se/2012/09/23/self-publishing-a-book-part-3-using-a-good-typesetting-system/">Part 3 – Using a good typesetting system</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2 – Back at Square One</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/23/self-publishing-a-book-part-3-using-a-good-typesetting-system/">Part 3 – Using a good typesetting system</a></li>
 </ul>

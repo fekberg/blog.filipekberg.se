@@ -8,17 +8,17 @@ metadescription: On Fridays, Filip shares interesting thoughts and experience th
 categories: Friday with Filip, Programming, Projects & Project Organization
 tags: code quality, communicaiton issues, communication, dotnet, friday with filip, Programming, project management, project organization, project quality, projects
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
 
 <h3>Welcome to this week's Friday with Filip!</h3>
 During the Fridays with Filip we've looked at how to ensure that certain parts of your project conforms to a high standard. I'm talking about the following<!--excerpt-->:
 
 <ul>
-	<li><a href="http://www.filipekberg.se/2012/09/14/friday-with-filip-do-you-use-a-decent-testing-strategy/">Ensuring that we have a decent testing strategy</a></li>
-	<li><a href="http://www.filipekberg.se/2012/09/21/friday-with-filip-do-you-care-about-web-security/">Talking about security in your project</a></li>
-	<li><a href="http://www.filipekberg.se/2012/09/28/friday-with-filip-being-productive/">How to be productive and deliver good quality in a tight time schedule</a></li>
-	<li><a href="http://www.filipekberg.se/2012/10/05/friday-with-filip-joining-new-projects/">If you need to get a crash course in a new project, you'll want to deliver things with high quality as soon as possible</a></li>
-	<li><a href="http://www.filipekberg.se/2012/10/12/friday-with-filip-dealing-with-code-complexity/">How to spot complexity in your code base and possibly how to solve it</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/14/friday-with-filip-do-you-use-a-decent-testing-strategy/">Ensuring that we have a decent testing strategy</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/21/friday-with-filip-do-you-care-about-web-security/">Talking about security in your project</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/28/friday-with-filip-being-productive/">How to be productive and deliver good quality in a tight time schedule</a></li>
+	<li><a href="https://www.filipekberg.se/2012/10/05/friday-with-filip-joining-new-projects/">If you need to get a crash course in a new project, you'll want to deliver things with high quality as soon as possible</a></li>
+	<li><a href="https://www.filipekberg.se/2012/10/12/friday-with-filip-dealing-with-code-complexity/">How to spot complexity in your code base and possibly how to solve it</a></li>
 </ul>
 
 There are so much more things (even small things) that matter when you want a successful high quality project/solution. You can't rely on a decent testing strategy, security awareness and rapid development to get high quality. There's still a lot of other aspects in your project that you need to take into consideration.
@@ -29,7 +29,7 @@ One of the first things you'll learn when talking about domain driven design is:
 
 Previously this week I asked something a bit weird on twitter as you can see in the image below.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/fekberg.png" alt="" style="display: block;   margin-left: auto;   margin-right: auto;" title="fekberg" width="580" height="305" class="alignnone size-full wp-image-1431" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/fekberg.png" alt="" style="display: block;   margin-left: auto;   margin-right: auto;" title="fekberg" width="580" height="305" class="alignnone size-full wp-image-1431" />
 
 At a glance, this might be a very weird question. Why would you explain something that is so far away from their reality? <em>Someone responded and said that they would just not do it because they would probably be killed for knowing too much.</em>
 

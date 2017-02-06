@@ -8,7 +8,7 @@ metadescription: Memory access pattern matters even in C#
 categories: .NET, C#, Programming
 tags: C/C++, csharp, Memory, Programming
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/ignorance-is-bliss.jpg" alt="ignorance-is-bliss" width="223 class="alignright size-full wp-image-1985" style="float: right;padding-left: 15px; padding-bottom: 15px;" />Last week on BUILD there was a talk on <a href="http://channel9.msdn.com/Events/Build/2013/4-329" target="_blank">Native Code Performance and Memory: The Elephant in the CPU</a>, even though I didn't attend BUILD this year I watched it on Channel9 and I'd like to recap something from it that I find interesting. In many cases I think that we ignore the fact that we need to handle performance optimizations ourselves, we can't hide behind the CLR and the compiler all the time now, can we?<!--excerpt--> Some say that Ignorance is Bliss, but in this case Ignorance might cause a lot of headache.<br><br>Let's start by taking an example from Eric Brumer's talk. Consider that we have the following three multi-dimensional arrays:
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/ignorance-is-bliss.jpg" alt="ignorance-is-bliss" width="223 class="alignright size-full wp-image-1985" style="float: right;padding-left: 15px; padding-bottom: 15px;" />Last week on BUILD there was a talk on <a href="http://channel9.msdn.com/Events/Build/2013/4-329" target="_blank">Native Code Performance and Memory: The Elephant in the CPU</a>, even though I didn't attend BUILD this year I watched it on Channel9 and I'd like to recap something from it that I find interesting. In many cases I think that we ignore the fact that we need to handle performance optimizations ourselves, we can't hide behind the CLR and the compiler all the time now, can we?<!--excerpt--> Some say that Ignorance is Bliss, but in this case Ignorance might cause a lot of headache.<br><br>Let's start by taking an example from Eric Brumer's talk. Consider that we have the following three multi-dimensional arrays:
 
     int N = 1000;
     var A = new int[N, N];
@@ -17,7 +17,7 @@ tags: C/C++, csharp, Memory, Programming
 
 Each matrix can be visualized like this, but in our case let's use random numbers later on. So as you can see it grows to the size of N in both X and Y axis.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/Matrix-300x217.png" alt="Matrix" width="300" height="217" class="alignright size-medium wp-image-1986" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/Matrix-300x217.png" alt="Matrix" width="300" height="217" class="alignright size-medium wp-image-1986" />
 
 We can use the following code to fill these with random numbers:
 
@@ -45,11 +45,11 @@ Running this on my machine takes about 12 seconds. We can do much better than th
 
 To some of you it might be obvious that when you access elements in memory that are closer to each other, this is faster than when accessing random memory over and over again. An array, or a row in a multi-dimensional array are stored in a sequence in memory. Here's an example of that:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MemoryAlignment.png" alt="MemoryAlignment" width="810" class="alignright size-medium wp-image-1994" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MemoryAlignment.png" alt="MemoryAlignment" width="810" class="alignright size-medium wp-image-1994" />
 
 Let's focus on `B[k, j]`. The `k` in this case tells us which row to load data from and the `j` which column. This means that when we are in the first iteration we will load the first value from the first column and the second time we will load the first value from the second row like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MemoryAlignment-2-1024x501.png" alt="MemoryAlignment-2" width="810" class="alignright size-large wp-image-1998" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MemoryAlignment-2-1024x501.png" alt="MemoryAlignment-2" width="810" class="alignright size-large wp-image-1998" />
 
 This is really bad because when we ask for the data in `[0, 0]` we will also have the surrounding data loaded into the cache. This means that the second time we iterate we will have to load a completely new chunk of data into the cache/memory because we don't have access to the row that we want.
 

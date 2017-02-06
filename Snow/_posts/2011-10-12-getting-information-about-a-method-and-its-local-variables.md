@@ -41,7 +41,7 @@ I am going to use almost the same code as in the last example, except that I've 
         }
     }
 
-If you want to know more about what it does, be sure to <a href="http://www.filipekberg.se/2011/10/11/creating-static-methods-at-runtime/">check out my previous blog post</a>! It's a bit easier to create my dynamic method now and invoke it:
+If you want to know more about what it does, be sure to <a href="https://www.filipekberg.se/2011/10/11/creating-static-methods-at-runtime/">check out my previous blog post</a>! It's a bit easier to create my dynamic method now and invoke it:
 
     var methodCreator = new MyMethodCreator();
     DivideInvoker divideIt = methodCreator.CreateInvoker();
@@ -137,7 +137,7 @@ As you can see we just use the property information as we've seen in earlier blo
 
 And when I run it I will get the following information ( more text after the picture! ):
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/getting-information-about-a-method-and-its-local-variables/DumpStackFrames.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/getting-information-about-a-method-and-its-local-variables/DumpStackFrames.png" alt="" />
 
 As you can see the dynamic method has a pretty odd type as opposed to what it would look like if we used a lambda expression like this instead:
 

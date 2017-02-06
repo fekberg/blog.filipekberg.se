@@ -18,7 +18,7 @@ Now to the winners, I know that's why you're here anyways. As the giveaway was r
 
 <strong>Sergio</strong> with the following comment:
 
-<blockquote>Checking the content this book has, it would be a good reference to create great architectures using advanced techniques like Reflection or runtime thing creation. It also shows last features of .Net framework so it will have good examples of how to understand them (I honestly can't understand async :$ and no good Spanish doc, besides that, I have no credit card to buy the book :P) I read about the book on this Hacker News's link: http://cdn.filipekberg.se/2012/07/21/c-smorgasbord-will-soon-be-available/
+<blockquote>Checking the content this book has, it would be a good reference to create great architectures using advanced techniques like Reflection or runtime thing creation. It also shows last features of .Net framework so it will have good examples of how to understand them (I honestly can't understand async :$ and no good Spanish doc, besides that, I have no credit card to buy the book :P) I read about the book on this Hacker News's link: https://cdn.filipekberg.se/2012/07/21/c-smorgasbord-will-soon-be-available/
 (I said: "I need that book!!")</blockquote>
 
 <strong>Adam</strong> with the following comment:
@@ -49,6 +49,6 @@ I find it especially awesome that you self-published the book :)</blockquote>
 
 <a name="discount">Now to those of you that didn't win a free copy. I've setup a discount code that can be used on <a href="https://www.createspace.com/3759762"  target="about:blank">CreateSpace</a> (this is where the book is printed) and this will give you a 35% discount!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/CSharpSmorgasbordDiscount_RestOf2012.png" style="float: right;" /><span style="margin: 0; padding:0; font-size: 120%; font-weight: bold;">Use discount code N9UV3WDP to get 35% off <a href="https://www.createspace.com/3759762" target="about:blank">here (takes you to CreateSpace)!</a></span><br/><br/><em>Pssst.. if you don't want to wait for the printed copy to arrive due to (sometimes) long shipping, you can get the ebook the same day as you purchase the printed copy! <a href="http://books.filipekberg.se/Ebook" target="about:blank">Just fill out this form</a>.</em>
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/CSharpSmorgasbordDiscount_RestOf2012.png" style="float: right;" /><span style="margin: 0; padding:0; font-size: 120%; font-weight: bold;">Use discount code N9UV3WDP to get 35% off <a href="https://www.createspace.com/3759762" target="about:blank">here (takes you to CreateSpace)!</a></span><br/><br/><em>Pssst.. if you don't want to wait for the printed copy to arrive due to (sometimes) long shipping, you can get the ebook the same day as you purchase the printed copy! <a href="http://books.filipekberg.se/Ebook" target="about:blank">Just fill out this form</a>.</em>
 
 Enjoy the read and spread the discount code to anyone and everyone!

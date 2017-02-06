@@ -16,7 +16,7 @@ This won't be one of my lengthy posts, this time I'll leave some of the investig
 
 I created a very simple .NET 4.5 console application in Visual Studio 2012 which I named AsyncDemoProject. In this application which you can see below I just created a very simple async operation which I want to inspect further.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/Async1.png" alt="Creating an Async &amp; Await project" width="810" class="alignright size-full wp-image-1624" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/Async1.png" alt="Creating an Async &amp; Await project" width="810" class="alignright size-full wp-image-1624" />
 
 The most simple application that I could think of creating was one that simply creates a task that sleeps for a while then returns a string. What my application then does is simply awaiting this and setting a property to a value that indicates that the operation is done.
 
@@ -63,11 +63,11 @@ This can be used as simple as this:
 
 What happens when we run this is that a console will be opened and after about two seconds we will see a message telling us "Hello World" of course the console will be filled up with the text "Async is Amazing no?!!!" until that message is shown and that loop is exited due to the condition being met.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/Async2.png" alt="Console Application running" width="677" height="343" class="alignright size-full wp-image-1625" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/Async2.png" alt="Console Application running" width="677" height="343" class="alignright size-full wp-image-1625" />
 
 If you have a tool installed such as Reflector or IL Spy, open up the compiled executable in that and let's inspect what happened when we compiled this solution. This did generate some interesting things, normally when you compile an application and open it up in reflector, you will be able to see something pretty much alike what you programmed in the first place. But when adding async and await we have some generated code that needs to be there in order for the state machine to work properly.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/AsyncDemoInReflector.png" alt="The project opened in reflector" width="810" class="alignright size-full wp-image-1627" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/AsyncDemoInReflector.png" alt="The project opened in reflector" width="810" class="alignright size-full wp-image-1627" />
 
 Notice that we have a struct generated for us, it even has the attribute `CompilerGenerated`! This struct keeps track of the state and has methods to help us with that. In reflector we can expand the methods to see the implementations, if we do so, this is what we will see:
 

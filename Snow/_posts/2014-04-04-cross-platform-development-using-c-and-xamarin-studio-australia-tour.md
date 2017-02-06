@@ -8,11 +8,11 @@ metadescription: Cross-platform development using C# and Xamarin Studio Australi
 categories: .NET, C#, Programming
 tags: Android, Australia, Cross-platform, ios, Programming, Readify, Windows Phone, Xamarin, Xamarin Studio
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/Xamarin.png" alt="Xamarin" width="100" style="float: right; margin-top: -15px;" />Are you keen to learn more about Cross-platform development using C# and Xamarin Studio? I have had a lot of interest in my <a href="http://www.filipekberg.se/2014/03/26/xamarin-introduction/" target="_blank">Xamarin Introduction video</a>, which was released in March, and I am very happy to announce <strong>that I will be doing a Xamarin tour in Australia!</strong>
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/Xamarin.png" alt="Xamarin" width="100" style="float: right; margin-top: -15px;" />Are you keen to learn more about Cross-platform development using C# and Xamarin Studio? I have had a lot of interest in my <a href="https://www.filipekberg.se/2014/03/26/xamarin-introduction/" target="_blank">Xamarin Introduction video</a>, which was released in March, and I am very happy to announce <strong>that I will be doing a Xamarin tour in Australia!</strong>
 
 <em>These events are organized and hosted by my employer <a href="http://readify.net/events" target="_blank">Readify</a>.</em><!--excerpt-->
 
-<a href="http://readify.net/events" target="_blank"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/ReadifyLogo.png" alt="ReadifyLogo" width="180" class="alignnone size-full wp-image-2306" /></a>
+<a href="http://readify.net/events" target="_blank"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/ReadifyLogo.png" alt="ReadifyLogo" width="180" class="alignnone size-full wp-image-2306" /></a>
 
 <h3>Melbourne - 30 Apr 2014 @ 09:00</h3>
 <a href="http://readify.net/events/?event-id=4C3DCDCF-7EA2-4C51-A67E-AE40D18D93A3" target="_blank">Read more and register here.</a>

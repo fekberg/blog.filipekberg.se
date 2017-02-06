@@ -12,7 +12,7 @@ There's been some radio silence here recently, sorry about that but everything i
 
 Let's start this off with a self-explaining "JIF":
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/HatersGonnaHate.gif" alt="HatersGonnaHate" width="300" height="200" class="alignnone size-medium wp-image-2096" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/09/HatersGonnaHate.gif" alt="HatersGonnaHate" width="300" height="200" class="alignnone size-medium wp-image-2096" />
 
 <h3>Well Do I?</h3>
 Rather frequently you’ll meet developers that praise abstractions with the same enthusiasm that Mr. Ballmer once shouted "Developers, Developers, Developers!" There's nothing wrong with aiming to perfect abstractions that help you in your daily work. However it's important to really understand what the abstraction solves and how it impacts performance, security and most importantly manageability. Let's say that you're a web developer that has just learned how to use the best abstractions out there. For instance you know how to set up a data context using EF and how to get some users out of the database. Now your customer asks you not to use EF but rather write the SQL yourself, as you've never done this you go on with your day, google for some rather simple SQL management in C# and end up with something like this:

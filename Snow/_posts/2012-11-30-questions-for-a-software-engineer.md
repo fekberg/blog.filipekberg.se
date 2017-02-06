@@ -8,7 +8,7 @@ metadescription: Questions for a Software Engineer by a bunch of high school stu
 categories: Programming
 tags: c# smorgasbord, filip ekberg, Programming, Q&A, software engineering
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="float: left;" width="342" height="194" class="aligncenter size-full wp-image-1016" /> A couple of weeks ago I visited my old upper high school. This is where you take your last three years of high school in Sweden and focus on a certain area. I focused on IT and Programming and now a couple of weeks ago I was invited to come back and talk to the current students. My initial idea was to talk about programming and inspire these young people (16-20 years old) to continue studying in the field of software engineering. But when I found out that more than half of the attendees actually studied something else such as economics or entrepreneurship, I had to change focus of the presentation. The new focus on the presentation was entrepreneurship and how to become awesome at selling yourself.<!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="float: left;" width="342" height="194" class="aligncenter size-full wp-image-1016" /> A couple of weeks ago I visited my old upper high school. This is where you take your last three years of high school in Sweden and focus on a certain area. I focused on IT and Programming and now a couple of weeks ago I was invited to come back and talk to the current students. My initial idea was to talk about programming and inspire these young people (16-20 years old) to continue studying in the field of software engineering. But when I found out that more than half of the attendees actually studied something else such as economics or entrepreneurship, I had to change focus of the presentation. The new focus on the presentation was entrepreneurship and how to become awesome at selling yourself.<!--excerpt-->
 
 I recorded this presentation, but since it's in Swedish I will not bother embedding it into this post; it's available on my YouTube channel for anyone that wants to have a look at it!
 
@@ -29,7 +29,7 @@ This means that the short answer is, I wasn't any good at programming at all whe
 <em>Programming had by then became a part of what identified me and who I wanted to be.</em>
 
 <h4>What was the hardest part about writing/releasing your own book?</h4>
-There were a lot of bumps in the road when writing the book. <a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">I've written about the writing process</a> and what decisions that I made along the way.
+There were a lot of bumps in the road when writing the book. <a href="https://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">I've written about the writing process</a> and what decisions that I made along the way.
 
 But if I need to choose one of the most hard parts about writing the book. That would probably be: handling all the input from proof readers. 
 

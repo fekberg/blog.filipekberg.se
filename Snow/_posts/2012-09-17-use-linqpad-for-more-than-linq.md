@@ -10,7 +10,7 @@ tags: .NET, csharp, developer tools, dotnet, linqpad, linqpad 4
 ---
 I like to spend time on StackOverflow and contribute by answering as many questions as I have time to. Many of the questions consist of code that doesn't always work as expected. In these times I find that <a href="http://www.linqpad.net/">LINQPad</a> is the perfect tool to use when you want to run the sample code or create smaller samples yourself for your answers.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/linqpadlogo.png" alt="" title="LINQPad Logo" width="259" height="249" class="aligncenter size-full" /><!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/linqpadlogo.png" alt="" title="LINQPad Logo" width="259" height="249" class="aligncenter size-full" /><!--excerpt-->
 
 <h3>Don't be confused by the name!</h3>
 Just because the name is <strong>LINQ</strong>Pad, it doesn't mean it only does LINQ. Even if evaluating and running expressions is what it does best. LINQPad will allow you to run the following code types:
@@ -35,11 +35,11 @@ Best of all, there's a <a href="http://www.linqpad.net/">free alternative</a> wi
 <h3>Running C# code</h3>
 Let us take a look at LINQPad and what it looks like. Here's what LINQPad looks like when you first start it up, it's clean and intuitive:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_1.png" alt="" title="LINQPad"  width="750" class="aligncenter size-full" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_1.png" alt="" title="LINQPad"  width="750" class="aligncenter size-full" />
 
 By default, it's preset to running C# Expressions, but you can easily switch between the different types of code snippets to execute in the dropdown menu:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_21.png" alt="" title="LINQPad - Changing language / code type" width="750" class="aligncenter size-full" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_21.png" alt="" title="LINQPad - Changing language / code type" width="750" class="aligncenter size-full" />
 
 In an expression, you can't declare variables, think of it like you can't add multiple statements. This is an example of a C# Expression:
 
@@ -47,7 +47,7 @@ In an expression, you can't declare variables, think of it like you can't add mu
 
 We can execute this by pressing the green "run" button or by pressing F5 (as in Visual Studio). This will display a result of the expression as you would imagine any REPL would do:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_3.png" alt="" title="LINQPad - Executing a C# Expression" width="750" class="aligncenter size-full" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_3.png" alt="" title="LINQPad - Executing a C# Expression" width="750" class="aligncenter size-full" />
 
 Now let us assume that we have a more complex code snippet that we want to execute and we want to get information about variables along the way. LINQPad hooks in an extension to `object` which provides a method called `Dump`. This will dump information about the object that you use it on.
 
@@ -55,7 +55,7 @@ The more complex code snippet will be a BubbleSort implementation in C#. First w
 
 To see that my items were actually sorted, I want to show the content of my list before and after it was sorted. To do this, I can use the extension method `Dump()` that comes with LINQPad. It will look like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_4.png" alt="" title="LINQPad - Implementing bubblesort" width="750" class="aligncenter size-full" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_4.png" alt="" title="LINQPad - Implementing bubblesort" width="750" class="aligncenter size-full" />
 
 This is the code that I executed:
 
@@ -87,7 +87,7 @@ This is a great example of how powerful multiple statements are in LINQPad. But 
 
 Notice the different outputs that we can select as well. If we wrote LINQ, we might want to see the actual SQL that is executed and if we write a couple of statements we want to see the IL:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_5.png" alt="" title="LINQPad - Exploring IL" width="750" class="aligncenter size-full" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad_5.png" alt="" title="LINQPad - Exploring IL" width="750" class="aligncenter size-full" />
 
 LINQPad can do much more than this as well, we can have it connect to a database to run queries against our data. We can also change if the code is optimized or not; if we want to explore the IL that is generated when using optimization contra when it is not.
 

@@ -85,7 +85,7 @@ This will install Raygun into your class library! There's a couple of more thing
 
 Creating a Raygun account is free for 30 days and you'll need to do it in order to start tracking your errors. Once you've setup an application on Raygun you can retrieve the API Key from the "Application Settings" menu like you can see in the following image:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunAPIKey.png" alt="RaygunAPIKey" width="586" height="616" class="alignright size-full wp-image-1879" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunAPIKey.png" alt="RaygunAPIKey" width="586" height="616" class="alignright size-full wp-image-1879" />
 
 We don't need to add the API Key just yet, we'll add that in the application configuration file of the project that will use our library later on (in this case the MVC 4 project).
 
@@ -116,7 +116,7 @@ The method will look for people with the name of the value that we passed to the
 
 This leaves us with a structure looking like the following:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunDemoLibrary.png" alt="RaygunDemoLibrary" width="436" height="243" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunDemoLibrary.png" alt="RaygunDemoLibrary" width="436" height="243" />
 
 <strong>We are now ready to use our library!</strong>
 
@@ -203,17 +203,17 @@ The view is equally simple, it only has a text box that allows us to search for 
 
 If I start this and search for a name that exists and one that doesn't it will look like the following:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunReportError.png" alt="RaygunReportError" width="716" height="306" class="alignright size-full wp-image-1885" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunReportError.png" alt="RaygunReportError" width="716" height="306" class="alignright size-full wp-image-1885" />
 
 Funny thing is that we didn't actually notice anything when we searched for something that didn't exist. So how do we know that this worked?
 
 Raygun comes with an Amazing dashboard that will give you an overview of everything including all the recent errors, how many errors/ignored errors you have and much more like you see in this image (click to enlarge):
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunReport.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunReport-171x300.png" alt="RaygunReport" width="171" height="300" class="alignright size-medium wp-image-1886" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunReport.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunReport-171x300.png" alt="RaygunReport" width="171" height="300" class="alignright size-medium wp-image-1886" /></a>
 
 Finally this is what it looks like when you go into details about an exception, you'll have a graph over how many times and when it occurred and then you have very much details that will help you Raygun the errors!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunStackTrace.png" alt="RaygunStackTrace" width="810" class="alignright size-full wp-image-1888" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/03/RaygunStackTrace.png" alt="RaygunStackTrace" width="810" class="alignright size-full wp-image-1888" />
 
 If you're unable to add code to your current website you can simply add a HTTP Module and a config value! Which means you could simply add this in your web.config provided you have the dll as well of course!
 

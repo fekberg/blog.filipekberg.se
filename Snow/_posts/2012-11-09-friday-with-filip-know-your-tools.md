@@ -8,14 +8,14 @@ metadescription: On Fridays, Filip shares interesting thoughts and experience th
 categories: C#, Friday with Filip, Programming
 tags: code quality, csharp, friday with filip, LINQ, LINQ to EF, LINQ to Object, quality
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
 
 <h3>Welcome to this week's Friday with Filip!</h3>
 There's a saying that goes like this:
 
 <blockquote>Use the right tool for the right job</blockquote><!--excerpt-->
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/wrong_tool.jpg"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/wrong_tool.jpg" alt="" title="Wrong tool" height="150" style="float: right; padding-left: 20px;" class="size-thumbnail wp-image-1456" /></a>Even if you find the right tool for your job, do you know how to use the tool correctly? <br/><br/>This is exactly what I want to talk about this Friday; <em>you need to know your tools in order for you to know it's the right tool for this job!</em>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/wrong_tool.jpg"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/wrong_tool.jpg" alt="" title="Wrong tool" height="150" style="float: right; padding-left: 20px;" class="size-thumbnail wp-image-1456" /></a>Even if you find the right tool for your job, do you know how to use the tool correctly? <br/><br/>This is exactly what I want to talk about this Friday; <em>you need to know your tools in order for you to know it's the right tool for this job!</em>
 
 <h3>Do you know your tooling?</h3>
 All too often I see developers using amazing new tools but in many cases not knowing the limits or how to use it correctly. It's very important to understand how to use a tool and what the implications of using a tool in a certain way has. When I find a new tool or a new library that I want to use, I try to research it and understand it before I recommend it for production use.

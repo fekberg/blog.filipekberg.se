@@ -44,7 +44,7 @@ As we only care about intersection, we just have to go over one of the lists, we
 
 Ready to take a look at the formula? Well, ready or not here it comes!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/Document-Distance-1.png" alt="Document-Distance-1" width="265" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/Document-Distance-1.png" alt="Document-Distance-1" width="265" />
 
 This equation is taken from the MIT course material from the open courseware course I linked above, think of L1 as the first document and L2 as the second documents frequencies that intersect. Basically where it says `L1 * L2` it refers to the inner product of these two. The equation finds an angle in a vector based on our inputs. So you might have figured out that `L1 * L1` means the inner product of these two and the same goes for `L2 * L2`. We basically just have to call `ComputeInnerProduct` three times, with slightly different input.
 
@@ -242,7 +242,7 @@ So looking at the conceptual definition of the algorithm you'll see that we are 
 
 I wrote two text files that contains almost the exact same data, except the author name in the end of the text is different. I opened it up in word and highlighted the difference then I ran the document distance algorithm on it and it shows us that the distance is not far at all, hence this is almost an exact copy.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/Document-Distance-2.png" alt="Document-Distance-2" width="810" class="alignnone size-full wp-image-2228" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/Document-Distance-2.png" alt="Document-Distance-2" width="810" class="alignnone size-full wp-image-2228" />
 
 You will notice that as the documents approach similarity the distance decreases and when the are identical it will be a 0 distance. If the are completely different the distance will be the maximum distance which is 1.5707963267949. This method of finding distances between documents can be used to find cheaters on essays, help with searching through documents and sort by relevance and much more. It's a really interesting algorithm that lets you think a bit about what is going on.
 

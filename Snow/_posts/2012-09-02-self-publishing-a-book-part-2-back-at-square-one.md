@@ -8,7 +8,7 @@ metadescription: Read about my experience with self-publishing a programming boo
 categories: .NET, C#, Programming, Projects & Project Organization
 tags: amazon, c# smorgasbord, createspace, csharp smorgasbord, self-publishing
 ---
-<em>This is the second part of the blog series "Self-publishing a book" if you haven't already check out <a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a>.</em>
+<em>This is the second part of the blog series "Self-publishing a book" if you haven't already check out <a href="https://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a>.</em>
 
 <blockquote><strong>I was back to square one, with only my raw material</strong>. But the hope was not gone, I now had a goal; I am going to publish a book -- but how?</blockquote><!--excerpt-->
 
@@ -23,7 +23,7 @@ Remember that I didn't have anything written yet, as for my content; I was still
 
 When registering with CreateSpace, everything is very straight forward. You get to add new titles very easily, select trim size, type of paper, color or no color and so on. The overview of a published project looks like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/1-1024x448.png" alt="" title="1" width="1024" height="448" class="aligncenter size-large wp-image-988" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/1-1024x448.png" alt="" title="1" width="1024" height="448" class="aligncenter size-large wp-image-988" /></a>
 
 There are a lot of very interesting things in the image above, we're going to look at some of them in more depth later on. But for now, let us focus on all the questions that I had and why I decided that CreateSpace is what I want to use.
 
@@ -36,7 +36,7 @@ CreateSpace supplies what is called a <a href="https://www.createspace.com/Produ
 
 Here's an example of the calculator:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/2.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/2.png" alt="" title="2" width="710" height="446" class="aligncenter size-full wp-image-990" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/2.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/2.png" alt="" title="2" width="710" height="446" class="aligncenter size-full wp-image-990" /></a>
 
 As you might figure out, the margins aren't super good, but they are a lot better than the royalty percentage that you would get from a publisher. If you are thinking that the margins are in fact very good, you're neglecting marketing or any other things around your book that might have cost money during the time.
 
@@ -74,6 +74,6 @@ Word was acting up, I spent too much time trying to work around it and less time
 
 <h3>Check out the other parts in the series</h3>
 <ul>
-	<li><a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
-	<li><a href="http://www.filipekberg.se/2012/09/23/self-publishing-a-book-part-3-using-a-good-typesetting-system/">Part 3 – Using a good typesetting system</a></li>
+	<li><a href="https://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/23/self-publishing-a-book-part-3-using-a-good-typesetting-system/">Part 3 – Using a good typesetting system</a></li>
 </ul>

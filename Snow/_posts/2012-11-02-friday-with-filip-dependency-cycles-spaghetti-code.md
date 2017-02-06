@@ -8,7 +8,7 @@ metadescription: On Fridays, Filip shares interesting thoughts and experience th
 categories: Friday with Filip, Programming
 tags: code complexity, code quality, complexity, csharp, dependencies, dependency cycles, friday with filip, ndepend, quality, screencast, spagehtti code
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/FridayWithFili.png" alt="" title="Friday with Filip" style="display: block;   margin-left: auto;   margin-right: auto;" width="342" height="194" class="aligncenter size-full wp-image-1016" />
 
 <h3>Welcome to this week's Friday with Filip!</h3>
 Last week I shared the first part in a very interesting session that I had the pleasure  to do with Patrick over at NDepend. Having readable code and manageable solutions is very important but in some cases small changes that might see, trivial to you, might not be as trivial to someone else.<!--excerpt-->

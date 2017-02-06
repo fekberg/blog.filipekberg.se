@@ -16,7 +16,7 @@ Inversion of control is a principle in Software Engineering, let's just take a l
 
 Rather than explaining the text below, let me show an example of an application that does not follow this principle, but will when we're done here! I've got a solution prepared that looks like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol.png" alt="" title="inversionofcontrol" width="259" height="192" class="size-full wp-image-511" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol.png" alt="" title="inversionofcontrol" width="259" height="192" class="size-full wp-image-511" /></a>
 
 This solution simulates an order process, where we've got a window where we can place some kind of order and then we've got some sort of payment provider that executes the order request. This is the only content so far in the `InversionOfControl.Payment` library:
 
@@ -38,7 +38,7 @@ All we're doing is to check if the data we send into the execute method actually
 
 The order form is very simple and looks like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol2.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol2.png" alt="" title="inversionofcontrol2" width="214" height="119" class="size-full wp-image-512" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol2.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol2.png" alt="" title="inversionofcontrol2" width="214" height="119" class="size-full wp-image-512" /></a>
 
 When we press the button this is what's going to happen:
 
@@ -171,7 +171,7 @@ All you need to write is the following:
 
 Be sure that you've got "InversionOfControl.Demo" selected as "Default project" and you should see something like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol3.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol3.png" alt="" title="inversionofcontrol3" width="807" height="868" class="alignleft size-full wp-image-521" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol3.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol3.png" alt="" title="inversionofcontrol3" width="807" height="868" class="alignleft size-full wp-image-521" /></a>
 
 There are a lot of different type of dependency injectors out there and they act a little bit different. Ninject works like this: you tell ninject what types you want bound to what types or interfaces and then you request these types. There are other dependency injectors that will just replace all interfaces with the concrete type of your choice, but I like Ninject because it gives us an extra type of abstractness and there's not that much magic to it.
 
@@ -200,7 +200,7 @@ All we're saying here is that each time we ask for an IPaymentProvider we're goi
 
 Notice this part in particular `kernel.Get<IPaymentProvider>()`, we're actually requesting the interface and not a concrete type! Let's run the application and see what happens, if we enter anything else than "OK", we should see a message box that says "Failure":
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol4.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol4.png" alt="" title="inversionofcontrol4" width="455" height="230" class="size-full wp-image-525" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol4.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/inversionofcontrol4.png" alt="" title="inversionofcontrol4" width="455" height="230" class="size-full wp-image-525" /></a>
 
 And it does!
 

@@ -26,13 +26,13 @@ As mentioned above, you can retrieve data in different formats such as XML or JS
 
 In order to try this out, I will be using <a href="http://curl.haxx.se/download.html">curl </a>to make the web requests, because this will allow me to specify the headers manually.
 
-Start off by creating a new <a href="http://www.asp.net/mvc/mvc4">ASP.NET MVC 4 Web Applicaiton</a> in <a href="http://www.filipekberg.se/2012/03/01/visual-studio-11-beta/">Visual Studio 11 Beta</a>:
+Start off by creating a new <a href="http://www.asp.net/mvc/mvc4">ASP.NET MVC 4 Web Applicaiton</a> in <a href="https://www.filipekberg.se/2012/03/01/visual-studio-11-beta/">Visual Studio 11 Beta</a>:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/11.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/11.png" alt="" title="Creating a new ASP.NET MVC 4 Web Application" width="640" class="aligncenter size-full wp-image-645" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/11.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/11.png" alt="" title="Creating a new ASP.NET MVC 4 Web Application" width="640" class="aligncenter size-full wp-image-645" /></a>
 
 Then you will be presented with what kind of <a href="http://www.asp.net/mvc/mvc4">ASP.NET MVC 4</a> project that you want to create, select to create a new <a href="http://www.asp.net/web-api">Web API</a> project:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/21.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/21.png" alt="" title="Create a ASP.NET MVC 4 Web API Project" width="640" class="aligncenter size-full wp-image-645" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/21.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/21.png" alt="" title="Create a ASP.NET MVC 4 Web API Project" width="640" class="aligncenter size-full wp-image-645" /></a>
 
 When the project is created, you'll have some new things that you haven't seen before in a normal ASP.NET MVC application. It does look a lot like a normal ASP.NET MVC applications, but with some minor add-ons.
 
@@ -48,11 +48,11 @@ The second thing that is added is inside the global.asax.cs, a new route to spec
 
 This just help us distinguish between our API calls and non-API calls. If you just start the web application and navigate to /api/values/ you will see a list like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/31.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/31.png" alt="" title="View the Values in Chrome" width="640" class="aligncenter size-full wp-image-645"/></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/31.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/31.png" alt="" title="View the Values in Chrome" width="640" class="aligncenter size-full wp-image-645"/></a>
 
 If we open this in Internet Explorer 10 instead, it will request a JSON result instead of XML and if we open that up in notepad, it looks like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/41.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/41.png" alt="" title="Open up the Values result as JSON from Internet Explorer" width="640" class="aligncenter size-full wp-image-645" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/41.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/41.png" alt="" title="Open up the Values result as JSON from Internet Explorer" width="640" class="aligncenter size-full wp-image-645" /></a>
 
 We can verify that this works by testing it out with curl.
 
@@ -86,8 +86,8 @@ This is good and all, but we might want to be able to specify what kind of forma
 
 This will allow you to add `?type=json` or `?type=xml` to request a certain output format:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/51.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/51.png" alt="" title="Specify the output format of the data requested" width="640" class="aligncenter size-full wp-image-645" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/51.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/03/51.png" alt="" title="Specify the output format of the data requested" width="640" class="aligncenter size-full wp-image-645" /></a>
 
 If you want to retrieve a specific item, you can simply do `/api/values/1`.
 
-This has been a short introduction to get you started with the ASP.NET Web API. If you found this interesting, stay tuned for the <a href="http://www.filipekberg.se/2012/03/17/dont-miss-me-coding-on-stage-for-2-days-at-webbdagarna/">live stream that I will do from Webbdagarna</a> (if the Internet connection allows) and also stay tuned for upcoming posts where we hook up with Entity Framework to make this API more alive.
+This has been a short introduction to get you started with the ASP.NET Web API. If you found this interesting, stay tuned for the <a href="https://www.filipekberg.se/2012/03/17/dont-miss-me-coding-on-stage-for-2-days-at-webbdagarna/">live stream that I will do from Webbdagarna</a> (if the Internet connection allows) and also stay tuned for upcoming posts where we hook up with Entity Framework to make this API more alive.

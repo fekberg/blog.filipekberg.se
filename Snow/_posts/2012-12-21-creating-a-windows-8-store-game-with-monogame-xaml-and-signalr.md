@@ -17,7 +17,7 @@ All you really need to install if you already have Visual Studio 2012 installed 
 
 After installing this you should be able to see the MonoGame (XAML) project template in the "New Project" dialog as seen in the image below.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/12.png" alt="" title="Creating the MonoGame project" width="800" class="alignright size-full wp-image-1549" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/12.png" alt="" title="Creating the MonoGame project" width="800" class="alignright size-full wp-image-1549" />
 
 For those of you that don't have a clue what MonoGame is, here's a quote from their CodePlex site:
 
@@ -27,7 +27,7 @@ For those of you that don't have a clue what MonoGame is, here's a quote from th
 
 Even more Amazing is that they're currently working on getting this to work with Windows Phone 8, which this post was initially going to be about but as the support isn't in the stable release yet, we'll take a look at that some other time. <a href="http://twitter.com/tomspilman">Tom Spilman</a> tweeted a while back that he got MonoGame working on Windows Phone 8!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/23.png" alt="" title="Tom Spilman tweets about WP8 Support for MonoGame" width="590" class="alignright size-full wp-image-1546" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/23.png" alt="" title="Tom Spilman tweets about WP8 Support for MonoGame" width="590" class="alignright size-full wp-image-1546" />
 
 There's actually one more thing that we will need to have installed and this is the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=23714">XNA Game Studio</a>. This is because we want to be able to add content (Textures and such) to the game. In order to create a Content project we need to create a Dummy XNA project (there might be a much easier way, then please enlighten me!).
 
@@ -51,7 +51,7 @@ Finally add a folder in the MonoGame project called Content and add the xnb file
 <h3>Let's get some code running!</h3>
 In order to stay consistent with the code that I previously wrote for the <a href="https://github.com/fekberg/Tic-Tac-Toe">Tic-Tac-Toe demo</a> we can start by renaming Game1.cs to something more suitable such as `TicTacToeGame`. The first thing we can do is to try and get the Logo in place, I added the following images as Content (xnb):
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/41.png" alt="" title="The Textures" width="522" class="alignright size-full wp-image-1551" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/41.png" alt="" title="The Textures" width="522" class="alignright size-full wp-image-1551" />
 
 This means that we will have the following xnb's and thus be able to load them by their names:
 
@@ -88,11 +88,11 @@ In order to actually draw something on the screen we use the sprite batch and we
 
 Running this in the simulator will make it look something like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/51.png" alt="" title="Seeing the Logotype added as a 2D Texture" width="810" class="alignright size-full wp-image-1553" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/51.png" alt="" title="Seeing the Logotype added as a 2D Texture" width="810" class="alignright size-full wp-image-1553" />
 
 Now we're ready to start with the fun! Let's install SignalR into the project, we can simply do this by getting it from NuGet!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/61.png" alt="" title="Install SignalR via NuGet" width="745" height="72" class="alignright size-full wp-image-1556" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/61.png" alt="" title="Install SignalR via NuGet" width="745" height="72" class="alignright size-full wp-image-1556" />
 
 There's a known bug in the RC version of SignalR which effects the fallback to long polling. This means that we manually need to define that we are in fact using long polling. After SignalR is installed into the project through NuGet we can connect to the Tic-Tac-Toe server and create a proxy.
 
@@ -111,7 +111,7 @@ Now, go down to the constructor of the `GamePage` class and add this to the bott
     _connection = new HubConnection("http://signalr.fekberg.com/");
     _proxy = _connection.CreateHubProxy("game");
 
-If you recall from <a href="http://www.filipekberg.se/2012/12/10/running-signalr-on-mono/">previous posts about SignalR</a> we need to hock up the events before we start the connection. This is pretty much equal to what we saw in the WinRT with HTML and JavaScript demo. Here's what I have to hook it up with the Tic-Tac-Toe server, to make it a bit more fluent we are going to send the request to start a game as soon as the name is registered:
+If you recall from <a href="https://www.filipekberg.se/2012/12/10/running-signalr-on-mono/">previous posts about SignalR</a> we need to hock up the events before we start the connection. This is pretty much equal to what we saw in the WinRT with HTML and JavaScript demo. Here's what I have to hook it up with the Tic-Tac-Toe server, to make it a bit more fluent we are going to send the request to start a game as soon as the name is registered:
 
     _proxy.On("registerComplete", () =>
     {
@@ -157,7 +157,7 @@ This adds a surrounding grid to our view, this view is where we will mix the Dir
 
 Then finally we have the area where we can register the current player. This is just a simple button and some text fields. The result looks like this when running in the simulator:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/7.png" alt="" title="Running the MonoGame Game in the Simulator" width="810" class="alignright size-full wp-image-1564" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/7.png" alt="" title="Running the MonoGame Game in the Simulator" width="810" class="alignright size-full wp-image-1564" />
 
 As you can see in the top right corner there are some messages added, these are added from the events that we hooked up earlier, but what you didn't see was when we connected to the server. This is exactly as you are used to when it comes to SignalR, except for the small thing that we are forcing long polling at the time being. This will hopefully be fixed in the next RC.
 
@@ -441,22 +441,22 @@ Then we can calculate where on the game board the touch is and thus finding out 
 <h3>Remote debugging on Surface</h3>
 I want to try this on my ARM device, so what I first need to do is to change the Platform target to Any CPU as you can see in the image below.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/8.png" alt="" title="Platform target Any CPU" width="810" class="alignright size-full wp-image-1567" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/8.png" alt="" title="Platform target Any CPU" width="810" class="alignright size-full wp-image-1567" />
 
 Now verify that you are building against any platform by pressing the arrow next to "Debug" and go to "Configuration Manager". It should look like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/9.png" alt="" title="Configuraiton Manager" width="716" class="alignright size-full wp-image-1568" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/9.png" alt="" title="Configuraiton Manager" width="716" class="alignright size-full wp-image-1568" />
 
 Next you need to install and run the application "Remote Debugging" which is <a href="http://www.microsoft.com/visualstudio/eng/downloads#remote-tools">available here</a>. You'll need to scroll down to "Remote tools for Visual Studio 2012". This should be installed on the Surface (or whatever computer you want to remote debug on!), not the development machine. <a href="http://timheuer.com/blog/archive/2012/10/26/remote-debugging-windows-store-apps-on-surface-arm-devices.aspx" target="_blank">There's a great post describing this in details that I suggest you check out.</a>
 
 Finally run the Remote Debugging application on the Surface and set Visual Studio to run on your Surface:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/10.png" alt="" title="Remote Debugging" width="710" class="alignright size-full wp-image-1569" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/10.png" alt="" title="Remote Debugging" width="710" class="alignright size-full wp-image-1569" />
 
 <h3>Playing against myself</h3>
 Now that this is running on the Surface I can bring another instance up in the Simulator and try to play against myself. This is what that will look like:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/WP_20121220_013.jpg" alt="" title="MonoGame on Surface!" width="810" class="alignright size-full wp-image-1571" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/WP_20121220_013.jpg" alt="" title="MonoGame on Surface!" width="810" class="alignright size-full wp-image-1571" />
 
 <h3>Recap</h3>
 This post has gone through a lot of interesting topics and just scratched the surface on many of them. But the idea was to wrap up all the cool things that we've looked at with SignalR and Windows 8 for the last couple of months. This post is far to long to fit in a tl;dr but here is a bullet list of the awesome things used in this post:
@@ -474,14 +474,14 @@ This post has gone through a lot of interesting topics and just scratched the su
 I probably forgot one or two things in the list above, but you get the point! We looked at some very interesting things and I think that you can take it from here and make some amazing cross platform games and not be limited by what server software you are running (read: this works on linux with Mono and Apache!).
 
 <h3>Where can I get the code?</h3>
-Don't worry, you can download the entire solution that I worked on <a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/TicTacToe.Windows8.MonoGame.zip">here</a>. Remember that a lot of the code is based on the other SignalR posts that I've done:
+Don't worry, you can download the entire solution that I worked on <a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/12/TicTacToe.Windows8.MonoGame.zip">here</a>. Remember that a lot of the code is based on the other SignalR posts that I've done:
 
 <ul>
 <li>
-<a href="http://www.filipekberg.se/2012/11/29/introduction-to-signalr-creating-a-cross-platform-game/">Introduction to SignalR – Creating a Cross-Platform game</a>
+<a href="https://www.filipekberg.se/2012/11/29/introduction-to-signalr-creating-a-cross-platform-game/">Introduction to SignalR – Creating a Cross-Platform game</a>
 </li>
 <li>
-<a href="http://www.filipekberg.se/2012/12/10/running-signalr-on-mono/">Running SignalR on Mono</a>
+<a href="https://www.filipekberg.se/2012/12/10/running-signalr-on-mono/">Running SignalR on Mono</a>
 </li>
 </ul>
 

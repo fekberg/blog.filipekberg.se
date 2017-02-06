@@ -12,7 +12,7 @@ The Microsoft Surface is due to be released October 26, 2012 and this is less th
 
 <h3>Some background</h3>
 If you've somehow missed what the Surface is or what the Surface looks like, below is a very nice picture of it. Basically it's a powerful and lightweight tablet that runs Windows 8.
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/surface.jpg" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="Surface" width="680"  class="alignnone size-full wp-image-1417" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/surface.jpg" style="display: block;   margin-left: auto;   margin-right: auto;" alt="" title="Surface" width="680"  class="alignnone size-full wp-image-1417" />
 
 Up until today, at least I have always felt that I at least needed 3 devices. One touch optimized tablet (iPad), One laptop to bring in to meetings that I can also code on and last but not least a very powerful workstation that I can work on. With the Microsoft Surface, we're closing up with the all-in-one device -- simply bring the Surface with you to meetings, watch movies with it in the couch or work on it.
 
@@ -33,7 +33,7 @@ This might not be new information to you, but it's still pretty interesting. Tha
 
 Below is an overview of the Windows RT Architecture; The RT API is a little bit different (limited).
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/2626.Win8-WinRT-Architecture_610x431.png" alt="" title="Windows RT Architecture" width="610" height="431" class="alignnone size-full wp-image-1420" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/2626.Win8-WinRT-Architecture_610x431.png" alt="" title="Windows RT Architecture" width="610" height="431" class="alignnone size-full wp-image-1420" />
 
 <strong>Now with a little bit of background, let's take a look at 10 questions and answers about the Surface!</strong>
 

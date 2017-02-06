@@ -8,7 +8,7 @@ metadescription: Utilize Compilation as a Service(Roslyn) to create the next lev
 categories: .NET, C#
 tags: Compilation as a Service, csharp, dotnet, dotnetConf, roslyn
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/05/dotnetConf1.png" alt="dotnetConf" width="810" class="alignright size-full wp-image-1929" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/05/dotnetConf1.png" alt="dotnetConf" width="810" class="alignright size-full wp-image-1929" />
 
 <blockquote>We are moving towards a new era where more and more people want to offer the possibility to expand the system with widgets and plugins. By utilizing Compilation as a Service can make it easier for all parties to create plug-ins. For instance operations performed at certain events in an application.Roslyn exposes a C # and VB.NET compiler and we can use this to implement something along those lines. Listen to me give an introductory talk about what Roslyn has to offer and how we can use Compilation as a Service to enable the next level of plugins.</blockquote><!--excerpt-->
 

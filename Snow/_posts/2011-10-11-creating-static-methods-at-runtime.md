@@ -129,6 +129,6 @@ Result will contain of a double with the value "Infinity", so it doesn't throw a
 
 Here's a screenshot of me running it on my machine:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/creating-static-methods-at-runtime/DivideByZero.png" target="_blank"><img src="http://cdn.filipekberg.se/fekberg-blog/creating-static-methods-at-runtime/DivideByZero.png" alt="" style="width: 700px;" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/creating-static-methods-at-runtime/DivideByZero.png" target="_blank"><img src="https://cdn.filipekberg.se/fekberg-blog/creating-static-methods-at-runtime/DivideByZero.png" alt="" style="width: 700px;" /></a>
 
 I hope you found this interesting and if you have any thoughts please leave a comment below!

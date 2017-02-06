@@ -8,7 +8,7 @@ metadescription: The next version of the Roslyn CTP, Roslyn CTP3, has been relea
 categories: .NET, C#, Programming
 tags: breaking changes, c# smorgasbord, roslyn, roslyn ctp, roslyn ctp3
 ---
-<div style="width: 259px; margin: 0 auto;"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/breakingchains.jpg" alt="" title="breakingchains" width="259" height="194" class="aligncenter size-full wp-image-1095" /></div>
+<div style="width: 259px; margin: 0 auto;"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/breakingchains.jpg" alt="" title="breakingchains" width="259" height="194" class="aligncenter size-full wp-image-1095" /></div>
 
 Microsoft has released yet another CTP version of Roslyn and this doesn't come as a big surprise. Since the previous CTP (CTP2) does not work very well with Visul Studio 2012. Now with Roslyn CTP3, we have Visual Studio 2012 support! However, this upgrade does come with a price, there are some breaking changes in the third version of the Roslyn CTP.<!--excerpt-->
 

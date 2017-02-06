@@ -28,9 +28,9 @@ Going back to merge sort, this algorithm makes use of the divide and conquer app
 
 Doesn't make any sense? Well have a look at this illustration (pardon my hand writing skills):
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/MergeSort-1.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/MergeSort-1.png" alt="" />
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/UmpOi.gif" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/UmpOi.gif" alt="" />
 
 At least I find this pretty cool and looking at it like this sure helps to understand why the algorithm has the time complexity that it has.
 
@@ -188,7 +188,7 @@ Let's now look at the entire implementation of the merge method:
 
 At the end of the merge process and at the end of running our merge sorting, we've gone over a complete processes looking what we can see in this illustration:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/MergeSort.png" alt="MergeSort" width="800" height="1189" class="alignnone size-full wp-image-2238" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/02/MergeSort.png" alt="MergeSort" width="800" height="1189" class="alignnone size-full wp-image-2238" />
 
 Here's a complete example that you can run and experiment with, try and compare the time it takes if you write something like Bubble Sort!
 

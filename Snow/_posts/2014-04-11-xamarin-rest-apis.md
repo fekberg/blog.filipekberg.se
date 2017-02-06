@@ -15,8 +15,8 @@ In this talk I go into, in short, what Xamarin is, how to use a REST API from yo
 <blockquote class="twitter-tweet" lang="en"><p>Recording from yesterdays talk: Xamarin and REST APIs <a href="https://t.co/h8T8Jvhsqp">https://t.co/h8T8Jvhsqp</a></p>&mdash; Filip Ekberg (@fekberg) <a href="https://twitter.com/fekberg/statuses/454004099587919872">April 9, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/Xamarin-REST.pdf" target="_blank">Download Slides here.</a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2014/04/Xamarin-REST.pdf" target="_blank">Download Slides here.</a>
 
 <a href="https://github.com/fekberg/HackerNewsNow" target="_blank">Code available on Github.</a>
 
-If you're in Australia the coming month, be sure to check out my Xamarin talks that I'll be doing in <a href="http://www.filipekberg.se/2014/04/04/cross-platform-development-using-c-and-xamarin-studio-australia-tour/" target="_blank">Melbourne, Brisbane and Sydney</a>.
+If you're in Australia the coming month, be sure to check out my Xamarin talks that I'll be doing in <a href="https://www.filipekberg.se/2014/04/04/cross-platform-development-using-c-and-xamarin-studio-australia-tour/" target="_blank">Melbourne, Brisbane and Sydney</a>.

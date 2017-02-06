@@ -8,7 +8,7 @@ metadescription: Ever gotten the question: What's the difference between doing t
 categories: .NET, C#, Programming
 tags: csharp, IL, MSIL, Programming, WinMerge
 ---
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/spotting_the_difference-300x192.jpg" alt="" title="Spot the Difference" width="300" height="192" style="float: right; padding-left: 20px;"/>I often get the questions or enter discussions where the topic is: <em>What is the difference between doing this and that in C#?</em> It is not always that easy spotting the difference between code samples. I'm not referring to the actual code you have in Visual Studio, but the code that will be executed, or the IL produced when you compile. Most recently I answered a <a href="http://stackoverflow.com/q/11351214/39106">question on StackOverflow </a> that asked if there would be any difference between nesting and not nesting (using AND) if-statements.<!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/spotting_the_difference-300x192.jpg" alt="" title="Spot the Difference" width="300" height="192" style="float: right; padding-left: 20px;"/>I often get the questions or enter discussions where the topic is: <em>What is the difference between doing this and that in C#?</em> It is not always that easy spotting the difference between code samples. I'm not referring to the actual code you have in Visual Studio, but the code that will be executed, or the IL produced when you compile. Most recently I answered a <a href="http://stackoverflow.com/q/11351214/39106">question on StackOverflow </a> that asked if there would be any difference between nesting and not nesting (using AND) if-statements.<!--excerpt-->
 
 <strong>Nested version</strong>
 
@@ -63,25 +63,25 @@ Now, let us take a look at the second one:
 
 Instead of us comparing instruction by instruction, let's use a tool for that which will spot all the differences for us; <a href="http://winmerge.org">WinMerge</a>! With <a href="http://winmerge.org">WinMerge</a> we can select two different files on disk that we want to compare with each other. So I saved both the IL outputs that I got from LINQPad (as you can see in the below image) as different text files:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad.png" alt="" title="LINQPad" width="641" height="608" class="alignnone size-full wp-image-1216" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad.png" alt="" title="LINQPad" width="641" height="608" class="alignnone size-full wp-image-1216" />
 
-<em><a href="http://www.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/">(You know that you can use LINQPad for more than just LINQ, </em>right?)</a>
+<em><a href="https://www.filipekberg.se/2012/09/17/use-linqpad-for-more-than-linq/">(You know that you can use LINQPad for more than just LINQ, </em>right?)</a>
 
 Now that you've saved both the IL outputs as text files, I copied into Notepad and saved it like that. You can create a new Compare session by selecting the left and right file like this in WinMerge:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/WinMerge.png" alt="" title="WinMerge" width="577" height="244" class="alignnone size-full wp-image-1217" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/WinMerge.png" alt="" title="WinMerge" width="577" height="244" class="alignnone size-full wp-image-1217" />
 
 This will start comparing the files and then bring up a very nice interface where we can spot the differences, but in our case we will get a message box telling us that the files were identical!
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/WinMerge2.png" alt="" title="WinMerge" width="820"  class="alignnone size-full wp-image-1218" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/WinMerge2.png" alt="" title="WinMerge" width="820"  class="alignnone size-full wp-image-1218" />
 
 However, if we instead would have compiled these without optimization we would see a difference. Here's how you turn on/off optimization in LINQPad:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad2.png" alt="" title="LINQPad" width="616" height="478" class="alignnone size-full wp-image-1220" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/LINQPad2.png" alt="" title="LINQPad" width="616" height="478" class="alignnone size-full wp-image-1220" />
 
 Swap to "without optimization", recompile and save the IL to the text files and re-run the comparison in WinMerge. This will show us that there is in fact a difference when we turn off optimization:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/WinMerge3.png" alt="" title="WinMerge" width="831" height="780" class="alignnone size-full wp-image-1221" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/WinMerge3.png" alt="" title="WinMerge" width="831" height="780" class="alignnone size-full wp-image-1221" />
 
 This is what I normally do when someone asks me about the difference between two similar (or what you expect to be similar) code snippets. The IL might not be good enough for your arguments sake, so you might even want to take a look at the bits and bytes actually used when executing your application. This is possible by using a tool called <a href="http://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx">Native Image Generator (NGen)</a>. NGen is good for <a href="http://msdn.microsoft.com/sv-se/magazine/cc163610(en-us).aspx">many reasons</a>, the MSDN Page for it describes the biggest reason like this:
 

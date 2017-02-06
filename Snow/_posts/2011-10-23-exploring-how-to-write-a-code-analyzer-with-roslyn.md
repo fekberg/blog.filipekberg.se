@@ -12,11 +12,11 @@ In the previous post we looked at the documentation that came with Roslyn and ho
 
 I'll call my project FECodeAnalyzer
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer.png" alt="" />
 
 Then I am going to rename the `CodeIssueProvider` to `LocalDeclarationInspection` and remove the body of `GetIssues` and replace it with `return null;`
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer_1.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer_1.png" alt="" />
 
 Now we are ready to start thinking about how the analyzer should work, I want my GetIssues method to ask members if certain critera's are followed or not. In this post I'll look at the two following:
 
@@ -208,11 +208,11 @@ As you can see this is quite modular at the moment, we can add more of these che
 
 And when debugging this ( by pressing F5 ), we can see the errors like this in a console application when the variable is both unused and can be made constant:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer_2.png" style="width: 800px;" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer_2.png" style="width: 800px;" alt="" />
 
 And look like this when the variable is not possible to make constant but is unused:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer_3.png" style="width: 800px;" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/exploring-how-to-write-a-code-analyzer-with-roslyn/fecodeanalyzer_3.png" style="width: 800px;" alt="" />
 
 I hope you found this interesting, if you have any thoughts please leave a comment below!
 

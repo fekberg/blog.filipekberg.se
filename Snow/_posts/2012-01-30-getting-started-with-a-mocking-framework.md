@@ -14,13 +14,13 @@ You might have come across the word "mock" before, when for instance a UI design
 
 The word "mock" means to fake something, which is exactly what we want to do here; we want to fake the layout to give the customer an idea of how the application will look or how it will behave. On the rare occasions that I need to do UI mocks I use a tool called <a href="http://www.balsamiq.com/" target="_blank">Balsamiq</a> and the mockups for a phone application can end up looking as simple as this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/balsamiq.png"><img style="display: inline;" title="balsamiq" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/balsamiq_thumb.png" alt="balsamiq" width="314" height="537" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/balsamiq.png"><img style="display: inline;" title="balsamiq" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/balsamiq_thumb.png" alt="balsamiq" width="314" height="537" /></a>
 
 There are techniques for mocking things in the real world as well, an example of this is when you want to build a house, you might first want to see a small scale model before you decide to go with it; this is mocking!
 
 <strong>How does this apply to programming?</strong>
 
-As we've concluded mocking is about faking either a thing or a behavior and in our code it is of course a behavior that we want to fake/impersonate. In the article about <a href="http://www.filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> I talked about breaking things apart from each other by using interfaces, this is going to help us out a lot with the mocking as well.
+As we've concluded mocking is about faking either a thing or a behavior and in our code it is of course a behavior that we want to fake/impersonate. In the article about <a href="https://www.filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> I talked about breaking things apart from each other by using interfaces, this is going to help us out a lot with the mocking as well.
 
 Let us assume that we have a system that handles payments and our different payment providers use a shared interface called `IPaymentProvider`. Then we have something that handles the processing of all the payments through the different payment providers let us assume that this class is called `Payment` and the constructor of `Payment` takes an `IPaymentProvider`.
 
@@ -67,7 +67,7 @@ We've looked almost all parts of the system, but where is the implementations of
 
 <strong>Let's assume we don't have it!</strong> Even though we don't have access to the implementation at this time (maybe we haven't made it quite yet, we might not even know what payment providers we are implementing the system against) we still want to test the process of the Execute method, we want to assure that no exceptions are thrown and that based on a Reservation that did not go through, we don't want it to go any further.
 
-In the article on <a href="http://www.filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> we talked about introducing fakes by creating "dumb" implementations that only did what we asked of them. This is indeed one way to go but let us take a look at another approach of this. Let's look at a Mocking Framework!
+In the article on <a href="https://www.filipekberg.se/2011/12/20/adapting-to-inversion-of-control-and-dependency-injection/" target="_blank">IoC and DI</a> we talked about introducing fakes by creating "dumb" implementations that only did what we asked of them. This is indeed one way to go but let us take a look at another approach of this. Let's look at a Mocking Framework!
 
 There are a lot of mocking frameworks out there for .NET, here are two that are very good (among many many others):
 
@@ -78,7 +78,7 @@ There are a lot of mocking frameworks out there for .NET, here are two that are 
 
 But I've decided to go with <a href="http://simpledotnet.codeplex.com/releases/view/50837" title="Simple Mocking" target="_blank">Simple.Mocking</a>. We can install this with <a href="http://nuget.codeplex.com/" target="_blank">NuGet</a>, this is how the test-project I've created look like before I use NuGet to install Simple.Mocking:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-22.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-22.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (2)" width="797" height="796" class="alignnone size-full wp-image-586" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-22.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-22.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (2)" width="797" height="796" class="alignnone size-full wp-image-586" /></a>
 
 Now fire up the nuget manager and write:
 
@@ -86,7 +86,7 @@ Now fire up the nuget manager and write:
 
 And you should see something like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-3.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-3.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (3)" width="796" height="796" class="alignnone size-full wp-image-588" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-3.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-3.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (3)" width="796" height="796" class="alignnone size-full wp-image-588" /></a>
 
 <strong>Now we're ready to start mocking!</strong>
 
@@ -109,7 +109,7 @@ Of these two we will only concentrate on `Mock.Interface`. You easily fake/mock 
 
 <strong>Is this it?</strong> No, it's not! We've still got a path to wander before we've reached our final destination. If we check what methods we have on the variable `provider` this is what we got:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-4.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-4.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (4)" width="796" height="796" class="alignnone size-full wp-image-592" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-4.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-4.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (4)" width="796" height="796" class="alignnone size-full wp-image-592" /></a>
 
 So what happens if we run the following code:
 
@@ -140,7 +140,7 @@ This fakes an implementation of the interface `IPaymentProvider` and says that i
 
 We would get an exception because it assumes that we are about to call it with the amount 10:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-5.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-5.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (5)" width="796" height="796" class="alignnone size-full wp-image-594" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-5.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-5.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (5)" width="796" height="796" class="alignnone size-full wp-image-594" /></a>
 
     Unexpected invocation 'paymentProvider.Reserve(0)', expected:
 
@@ -237,7 +237,7 @@ So the first test where we check if the reservation fails looks like this:
 
 If you run this test (ctrl + r + t) it should process fine and you should see a green icon indicating that the test finished without any errors:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-8.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-8.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (8)" width="796" height="796" class="alignnone size-full wp-image-599" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-8.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-8.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (8)" width="796" height="796" class="alignnone size-full wp-image-599" /></a>
 
 Next up we need to create the test that verifies that everything processes OK, so we need to create a test that checks if Execute returns true if Reserves does too. All we need to do here is add the line of code that we removed before that tells Simple.Mocking that we are expecting a method call. The final test that we are going to make here will look like this if we add that expectation and change the reservation to return true:
 
@@ -261,7 +261,7 @@ Next up we need to create the test that verifies that everything processes OK, s
 
 If we run all the tests in the context (ctrl + r + a) it should gives us all green lights:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-10.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-10.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (10)" width="796" height="796" class="alignnone size-full wp-image-601" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-10.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/01/Getting-started-with-a-Mocking-Framework-Microsoft-Visual-Studio-Administrator-10.png" alt="" title="Getting started with a Mocking Framework - Microsoft Visual Studio (Administrator) (10)" width="796" height="796" class="alignnone size-full wp-image-601" /></a>
 
 We could of course test if the Execution fails if both Reserve and Execute returns false, these are just similar test that you can add. As you can see Simple.Mocking is really powerful and of course you will need to test your real implementations, but before you test your real implementations of your payment providers, you will want to know if your internal stuff is working.
 

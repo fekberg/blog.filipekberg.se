@@ -8,13 +8,13 @@ metadescription: C# Smorgasbord covers a vast variety of different technologies,
 categories: .NET, Algorithms & Data structures, Architecture, C#, Programming
 tags: book, c# book, c# smorgasbord, csharp, csharp book, csharp smorgasbord, dotnet, ioc, Programming, roslyn, roslyn book, smorgasbord
 ---
-As mentioned in my previous post <a href="http://www.filipekberg.se/2012/07/21/c-smorgasbord-will-soon-be-available/">"C# Smorgasbord will soon be available!"</a> I have been working on a C# programming book.
+As mentioned in my previous post <a href="https://www.filipekberg.se/2012/07/21/c-smorgasbord-will-soon-be-available/">"C# Smorgasbord will soon be available!"</a> I have been working on a C# programming book.
 
 I am now happy to announce that this book is published and available on <a href="https://www.createspace.com/3759762">CreateSpace</a> and <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/">Amazon.com</a>! 
 
 <strong>Grab a copy and let me know what you think!</strong><!--excerpt-->
 
-<a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/CSharpSmorgasbord.png"></a>
+<a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/CSharpSmorgasbord.png"></a>
 
 It is also available on the following other Amazon sites:
 

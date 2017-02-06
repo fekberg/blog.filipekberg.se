@@ -8,7 +8,7 @@ metadescription: C# Smorgasbord - Looking at everything from testing strategies 
 categories: .NET, Algorithms & Data structures, Architecture, C#, Programming
 tags: async, author, await, csharp, csharp smorgasbord, dynamic, dynamic programming, filip ekberg, filip ekberg author, ndepend, Programming, programming book, resharper, roslyn
 ---
-<strong>UPDATE: <a href="http://www.filipekberg.se/2012/08/10/c-smorgasbord/">C# Smorgasbord is now available!</a></strong>
+<strong>UPDATE: <a href="https://www.filipekberg.se/2012/08/10/c-smorgasbord/">C# Smorgasbord is now available!</a></strong>
 
 Since the fall 2011 I have been working on a book called <a href="http://books.filipekberg.se/">C# Smorgasbord</a>. The book is inspired by all the interesting topics that I've touched in this blog.
 
@@ -19,7 +19,7 @@ I'm proud to announce that the book will soon be available for purchase on Amazo
 <h3>The cover</h3>
 The cover is produced by a very talented art directory, Christoffer Saltelid and looks like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/07/CsharpSmorgasbordCover1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/07/CsharpSmorgasbordCover1.png" alt="C# Smorgasbord Cover" title="C# Smorgasbord Cover" width="903" height="654" class="aligncenter size-full wp-image-879" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/07/CsharpSmorgasbordCover1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/07/CsharpSmorgasbordCover1.png" alt="C# Smorgasbord Cover" title="C# Smorgasbord Cover" width="903" height="654" class="aligncenter size-full wp-image-879" /></a>
 
 <h4>3D-view of the book</h4>
 

@@ -33,7 +33,7 @@ In reality we would've fetched the document names from the database, or maybe ev
 
 This gives us the following beautiful website that shows a list of our invoices:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MyInvoices.png" alt="MyInvoices" width="462" height="496" class="alignright size-full wp-image-2017" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MyInvoices.png" alt="MyInvoices" width="462" height="496" class="alignright size-full wp-image-2017" />
 
 Now let's take a look at the implementation of the method that lets us download the invoice. Here's how I want it to work:
 
@@ -69,7 +69,7 @@ Navigate to the following address:
 
 <strong>Do you see that this is a security risk now?</strong> Here's what just happened:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MyInvoices3.png" alt="MyInvoices3" width="810" class="alignright size-full wp-image-2019" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MyInvoices3.png" alt="MyInvoices3" width="810" class="alignright size-full wp-image-2019" />
 
 <h3>How do you make it more secure?</h3>
 Most important of all: don't use the data that the user requests directly to find the files on disk. Rather have an Id (Guid) passed to a method that looks up the file name in the database and the fetches that from your disk, this way the user never, ever, gets to decide where to download the data from.

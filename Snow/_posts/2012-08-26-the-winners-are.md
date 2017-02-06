@@ -54,4 +54,4 @@ While I’m going into embedded systems next semester, the introduction courses 
 
 Again, Congratulations!
 
-<a href="http://www.filipekberg.se/2012/08/14/win-a-copy-of-c-smorgasbord/#comments">All the comments have been published</a>, thank you all for participating!
+<a href="https://www.filipekberg.se/2012/08/14/win-a-copy-of-c-smorgasbord/#comments">All the comments have been published</a>, thank you all for participating!

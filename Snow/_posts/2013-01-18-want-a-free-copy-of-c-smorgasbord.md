@@ -8,7 +8,7 @@ metadescription: Want a free copy of C# Smorgasbord? Read more about how to win 
 categories: C#
 tags: author, c# smorgasbord, csharp, filip ekberg, giveaway, win
 ---
-<img class="alignright size-medium wp-image-1640" style="float: right;padding-left: 10px;padding-bottom: 10px" alt="Filip Ekberg showing C# Smorgasbord" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/CSharpSmorgasbord-218x300.png" width="120" />C# Smorgasbord has been out for about 6 months and as you might have seen previously on this blog and on my twitter, the book has gotten great feedback!<br/><br/>I'm very happy that so many people have decided to buy the book and that some of you have taken the time to review it.<br/><br/>To give something back to the community for all the support during my writing process and after (self-)publishing the book, I had a give-away after about 3 months and <em>now I want to give away one (or maybe more!) copies of the book!</em><!--excerpt-->
+<img class="alignright size-medium wp-image-1640" style="float: right;padding-left: 10px;padding-bottom: 10px" alt="Filip Ekberg showing C# Smorgasbord" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/CSharpSmorgasbord-218x300.png" width="120" />C# Smorgasbord has been out for about 6 months and as you might have seen previously on this blog and on my twitter, the book has gotten great feedback!<br/><br/>I'm very happy that so many people have decided to buy the book and that some of you have taken the time to review it.<br/><br/>To give something back to the community for all the support during my writing process and after (self-)publishing the book, I had a give-away after about 3 months and <em>now I want to give away one (or maybe more!) copies of the book!</em><!--excerpt-->
 <h3>I want to win a free copy!</h3>
 Unfortunately I can't give everyone a copy of the book so if you want to win a free copy of C# Smorgasbord, all you need to do is follow the two steps below:
 <ol>
@@ -61,6 +61,6 @@ If you are just now starting to learn C#, this can be a great way for you to lea
 <h3>I can't wait and want to buy it now!</h3>
 Thanks for the support! Below is a link to Amazon where you can buy the book. It's available on all Amazon regions.
 
-<a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/"><img title="C# Smorgasbord" alt="" src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/CSharpSmorgasbord.png" /></a>
+<a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/"><img title="C# Smorgasbord" alt="" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/CSharpSmorgasbord.png" /></a>
 
 <a href="http://books.filipekberg.se/">There's also an ebook bundle available here.</a>

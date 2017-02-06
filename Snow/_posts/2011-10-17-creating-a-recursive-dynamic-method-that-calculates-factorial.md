@@ -86,7 +86,7 @@ This will jump to wherever endOfMethod is if the two values on the evaluation st
 
 <strong>The second thing</strong> is to check if the parameter is equal to one, however the branch-is-equal operation will pop the two values from the evaluation stack, so in order for us not to lose our value passed to our method, we just push it onto the stack again, we also push the value 1 because that's what we want to evaluate against and the stack will look something like this now:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack.png" alt="" />
 
 Which means that after we've done:
 
@@ -94,7 +94,7 @@ Which means that after we've done:
 
 It will look like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack2.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack2.png" alt="" />
 
 We haven't defined where endOfMethod is yet, we just have the label for usage. So the next thing we want to emit is what happens if the branch did not work and this is the subtraction. This assumes that we have two values on the evaluation stack as well, so we just need to push the value 1, which is what we want to subtract with:
 
@@ -102,7 +102,7 @@ We haven't defined where endOfMethod is yet, we just have the label for usage. S
 
 So now the stack looks like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack3.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack3.png" alt="" />
 
 The next thing we do is to actually call the subtraction:
 
@@ -110,7 +110,7 @@ The next thing we do is to actually call the subtraction:
 
 This will pop the two values off the stack and push the result so the stack will look like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack4.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/stack4.png" alt="" />
 
 When the subtraction is done, we want to call the method recursively and to do this, we just call our own dynamic method and since we have the result from the subtraction on the evaluation stack, this will be treated as the first argument to the method:
 
@@ -161,6 +161,6 @@ To try it out, we can call it like this:
 
 And this is the result:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/fact_recursive.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/creating-a-recursive-dynamic-method-that-calculates-factorial/fact_recursive.png" alt="" />
 
 I hope you found this interesting because I had a lot of fun writing it and if you have any thoughts please leave a comment below!

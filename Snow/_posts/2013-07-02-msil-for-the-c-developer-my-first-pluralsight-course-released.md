@@ -22,7 +22,7 @@ Here are some highlights of the course:
 	<li>Understand a lot of different OpCodes and why it matters</li>
 </ul>
 
-<a href="http://pluralsight.com/training/Courses/TableOfContents/msil-csharp-developer" target="_blank"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MSIL-CSharp-Developer.png" alt="MSIL-CSharp-Developer" width="810" class="alignright size-full wp-image-2006" /></a>
+<a href="http://pluralsight.com/training/Courses/TableOfContents/msil-csharp-developer" target="_blank"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/07/MSIL-CSharp-Developer.png" alt="MSIL-CSharp-Developer" width="810" class="alignright size-full wp-image-2006" /></a>
 
 <a href="https://pluralsight.com/training/Subscribe/Step1?isTrial=True" target="_blank">Pluralsight offers a free Trial, get access to our entire library for 10 days (up to 200 minutes)!</a>
 

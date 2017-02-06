@@ -25,7 +25,7 @@ The first one was pretty easy to solve, since I already had code for an IRC clie
 
 Let's take a look at a diagram of this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/1.png" alt="" title="1" width="237" height="538" class="aligncenter size-full wp-image-492" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/1.png" alt="" title="1" width="237" height="538" class="aligncenter size-full wp-image-492" /></a>
 
 All the green boxes indicate that we are in a secure sandbox and we load and run the code in a low trust AppDomain. Before we get ahead of ourselves, let's look at how I tried solving the actual code execution before trying to make it secure.
 
@@ -327,7 +327,7 @@ This is just standard code to get the named pipe running and all the actual serv
 
 Play with the thought that the service is running nicely now, it might have for days and then someone decides to run code that results in a `StackOverflowException`, what will happen? By the looks of it, it will still not recover from it. Let's take a look at a changed diagram to figure out how to solve this, because what will happen is that the Windows Service will just be marked as <strong>Not Running</strong>
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/21.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/21.png" alt="" title="2" width="634" height="630" class="aligncenter size-full wp-image-501" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/21.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/21.png" alt="" title="2" width="634" height="630" class="aligncenter size-full wp-image-501" /></a>
 
 So this means that we actually don't have to change anything on either the service or the code executor! We just need to think about how we use this from the client side. The first thing we need to do is to copy `ICommandService` into the client project.
 
@@ -363,6 +363,6 @@ Where `code` is some variable we've filled up with code to run. <a href="https:/
 
 I'll leave you with a final demo of the demo application that you can download from the github project:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/3.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/3.png" alt="" title="3" width="761" height="577" class="aligncenter size-full wp-image-503" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/3.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2011/12/3.png" alt="" title="3" width="761" height="577" class="aligncenter size-full wp-image-503" /></a>
 
 I hope you found this interesting, if you have any thoughts please leave a comment below!

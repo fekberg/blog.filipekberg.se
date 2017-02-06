@@ -8,7 +8,7 @@ metadescription: Read about my experience with self-publishing a programming boo
 categories: .NET, C#, Programming, Projects & Project Organization
 tags: amazon, c# smorgasbord, createspace, csharp smorgasbord, self-publishing
 ---
-This is the third part of the blog series "Self-publishing a book" if you haven’t already check out <a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a> & <a href="http://www.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2</a>.
+This is the third part of the blog series "Self-publishing a book" if you haven’t already check out <a href="https://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1</a> & <a href="https://www.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2</a>.
 
 <blockquote>Word was acting up, I spent too much time trying to work around it and less time on the content — <strong>this was not going to work</strong>. I decided to drop Word. But for what and how would it make anything easier when all CreateSpace supplied was a Word template?</blockquote><!--excerpt-->
 
@@ -17,11 +17,11 @@ Before I actually dropped Word completely I had gotten a lot of feedback from fr
 
 <blockquote>LaTeX is a document markup language and document preparation system for the TeX typesetting program. The term LaTeX refers only to the language in which documents are written, not to the editor used to write those documents. In order to create a document in LaTeX, a .tex file must be created using some form of text editor.</blockquote>
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/geek-heart-necklace-150x150.jpg" alt="" title="Geek by Heart" width="150" height="150" style="float: right" />Being a geek by heart, I immediately got interested in trying this out. It sounded pretty much like I could code my own programming book. Which would be very cool. Comparing it to something else, LaTeX is pretty much like HTML and CSS. This makes it perfect for writing something both where you have and not have a known layout when you start writing.
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/geek-heart-necklace-150x150.jpg" alt="" title="Geek by Heart" width="150" height="150" style="float: right" />Being a geek by heart, I immediately got interested in trying this out. It sounded pretty much like I could code my own programming book. Which would be very cool. Comparing it to something else, LaTeX is pretty much like HTML and CSS. This makes it perfect for writing something both where you have and not have a known layout when you start writing.
 
 Since I didn't know anything about LaTeX I needed a crash course and somewhere to get a little bit of inspiration/help. Fortunate for me, I found a LaTeX channel on IRC, <strong>#latex</strong> on <a href="http://webchat.freenode.net">freenode</a>. As mentioned in the Wikipedia quote above, LaTeX is actually just a language used for the typesetting system <a href="http://en.wikipedia.org/wiki/TeX">TeX</a>. This explains why the other place where I got a lot of feedback is called <a href="http://tex.stackexchange.com/">tex.stackexchange.com</a>. Both of these (plus google of course) has been very helpful!
 
-Getting a crash course in LaTeX wouldn't be enough, I still needed my book to conform with the CreateSpace guidelines. I hadn't decided the <a href="http://desktoppub.about.com/od/glossary/g/Trim-Size.htm">trim size</a>(page size) of the book yet. I was thinking about going for 7" x 10" but then I <a href="http://www.filipekberg.se/2012/05/06/what-is-your-prefered-size-on-a-programming-book/">created a poll on this blog</a> which later changed my mind. It actually turned out that the size I had in mind was the one you guys wanted the least.
+Getting a crash course in LaTeX wouldn't be enough, I still needed my book to conform with the CreateSpace guidelines. I hadn't decided the <a href="http://desktoppub.about.com/od/glossary/g/Trim-Size.htm">trim size</a>(page size) of the book yet. I was thinking about going for 7" x 10" but then I <a href="https://www.filipekberg.se/2012/05/06/what-is-your-prefered-size-on-a-programming-book/">created a poll on this blog</a> which later changed my mind. It actually turned out that the size I had in mind was the one you guys wanted the least.
 
 So before I could completely step from Word to LaTeX, I had to know if there was some information about LaTeX + CreateSpace. I googled and stumbled upon a forum post on the very good CreateSpace community forum. <a href="https://www.createspace.com/en/community/thread/7524">This post</a> mentioned a <a href="https://github.com/aginiewicz/createspace"><strong>CreateSpace package</strong></a> for LaTeX. Best of all, this was open source and available on <a href="https://github.com/aginiewicz/createspace">github</a>!
 
@@ -32,7 +32,7 @@ Since I didn't really know anything about how to write LaTeX markup, I searched 
 
 When I had both Tex Live and TeXnicCenter installed, I just had to learn how to write LaTeX code and what kind of "stuff" it produced for me. If you install TeXnicCenter and open it up, this is the first thing you will see:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/TexnicCenter_1.png" alt="" title="TexnicCenter" width="684" height="528" class="alignright size-full wp-image-1189" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/TexnicCenter_1.png" alt="" title="TexnicCenter" width="684" height="528" class="alignright size-full wp-image-1189" />
 
 <em>This looks pretty much like any word processor from early 2000.</em>
 
@@ -45,11 +45,11 @@ Just as with HTML, you need to define where your document starts, where it ends 
 
 If we build(compile) and run this, we will see that we got no errors and that 1 page was produced. You run it by clicking the "Build & View current file" button or pressing Ctrl+Shift+F5:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/TexnicCenter_2.png" alt="" title="TexnicCenter" width="820" class="alignnone size-full wp-image-1194" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/TexnicCenter_2.png" alt="" title="TexnicCenter" width="820" class="alignnone size-full wp-image-1194" />
 
 As you might have noticed, it says "LaTeX => PDF" just left of the build icon. This means that when we build the file, we will actually have a PDF created for us! This PDF will be styled as we've said, in this case it will use the default styling of a book.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/Output_1.png" alt="" title="LaTeX Output" width="578" height="588" class="alignnone size-full wp-image-1195" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/Output_1.png" alt="" title="LaTeX Output" width="578" height="588" class="alignnone size-full wp-image-1195" />
 
 LaTeX allows us to produce much more than just books, we can create articles, papers and much more. This can be decided my changing the document class. In the above example I used the document class book.
 
@@ -82,7 +82,7 @@ The following code sample produced a very nice looking output:
 	\end{lstlisting}
 	\end{document}
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/Output_2.png" alt="" title="Output" width="578" height="588" class="alignnone size-full wp-image-1198" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/Output_2.png" alt="" title="Output" width="578" height="588" class="alignnone size-full wp-image-1198" />
 
 There were of course a lot of things not yet in place, the final design for the book was not done; since there was no content to style yet. Lots of packages and lots of tweaks was waiting along the way.
 
@@ -99,6 +99,6 @@ The focus so far had been to find a way to comfortably write the content; I now 
 
 <h3>Check out the other parts in the series</h3>
 <ul>
-	<li><a href="http://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
-	<li><a href="http://www.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2 – Back at Square One</a></li>
+	<li><a href="https://www.filipekberg.se/2012/08/27/self-publishing-a-book-part-1-where-it-all-began/">Part 1 – Where it all began</a></li>
+	<li><a href="https://www.filipekberg.se/2012/09/02/self-publishing-a-book-part-2-back-at-square-one/">Part 2 – Back at Square One</a></li>
 </ul>

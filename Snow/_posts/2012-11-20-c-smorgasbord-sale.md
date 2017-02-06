@@ -8,7 +8,7 @@ metadescription: Get 35% discount on C# Smorgasbord in this Sale!
 categories: .NET, C#, Programming
 tags: .NET, book, c# smorgasbord, csharp, discount, dotnet, Programming
 ---
-<a href="https://www.createspace.com/3759762" target="_blank"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/CSharpSmorgasbordDiscount_RestOf2012.png" alt="" title="C# Smorgasbord 35% Discount" style="float: right; padding-left: 10px;" class="alignnone size-full wp-image-1363" /></a>
+<a href="https://www.createspace.com/3759762" target="_blank"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/11/CSharpSmorgasbordDiscount_RestOf2012.png" alt="" title="C# Smorgasbord 35% Discount" style="float: right; padding-left: 10px;" class="alignnone size-full wp-image-1363" /></a>
 C# Smorgasbord has been out for 3 months and has already gotten a lot of positive feedback and <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/product-reviews/1468152106/ref=dp_top_cm_cr_acr_txt?ie=UTF8&showViewpoints=1" target="_blank">great reviews</a>(See below)!<!--excerpt--> <br/><br>To thank you all for your support, I'm giving away a discount code for <strong>35% discount</strong> on C# Smorgasbord!<br/><br/><strong>This offer is for a limited time only, the discount will be available from November 20, 2012 to December 31, 2012!</strong><br/><br/>The discount code works only on <a href="https://www.createspace.com/3759762">CreateSpace</a>; this is where the book is printed. <em>CreateSpace is a DBA of On-Demand Publishing LLC, part of the Amazon group of companies.</em> <strong>Buy yourself, your spouse or your kids an early Christmas present!</strong>
 
 <h3>Discount code: N9UV3WDP</h3>
@@ -19,7 +19,7 @@ C# Smorgasbord has been out for 3 months and has already gotten a lot of positiv
 
 The printed copy includes access to the ebook bundle; so you don't need to wait for the printed copy to arrive. After you've purchased the book <a href="http://books.filipekberg.se/Ebook">just fill out the form on the book's website</a>! CreateSpace ships globally and their shipment times are in most cases a lot shorter than what it says in their website.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/CSharpSmorgasbordRating1.png" alt="" title="C# Smorgasbord ratings" width="800"  class="alignright size-full wp-image-1477" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/CSharpSmorgasbordRating1.png" alt="" title="C# Smorgasbord ratings" width="800"  class="alignright size-full wp-image-1477" />
 
 <h3>Want to know more about C# Smorgasbord?</h3>
 

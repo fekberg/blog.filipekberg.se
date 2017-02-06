@@ -114,6 +114,6 @@ We still have a dynamic parameter on the method that we are calling so we would 
 
 <strong>So what did we actually answer here? </strong>Simply put what happens when the use of `dynamic` is in place, the line of code will be evaluated at runtime. If you try casting the statically typed local variable when we pass it to the method, it will be the same behavior as if it was `dynamic` all along, as you can see in the below screenshot.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/Dynamic.png" alt="A dynamic variable" width="810" class="alignright size-full wp-image-1633" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/01/Dynamic.png" alt="A dynamic variable" width="810" class="alignright size-full wp-image-1633" />
 
 <strong>Did it work as you expected? Leave a comment and let me know!</strong>

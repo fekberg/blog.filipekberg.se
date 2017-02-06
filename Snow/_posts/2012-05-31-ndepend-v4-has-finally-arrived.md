@@ -12,7 +12,7 @@ It is truly a great pleasure to finally be able to spread the word about <a href
 
 <a href="http://www.ndepend.com">NDepend</a> is a complexity analysis tool that integrates into Visual Studio 2011, 2010 and 2008. It also comes with a standalone component for analyzing your projects.
 
-I have been using <a href="http://www.ndepend.com">NDepend</a> v4 for a while now and I liked it so much that it gets a place <a href="http://www.filipekberg.se/2012/03/27/video-trailer-for-a-c-smorgasbord/" title="A C# Smorgasbord">in my upcoming book</a>.
+I have been using <a href="http://www.ndepend.com">NDepend</a> v4 for a while now and I liked it so much that it gets a place <a href="https://www.filipekberg.se/2012/03/27/video-trailer-for-a-c-smorgasbord/" title="A C# Smorgasbord">in my upcoming book</a>.
 
 What makes <a href="http://www.ndepend.com">NDepend</a> so powerful is that you can customize the analysis to adapt to your own set of restrictions and you do this with what is called <a href="http://www.ndepend.com/Features.aspx#CQL">Code Query LINQ(CQLinq)</a>. This is one of the biggest changes in version 4 and it really takes the tool to another level, prior to version 4 you used another way to customize your queries.
 
@@ -24,7 +24,7 @@ Here is an example<a href="http://www.ndepend.com/Features.aspx">(example taken 
 
 I made an analyze of the <a href="http://aspnetwebstack.codeplex.com/">ASP.NET Web Stack project</a> and this is what the report look like in the stand alone program called Visual NDepend:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend1.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend1-1024x723.png" alt="" title="NDepend analyse of ASP.NET Web Stack" width="761" class="aligncenter size-large wp-image-838" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend1.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend1-1024x723.png" alt="" title="NDepend analyse of ASP.NET Web Stack" width="761" class="aligncenter size-large wp-image-838" /></a>
 
 In the image above it shows the dependency graph you have a lot of other views that you can use to find complexity in your solution. You can also see a list of the different CQLinq results such as:
 
@@ -36,7 +36,7 @@ In the image above it shows the dependency graph you have a lot of other views t
 
 When composing this analysis you also get an HTML Report that looks like this:
 
-<a href="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend2.png"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend2-1024x736.png" alt="" title="NDepend HTML Report" width="761" class="aligncenter size-large wp-image-839" /></a>
+<a href="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend2.png"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/05/NDepend2-1024x736.png" alt="" title="NDepend HTML Report" width="761" class="aligncenter size-large wp-image-839" /></a>
 
 It essentially contains the same information as you would get from Visual NDepend, but it is very handy to be able to pass this report on to fellow co-workers.
 

@@ -9,7 +9,7 @@ categories: Projects & Project Organization
 tags: developer tools, ideas, mind map, orgranize, productivity, project management, tools, xmind
 ---
 <h3>Do you get a lot of ideas when you go to bed, that you forget in the morning?</h3>
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/thoughts-squiggles-2.gif" alt="" title="Organize your Thoughts" width="160"  style="float: left;padding-right: 10px;" class="alignnone size-full wp-image-1231" />I sure do and I know that this is very common. The reason that I've got explained to me is that because when we go to bed, we relax our entire body & mind. When doing so we also start reflecting upon the day or even week that has passed so far; subconsciously.<br/><br/><em>At least for me</em>, seconds before I actually fall asleep (last thing that I can remember) I get the best ideas but often I lack things around me to get these thoughts on permanent record.<!--excerpt-->
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/thoughts-squiggles-2.gif" alt="" title="Organize your Thoughts" width="160"  style="float: left;padding-right: 10px;" class="alignnone size-full wp-image-1231" />I sure do and I know that this is very common. The reason that I've got explained to me is that because when we go to bed, we relax our entire body & mind. When doing so we also start reflecting upon the day or even week that has passed so far; subconsciously.<br/><br/><em>At least for me</em>, seconds before I actually fall asleep (last thing that I can remember) I get the best ideas but often I lack things around me to get these thoughts on permanent record.<!--excerpt-->
 
 <strong>As I live, love and work with code this is where most of my ideas orbit.</strong> But occasionally I get other ideas as well, things like where I want to travel, what I want to see and what kind of changes I like to do in our home.
 
@@ -22,7 +22,7 @@ There is something that is always by my side, everywhere I go and it would be aw
 
 <strong>I'm of course talking about my smartphone and storing the content in the cloud!</strong>
 
-<a href="http://evernote.com/download/"><img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/evernote.png" alt="" title="evernote" width="250" class="alignnone size-full wp-image-1252"  style="float: right;padding-left: 10px;" /></a>As for just writing down my thoughts, taking photos and storing smaller portions of information; I tend to fall back to <a href="http://evernote.com">evernote</a>. This is by far the best application that I've used for rapidly store notes in the cloud!
+<a href="http://evernote.com/download/"><img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/evernote.png" alt="" title="evernote" width="250" class="alignnone size-full wp-image-1252"  style="float: right;padding-left: 10px;" /></a>As for just writing down my thoughts, taking photos and storing smaller portions of information; I tend to fall back to <a href="http://evernote.com">evernote</a>. This is by far the best application that I've used for rapidly store notes in the cloud!
 
 Here are some reasons to why I use Evernote:
 <ul>
@@ -35,7 +35,7 @@ Since I always have my phone with me, no matter where I am; I can instantly add 
 
 This is what the PC version of Evernote looks like:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/evernote1.png" alt="" title="Evernote" width="820" class="alignnone size-full wp-image-1257" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/evernote1.png" alt="" title="Evernote" width="820" class="alignnone size-full wp-image-1257" />
 
 One very cool feature is that you can actually search inside both your notes and your images! If there's text in images, Evernote will be able to find that!
 
@@ -62,14 +62,14 @@ XMind can be used to create the following diagrams (more can be downloaded):
 
 As you can see by the image below, there are a lot of very nice diagrams that can be created.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/XMind.png" alt="" title="XMind" width="694" height="680" class="alignnone size-full wp-image-1259" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/XMind.png" alt="" title="XMind" width="694" height="680" class="alignnone size-full wp-image-1259" />
 
 When I just want to brainstorm and get my thoughts organized, I create a Blank document and just start adding nodes. By pressing Enter/Tab you create a child to the current node. So if you double click the first big blue box in the middle and name it, press Enter and then Tab, it will create a child to that.
 
 You can see on this image below that I've created a map over what I have and want to write about and then added sub-sections to each topic to make it easier for me to remember what I want to write about.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/XMind2.png" alt="" title="Mind map" width="820" class="alignnone size-full wp-image-1261" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/XMind2.png" alt="" title="Mind map" width="820" class="alignnone size-full wp-image-1261" />
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/OldStyleBulletin.png" alt="" title="Notes" width="123" style="float: right; padding-left: 15px;" class="alignnone size-full wp-image-1262" />The alternative that I used before is not as nice and does not provide as good of a overview. This could as mentioned above have been doing it in a notepad document, spreadsheet or even the built in Sticky Notes application in Windows.<br/><br />I think it is very important that we find good ways, especially ways that we are personally comfortable with, to keep track of our thoughts and ideas. It might feel a bit unusual to start, but stepping out of one’s comfort zone can lead to something very good.<br/><br/>It's a great feeling being able to enter a meeting, taking notes and directly after the meeting not be ashamed of sending your mind map to your co-workers.
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/OldStyleBulletin.png" alt="" title="Notes" width="123" style="float: right; padding-left: 15px;" class="alignnone size-full wp-image-1262" />The alternative that I used before is not as nice and does not provide as good of a overview. This could as mentioned above have been doing it in a notepad document, spreadsheet or even the built in Sticky Notes application in Windows.<br/><br />I think it is very important that we find good ways, especially ways that we are personally comfortable with, to keep track of our thoughts and ideas. It might feel a bit unusual to start, but stepping out of one’s comfort zone can lead to something very good.<br/><br/>It's a great feeling being able to enter a meeting, taking notes and directly after the meeting not be ashamed of sending your mind map to your co-workers.
 
 <strong>How do you normally organize your ideas and thoughts and what tools do you recommend for taking notes during a meeting?</strong>

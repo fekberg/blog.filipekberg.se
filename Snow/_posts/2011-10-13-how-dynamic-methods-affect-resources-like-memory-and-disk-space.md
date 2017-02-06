@@ -104,7 +104,7 @@ The code for the above could look somewhat like this, for scenario #1:
 
 The result from running this for me looked like this:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/how-dynamic-methods-affect-resources-like-memory-and-disk-space/myMethodCreator_inspection.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/how-dynamic-methods-affect-resources-like-memory-and-disk-space/myMethodCreator_inspection.png" alt="" />
 
 So I got the following values:
 

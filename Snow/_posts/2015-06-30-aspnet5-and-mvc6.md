@@ -22,7 +22,7 @@ A really important aspect of ASP.NET 5, is the promise of cross-platform. I've d
 ### The ASP.NET 5 Project
 When starting a completely new ASP.NET 5 Project, be it in OSX using Yeoman, or in Visual Studio 2015 you will immediately see a lot of changes compared to what you might be used to. If this is your first encounter with ASP.NET 5, I'd recommend using the template that gives you a test site, and just remove what you don't need.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/aspnet5-and-mvc6/VisualStudioNewProject.png" alt="" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/aspnet5-and-mvc6/VisualStudioNewProject.png" alt="" />
 
 As you see in the screenshot, a new project using the website template you get quite a bit of pieces to play with.
 

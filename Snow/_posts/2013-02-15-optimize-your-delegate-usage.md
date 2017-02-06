@@ -68,7 +68,7 @@ If we open this up in Reflector we can see that the following code was generated
         this.Bar(new TestDelegate(this.Foo));
     }
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/UmpOi.gif" alt="UmpOi" width="200" height="200" class="alignright size-full wp-image-1757" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/02/UmpOi.gif" alt="UmpOi" width="200" height="200" class="alignright size-full wp-image-1757" />
 
 This is significantly different from the lambda one! Is your mind blown yet?
 

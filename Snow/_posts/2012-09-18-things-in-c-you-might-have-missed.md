@@ -15,7 +15,7 @@ The more you know about the internals in the system you are working on, the grea
 
 Take a look at these three tables:
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/bytes1.png" alt="" title="bytes" width="620" height="301" class="aligncenter size-full wp-image-1114" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/bytes1.png" alt="" title="bytes" width="620" height="301" class="aligncenter size-full wp-image-1114" />
 
 As you might see this is a base-2 representation. It starts at 1, then 2, then 4 and so forth to how far you'd like to go. For simplicity, the table only goes to 128. By letting some of them be 1s and some be 0s, you can represent any number you like.
 
@@ -34,7 +34,7 @@ The answer is simple, we use bit-shift! Below is an example of how we can do thi
 
 The `<<` means that we shift it to the left and the following value defines how many steps. Below is another table showing what changed, all bits were moved 1 step to the left.
 
-<img src="http://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/bytes22.png" alt="" title="bytes" width="613" height="189" class="aligncenter size-full wp-image-1120" />
+<img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/09/bytes22.png" alt="" title="bytes" width="613" height="189" class="aligncenter size-full wp-image-1120" />
 
 There are lot of more interesting things you can do when knowing your bits n' bytes, such as logical and/or.
 
