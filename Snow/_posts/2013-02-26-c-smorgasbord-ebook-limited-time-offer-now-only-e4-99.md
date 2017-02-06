@@ -43,4 +43,4 @@ There's a discount on that one too!
 
 <strong>Discount code: N9UV3WDP</strong>
 
-<a href="https://www.createspace.com/3759762" target="_blank"><img src="http://books.filipekberg.se/Content/Images/buy_now.gif" alt="Buy now!" /></a>
+<a href="https://www.createspace.com/3759762" target="_blank"><img src="https://books.filipekberg.se/Content/Images/buy_now.gif" alt="Buy now!" /></a>

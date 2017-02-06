@@ -17,7 +17,7 @@ The chapter is called <strong>Introduction to Parallel Extensions</strong> and i
 Please leave a comment and let me know if you like the book!
 
 <strong>Just want to buy the book?</strong>
-There are multiple versions available: <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106" target="_blank">Printed, Kindle</a>, <a href="http://books.filipekberg.se/" target="_blank">eBook</a>.
+There are multiple versions available: <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106" target="_blank">Printed, Kindle</a>, <a href="https://books.filipekberg.se/" target="_blank">eBook</a>.
 
 <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106" target="_blank">
 <img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2013/12/CSharpSmorgasbordBuyNow.png" alt="CSharpSmorgasbordBuyNow" width="200" height="394" class="alignnone size-full wp-image-2142" />

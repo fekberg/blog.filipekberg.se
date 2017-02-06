@@ -13,7 +13,7 @@ As per my previous post [I've moved to Azure](https://www.filipekberg.se/2014/05
 ### Why?
 After I had migrated to Microsoft Azure with my Wordpress blog I looked closely over how the average response time increased for the site, compared to what I had on my previous server. It wasn't until I published another WebSite on the same Instance that I noticed that I didn't really have to live with the long load times.
 
-[The website where you can buy C# Smorgasbord as an ebook is written in ASP.NET and runs on that same instance.](http://books.filipekberg.se) Interestingly enough it loads in about 200-300ms, depending on where you are of course. My tests were consistent and the tools I use to monitor my websites told me the same; this site performed 600-700ms better than my blog running Wordpress.
+[The website where you can buy C# Smorgasbord as an ebook is written in ASP.NET and runs on that same instance.](https://books.filipekberg.se) Interestingly enough it loads in about 200-300ms, depending on where you are of course. My tests were consistent and the tools I use to monitor my websites told me the same; this site performed 600-700ms better than my blog running Wordpress.
 
 Of course, the content is different. Does the content difference justify an additional 600-700ms to just load the first page? **I think not.**
 

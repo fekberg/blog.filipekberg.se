@@ -63,4 +63,4 @@ Thanks for the support! Below is a link to Amazon where you can buy the book. It
 
 <a href="http://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/"><img title="C# Smorgasbord" alt="" src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/08/CSharpSmorgasbord.png" /></a>
 
-<a href="http://books.filipekberg.se/">There's also an ebook bundle available here.</a>
+<a href="https://books.filipekberg.se/">There's also an ebook bundle available here.</a>

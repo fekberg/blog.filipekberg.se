@@ -16,7 +16,7 @@ Microsoft has released yet another CTP version of Roslyn and this doesn't come a
 
 This unfortunately breaks some code samples in my book C# Smorgasbord, but not to worry. The changes are pretty easy to figure out and I've put together an Errata that covers all the code samples that are affected by the breaking changes.
 
-<a href="http://books.filipekberg.se/Errata">You can find the Errata here.</a>
+<a href="https://books.filipekberg.se/Errata">You can find the Errata here.</a>
 
 If you're using Visual Studio and you have intellisense enabled, it's going to be pretty easy to figure out what has changed. Below is a short list of what I've found and what is in the Errata.
 

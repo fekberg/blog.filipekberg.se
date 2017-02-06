@@ -41,6 +41,6 @@ You never know though, I love writing and expressing myself in text so I might w
 	<li><a href="http://www.amazon.it/C-Smorgasbord-Filip-Ekberg/dp/1468152106/" target="_blank">Purchase on Amazon.it</a></li>
 </ul>
 
-If you want to save a tree you can get the Kindle version or the <a href="http://books.filipekberg.se/" target="_blank">digital version (€4.99)</a>
+If you want to save a tree you can get the Kindle version or the <a href="https://books.filipekberg.se/" target="_blank">digital version (€4.99)</a>
 
 <strong>Everyone that bought my book, everyone that read my blog, everyone that believed in me: Thank you all.</strong>

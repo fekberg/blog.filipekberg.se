@@ -28,9 +28,9 @@ James Sugrue from DZone was able to get early access to C# Smorgasbord and <a hr
 
 I have gotten a lot of questions regarding the digital copy/ebook, I'm happy to share that the PDF, epub and mobi versions of the book are <strong>free</strong> if you purchase a printed copy! 
 
-If you've purchased C# Smorgasbord and are looking to retreive the digital copies, <a href="http://books.filipekberg.se/Ebook">just fill out this form</a>.
+If you've purchased C# Smorgasbord and are looking to retreive the digital copies, <a href="https://books.filipekberg.se/Ebook">just fill out this form</a>.
 
-The Foreword to the book is written by <a href="https://twitter.com/Pilchie">Kevin Pilch-Bisson</a> who works as a Development -- Visual Studio IDE Services for C# and VB.Net. <a href="http://books.filipekberg.se/Books/csharp-smorgasbord/Foreword">The Foreword is available online and can be read here.</a>
+The Foreword to the book is written by <a href="https://twitter.com/Pilchie">Kevin Pilch-Bisson</a> who works as a Development -- Visual Studio IDE Services for C# and VB.Net. <a href="https://books.filipekberg.se/Books/csharp-smorgasbord/Foreword">The Foreword is available online and can be read here.</a>
 
 <strong>C# Smorgasbord </strong>covers a vast variety of different technologies, patterns and best practices that any C# developer should master.
 

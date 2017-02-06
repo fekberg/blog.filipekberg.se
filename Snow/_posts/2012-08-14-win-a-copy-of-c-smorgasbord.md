@@ -10,7 +10,7 @@ tags: book, c# book, c# smorgasbord, csharp, csharp book, csharp smorgasbord, do
 ---
 <strong>C# Smorgasbord</strong> is getting great reviews, specially on <a href="http://www.amazon.co.uk/C-Smorgasbord-Filip-Ekberg/dp/1468152106/">Amazon UK</a> and to celebrate this I want to give a away a free copy of <a href="http://www.amazon.co.uk/C-Smorgasbord-Filip-Ekberg/dp/1468152106/">C# Smorgasbord</a>!<!--excerpt-->
 
-<strong>Best of all, it's the printed copy <a href="http://books.filipekberg.se">(which also includes the ebook bundle)!</a></strong>
+<strong>Best of all, it's the printed copy <a href="https://books.filipekberg.se">(which also includes the ebook bundle)!</a></strong>
 
 <strong>What you need to do to participate:</strong>
 <ol>

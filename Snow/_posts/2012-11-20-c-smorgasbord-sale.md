@@ -13,11 +13,11 @@ C# Smorgasbord has been out for 3 months and has already gotten a lot of positiv
 
 <h3>Discount code: N9UV3WDP</h3>
 
-<a href="https://www.createspace.com/3759762" target="_blank"><img src="http://books.filipekberg.se/Content/Images/buy_now.gif" alt="Buy now!" /></a>
+<a href="https://www.createspace.com/3759762" target="_blank"><img src="https://books.filipekberg.se/Content/Images/buy_now.gif" alt="Buy now!" /></a>
 
 <strong><em>Note that the Discount Code only works on <a href="https://www.createspace.com/3759762" target="_blank">CreateSpace</a>!</em></strong>
 
-The printed copy includes access to the ebook bundle; so you don't need to wait for the printed copy to arrive. After you've purchased the book <a href="http://books.filipekberg.se/Ebook">just fill out the form on the book's website</a>! CreateSpace ships globally and their shipment times are in most cases a lot shorter than what it says in their website.
+The printed copy includes access to the ebook bundle; so you don't need to wait for the printed copy to arrive. After you've purchased the book <a href="https://books.filipekberg.se/Ebook">just fill out the form on the book's website</a>! CreateSpace ships globally and their shipment times are in most cases a lot shorter than what it says in their website.
 
 <img src="https://cdn.filipekberg.se/fekberg-blog/wp-content/uploads/2012/10/CSharpSmorgasbordRating1.png" alt="" title="C# Smorgasbord ratings" width="800"  class="alignright size-full wp-image-1477" />
 
@@ -48,7 +48,7 @@ No matter if you are an experienced .NET developer, or a beginner, you will most
         </ul>
 
 <h4>Want only digital versions?</h4>
-If you don't want to get the printed version you can get the <a href="http://books.filipekberg.se/#ebooks">ebook bundle on the book website</a> or the <a href="http://www.amazon.com/C-Smorgasbord-ebook/dp/B008X8SIU0/ref=tmm_kin_title_1">Kindle version </a>on Amazon.
+If you don't want to get the printed version you can get the <a href="https://books.filipekberg.se/#ebooks">ebook bundle on the book website</a> or the <a href="http://www.amazon.com/C-Smorgasbord-ebook/dp/B008X8SIU0/ref=tmm_kin_title_1">Kindle version </a>on Amazon.
 
 <strong>Enjoy the read and spread the word!</strong>
 
