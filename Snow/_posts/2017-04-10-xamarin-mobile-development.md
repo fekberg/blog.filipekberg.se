@@ -4,7 +4,6 @@ title: Play by Play: Xamarin Mobile Development
 date: 2017-04-10 00:00
 author: fekberg
 comments: true
-draft: draft
 metadescription: Learn the fundamental steps for creating a Xamarin project for iOS and Android as well as tips to be more productive with real world examples and experiences.
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, Xamarin, Cross-Platform
