@@ -18,6 +18,6 @@ In this talk I go through how C# has changed, as well as focusing on what's comi
 <p><a href="https://vimeo.com/243227675">&Oslash;redev 2017 - Filip Ekberg - The State of C# - What Have I Missed?</a> from <a href="https://vimeo.com/oredev">&Oslash;redev Conference</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
 
-(Code samples are available on Github.)[https://github.com/fekberg/What-is-New-in-CSharp]
+[Code samples are available on Github.](https://github.com/fekberg/What-is-New-in-CSharp)
 
 If you have any questions, or feedback please feel free to leave a comment, send an e-mail or just ping me  on twitter!
