@@ -12,7 +12,7 @@ One of the most popular programming language on the market is getting even bette
 
 In this talk I go through how C# has changed, as well as focusing on what's coming in C# 7.1, 7.2, 8.0 and beyond!
 
-### Back to Basics: Efficient Async and Await
+### The State of C# - What Have I Missed?
 <div class="video-container">
 <iframe src="https://player.vimeo.com/video/243227675?color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/243227675">&Oslash;redev 2017 - Filip Ekberg - The State of C# - What Have I Missed?</a> from <a href="https://vimeo.com/oredev">&Oslash;redev Conference</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
