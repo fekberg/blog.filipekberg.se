@@ -31,8 +31,8 @@ It's now almost 6 years since I published the book, and during these 6 years I'v
 To celebrate all the above, I'd like to give everyone C# Smorgasbord for free, [you can still purchase the paperback copy](https://www.amazon.com/C-Smorgasbord-Filip-Ekberg/dp/1468152106/), or buy me coffee if we're ever in the same city!
 
 ## Download C# Smorgasbord
-- <a href="https://cdn.filipekberg.se/fekberg-blog/csharp-smorgasbord-free/Filip_Ekberg-CSharp_Smorgasbord.pdf">C# Smorgasbord PDF (11MB)</a>
-- <a href="https://cdn.filipekberg.se/fekberg-blog/csharp-smorgasbord-free/Filip_Ekberg-CSharp_Smorgasbord.epub">C# Smorgasbord EPUB (6MB)</a>
-- <a href="https://cdn.filipekberg.se/fekberg-blog/csharp-smorgasbord-free/Filip_Ekberg-CSharp_Smorgasbord.mobi">C# Smorgasbord MOBI (10MB)</a>
+- <a href="https://cdn.filipekberg.se/fekberg-blog/csharp-smorgasbord-free/Filip_Ekberg-CSharp_Smorgasbord.pdf" target="_blank">C# Smorgasbord PDF (11MB)</a>
+- <a href="https://cdn.filipekberg.se/fekberg-blog/csharp-smorgasbord-free/Filip_Ekberg-CSharp_Smorgasbord.epub" target="_blank">C# Smorgasbord EPUB (6MB)</a>
+- <a href="https://cdn.filipekberg.se/fekberg-blog/csharp-smorgasbord-free/Filip_Ekberg-CSharp_Smorgasbord.mobi" target="_blank">C# Smorgasbord MOBI (10MB)</a>
 
 Last but not least, thanks for all the support through the years, without friends from all over the world I'd never be where I am today. Thank you!!
