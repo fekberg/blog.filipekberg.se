@@ -4,7 +4,6 @@ title: C# Smorgasbord is now Free
 date: 2018-04-02 00:00
 author: fekberg
 comments: true
-draft: true
 metadescription: C# Smorgasbord is now Free to download!
 categories: .NET, C#
 tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, c# smorgasbord, book, dynamic
