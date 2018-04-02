@@ -10,7 +10,7 @@ tags: C#, CSharp, async, await, asynchronous programming, .NET, dotnet, c# smorg
 ---
 C# Smorgasbord was first published on July 30, 2012 and was the start of something that I certainly could not have anticipated. At the time I had barely started doing any public speaking at all, nor had I been around the world to lots of interesting conferences.
 
-What initially sparked the idea of writing a book, was when I applied for a job at Spotify, which I didn't get. Just like many others I've always had a hard time proving my skills during interviews, especially when having to code in notepad. As I felt sad having lost the opportunity to work for an extremely interesting company, something sparked inside me, I wanted to prove, not to others, but to myself that I was in fact pretty good at what I do.
+What initially sparked the idea of writing a book, was when I applied for a job at Spotify, which I didn't get. Just like many others I've always had a hard time proving my skills during interviews, especially when having to code in notepad. As I felt sad having lost the opportunity to work for an extremely interesting company, something sparked inside me, I wanted to prove, not to others, but to myself that I was in fact pretty good at what I do.<!--excerpt--> 
 
 As I started to look over the material that I had already produced, and thinking about how I could best put this into a better format, the idea of a smorgasbord came into mind. I had a lot of different topics spread across different formats and being a Swede, it felt rather natural collecting lots of different things and serving it to your friends and family.
 
